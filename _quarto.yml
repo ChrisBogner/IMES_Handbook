@@ -42,7 +42,7 @@ format:
         <script>
           document.addEventListener("DOMContentLoaded", function() {
             var sidebar = document.getElementById('quarto-sidebar');
-            var logo = sidebar.getElementsByTagName('img')[0];
+            var logo = sidebar.getElementsByTagName('img')[0].cloneNode();
             
             sidebar.appendChild(logo);
           });
