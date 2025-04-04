@@ -37,6 +37,16 @@ format:
   html:
     theme:
       light: [cosmo, scss/ims-style.scss]
+    include-in-header:
+      text: |
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            var sidebar = document.getElementById('quarto-sidebar');
+            var logo = sidebar.getElementsByTagName('img')[0];
+            
+            sidebar.appendChild(logo);
+          });
+        </script>
     code-link: true
     mainfont: Atkinson Hyperlegible
     monofont: Source Code Pro
