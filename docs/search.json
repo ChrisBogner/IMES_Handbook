@@ -1,0 +1,881 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "International Master of Environmental Sciences",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n\nContact\nChair of the Examination Committee\nProf. Dr. Christina Bogner\nEcosystem Research\nIMES Academic Manager\nDr. Hannes Laermanns\nimes-info(at)uni-koeln.de\n\n\nLegend\n\n\n\n\n\n\n\nAbbreviation\nExplanation\n\n\n\n\nAM\nAufbaumodul / Advanced Modules\n\n\nBM\nBasismodul / Basic Modules\n\n\nK\nKontaktzeit (= Präsenzzeit in LV) / Contact Time (Presence required in class)\n\n\nLP\nLeistungspunkt / Credit Points\n\n\nLV\nLehrveranstaltung / Class\n\n\nP\nPflichtveranstaltung / Mandatory Class\n\n\nW\nWahlveranstaltung / Elective Class\n\n\nS\nSemester\n\n\nSoSe\nSommersemester / Summer Semester\n\n\nSWS\nSemesterwochenstunde / Semester Weekly Hours\n\n\nÜ\nÜbung / Practical Session\n\n\nVN\nSelbststudium / Self-Study\n\n\nWiSe\nWintersemester / Winter Semester",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "The International Master of Environmental Sciences (IMES)",
+    "section": "",
+    "text": "Purpose\nEnvironmental challenges today are multifaceted, systemic, and global in scope. They cannot be addressed by isolated disciplines, isolated geographies or short-term solutions. The International Master of Environmental Sciences (IMES) program responds to this complexity by fostering a learning environment rooted in interdisciplinarity, internationality, scientific inquiry, and anticipatory thinking.\nInspired by the Club of Rome’s vision of No Limits to Learning, the program views education not merely as knowledge transmission, but as a transformative and continuous process. Students are encouraged to integrate perspectives from the natural sciences, social sciences, humanities, law, and economics to better understand and engage with human–environment systems. Through this process, they develop the capacity to learn across boundaries — disciplinary, cultural, and institutional — and to respond with creativity and responsibility to emerging environmental challenges.\nAligned with the values articulated in The Fifth Element, the IMES program promotes a systems-based approach to education. It seeks to cultivate not only analytical and methodological competence, but also a sense of responsibility, relational thinking, and openness to regeneration — both ecological and societal. The program cultivates environmental stewardship as a dynamic, reflective practice rooted in scientific insight, ethical awareness, and cross-cultural dialogue. In this way, IMES prepares students to co-create knowledge and solutions in a world that demands profound and continuous learning.",
+    "crumbs": [
+      "DESCRIPTION OF THE PROGRAM",
+      "The International Master of Environmental Sciences (IMES)"
+    ]
+  },
+  {
+    "objectID": "intro.html#quick-facts",
+    "href": "intro.html#quick-facts",
+    "title": "The International Master of Environmental Sciences (IMES)",
+    "section": "Quick facts",
+    "text": "Quick facts\n\n\n\nDegree\nMaster of Science (M.Sc.)\n\n\nDuration\n4 semesters / 2 years\n\n\nCredits\n120 ECTS\n\n\nLanguage\nEnglish\n\n\nApplication Deadline\nMay 15 (annually)",
+    "crumbs": [
+      "DESCRIPTION OF THE PROGRAM",
+      "The International Master of Environmental Sciences (IMES)"
+    ]
+  },
+  {
+    "objectID": "intro.html#study-objectives",
+    "href": "intro.html#study-objectives",
+    "title": "The International Master of Environmental Sciences (IMES)",
+    "section": "Study Objectives",
+    "text": "Study Objectives\nThe IMES program (Master of Science) prepares students to engage in independent, research-based inquiry into environmental challenges at the interface of natural and human systems. Students learn to critically evaluate scientific findings, apply appropriate methodologies, and analyze complex environmental problems from interdisciplinary and international perspectives.\nThe program fosters the ability to integrate knowledge across environmental sciences, including ecological, legal, economic, and societal dimensions. Students strengthen their scientific writing, presentation, and project management skills while developing the social competencies required to work successfully in transdisciplinary contexts. Through a combination of theoretical depth and applied experience, the IMES program equips graduates for diverse career paths in environmental science and policy, and for academic advancement at the doctoral level.",
+    "crumbs": [
+      "DESCRIPTION OF THE PROGRAM",
+      "The International Master of Environmental Sciences (IMES)"
+    ]
+  },
+  {
+    "objectID": "intro.html#content",
+    "href": "intro.html#content",
+    "title": "The International Master of Environmental Sciences (IMES)",
+    "section": "Content",
+    "text": "Content\nIMES is a four-semester, interdisciplinary degree program that combines natural and social sciences to investigate pressing environmental challenges. Core modules introduce key scientific, legal, economic, and social dimensions of human–environment interactions. A set of integrative modules connects these domains, supporting a systems-level understanding of environmental issues.\nThe program fosters an international learning environment through a diverse cohort of students from EU and non-EU countries, and through the participation of guest lecturers from partner institutions worldwide. Students shape their own academic profiles by selecting elective modules that match their interests and career goals, culminating in a Master’s thesis within their chosen focus area.\nA mandatory internship provides practical experience and insight into professional fields related to environmental sciences. Throughout the program, students develop research and methodological skills, scientific communication abilities, and the flexibility to engage with new and complex problems. The program structure allows for a study abroad semester, typically in the third semester, further enriching the international and intercultural dimension of the degree.",
+    "crumbs": [
+      "DESCRIPTION OF THE PROGRAM",
+      "The International Master of Environmental Sciences (IMES)"
+    ]
+  },
+  {
+    "objectID": "intro.html#admission-requirements",
+    "href": "intro.html#admission-requirements",
+    "title": "The International Master of Environmental Sciences (IMES)",
+    "section": "Admission Requirements",
+    "text": "Admission Requirements\nThe admissions requirements are described on the IMES website and can be found in the Admission Regulations.",
+    "crumbs": [
+      "DESCRIPTION OF THE PROGRAM",
+      "The International Master of Environmental Sciences (IMES)"
+    ]
+  },
+  {
+    "objectID": "intro.html#the-german-qualifications-framework-for-higher-education-hqr",
+    "href": "intro.html#the-german-qualifications-framework-for-higher-education-hqr",
+    "title": "The International Master of Environmental Sciences (IMES)",
+    "section": "The German Qualifications Framework for Higher Education (HQR)",
+    "text": "The German Qualifications Framework for Higher Education (HQR)\nThe German Qualifications Framework for Higher Education (HQR) describes the key competencies that students are expected to develop during their studies at German universities. It serves as a national reference for ensuring high academic standards, transparent learning outcomes, and comparability across degree programs—both nationally and internationally.\n\nWhy does the HQR matter?\nThe HQR plays an important role in:\n\nDesigning degree programs: Universities use it to define what students should know and be able to do at different academic levels (Bachelor, Master, Doctorate).\nDeveloping modules and assessments: It helps structure learning outcomes, teaching methods, and examinations.\nEnsuring international comparability: The HQR aligns with the European Qualifications Framework (EQF) and the Qualifications Framework for the European Higher Education Area (QF-EHEA).\nSupporting mobility and recognition: It facilitates credit transfer, student exchange, and mutual recognition of degrees across countries.\n\n\n\nWhat are the core competence dimensions?\nThe HQR defines four broad competence areas that every Master’s graduate should develop:\n\nKnowledge and Understanding\nDeep and critical understanding of theories, methods, and debates in the field of study.\nUse, Application, and Generation of Knowledge\nAbility to apply knowledge to new problems and to independently conduct research.\nCommunication and Cooperation\nSkills to communicate effectively, work in diverse teams, and engage in academic or professional discourse.\nAcademic Self-Understanding and Professionalism\nCapacity for ethical reflection, independent judgement, and responsible professional behavior.\n\n\n\nWhat does the HQR mean for the IMES program?\nThe integration of the German Qualifications Framework for Higher Education (HQR) into the IMES program contributes to the academic structure, international comparability, and competence orientation of the degree. Specifically, it ensures that:\n\nProgram outcomes are competence-driven: Each module fosters academic and professional skills across the four HQR dimensions.\nLearning objectives are transparent and structured: Students gain clarity about what they are expected to know and be able to do at each stage of the program.\nThe degree is internationally comparable: Alignment with the HQR and European frameworks supports recognition of qualifications beyond Germany.\nGraduates are well prepared: The program equips students for both research careers and applied roles in environmental science, policy, and practice.\nQuality assurance is ensured: The framework supports consistent standards in curriculum development, teaching, and assessment.",
+    "crumbs": [
+      "DESCRIPTION OF THE PROGRAM",
+      "The International Master of Environmental Sciences (IMES)"
+    ]
+  },
+  {
+    "objectID": "intro.html#qualification-profile-of-imes",
+    "href": "intro.html#qualification-profile-of-imes",
+    "title": "The International Master of Environmental Sciences (IMES)",
+    "section": "Qualification Profile of IMES",
+    "text": "Qualification Profile of IMES\nThis qualification profile outlines the core competencies expected from graduates of the IMES program. It supports curriculum development, teaching strategies, assessment, and quality assurance. The profile is based on the four competence dimensions of the German Qualifications Framework for Higher Education (HQR) and adapted to the interdisciplinary and international nature of IMES.\n\n1. Knowledge and Understanding\nGraduates of the IMES program possess:\n\nBroad interdisciplinary knowledge of environmental systems, interactions between natural and human systems, and global environmental challenges.\nSpecialized understanding of theories, methods, and key debates in at least two relevant disciplinary fields (e.g., environmental economics, environmental law, geosciences, physical or human geography, ecology, or political science).\nA critical awareness of the limits of knowledge and current research trends in environmental sciences, including their societal relevance.\n\n\n\n2. Use, Application, and Generation of Knowledge\nGraduates are able to:\n\nApply advanced methods of data collection, analysis, and modeling to environmental problems.\nIntegrate and synthesize scientific, legal, economic, and social perspectives in problem-solving.\nDesign and conduct independent research projects, including framing of research questions, selection of appropriate methods, and interpretation of results.\nDevelop innovative and context-sensitive solutions to complex, real-world environmental challenges.\n\n\n\n3. Communication and Cooperation\nGraduates are able to:\n\nEffectively communicate scientific and policy-relevant insights to diverse audiences, including stakeholders from science, policy, and society.\nWork in intercultural, interdisciplinary teams and contribute to collaborative decision-making processes.\nNavigate conflicts of interest and differing worldviews with empathy, professionalism, and ethical sensitivity.\n\n\n\n4. Academic Self-Understanding and Professionalism\nGraduates are able to:\n\nReflect on their academic and professional roles in society and the ethical implications of their work.\nAre prepared for careers in science, policy-making, consultancy, NGOs, or further academic research (PhD).\nShow commitment to life-long learning and critical self-reflection in complex, changing environments.",
+    "crumbs": [
+      "DESCRIPTION OF THE PROGRAM",
+      "The International Master of Environmental Sciences (IMES)"
+    ]
+  },
+  {
+    "objectID": "intro.html#thematic-categories-of-the-imes-curriculum",
+    "href": "intro.html#thematic-categories-of-the-imes-curriculum",
+    "title": "The International Master of Environmental Sciences (IMES)",
+    "section": "Thematic Categories of the IMES Curriculum",
+    "text": "Thematic Categories of the IMES Curriculum\nThe IMES program is organized into modules—self-contained units of study that integrate related topics into coherent blocks of learning. Each module carries a defined number of ECTS credits and includes clearly articulated learning outcomes and assessments. Most modules are designed to be completed within a single semester, though some may extend across two.\nTo ensure a broad and interdisciplinary foundation, IMES modules are grouped into five thematic categories. Students are required to complete at least 6 ECTS credits in each category as part of the degree requirements:\n\n\n\n\n\n\n\n\nCode\nCategory Name\nTopics include, but are not limited to\n\n\n\n\nA\nEarth and Environmental Systems\nPhysical environment, natural sciences, climate, ecosystems\n\n\nB\nSocieties, Education, and Ethics\nHuman values, education for sustainability, ethics, cities, resilience\n\n\nC\nGovernance, Law, and Institutions\nEnvironmental law, political systems, regulation, institutions\n\n\nD\nEconomy and Resource Management\nEnvironmental economics, renewable energy, resource management\n\n\nE\nResearch and Analytical Methods\nGIS, statistics, modeling, interdisciplinary methods, research methods",
+    "crumbs": [
+      "DESCRIPTION OF THE PROGRAM",
+      "The International Master of Environmental Sciences (IMES)"
+    ]
+  },
+  {
+    "objectID": "intro.html#overview-of-module-types-in-imes",
+    "href": "intro.html#overview-of-module-types-in-imes",
+    "title": "The International Master of Environmental Sciences (IMES)",
+    "section": "Overview of Module Types in IMES",
+    "text": "Overview of Module Types in IMES\nThe IMES program comprises modules that are typically worth either 6 or 12 ECTS. The Master Thesis and Colloquium form a comprehensive research module worth 30 ECTS. The curriculum includes six mandatory modules and a wide range of electives, allowing students to shape their individual academic trajectories.\nModules in IMES are classified into three types:\n\nCore Modules (CM): These modules provide foundational knowledge in essential areas of environmental sciences. They introduce key concepts, methodologies, and frameworks and are typically completed early in the program.\nAdvanced Modules (AM): Building on the Core Modules, these modules allow students to deepen their knowledge, refine their skills, and engage with more complex environmental issues. They encourage independent application of methods and further development of analytical and research competencies.\nSpecialisation Modules (SM): These modules enable students to focus on a specific area of interest within environmental sciences. Specialisation Modules support the development of an individual academic profile and typically correspond with the topic of the Master’s thesis.\n\nDetailed descriptions of each module are provided in the second part of this module handbook.\n\nList of modules in IMES. Module types are Core Modules (CM), Advanced Modules (AM) and Specialisation modules (SM)\n\n\n\n\n\n\n\n\n\n\nModule\nECTS\nMandatory (M) or Elective (E)\nModule Type\nSemester\nCategory\n\n\n\n\nIntroduction to Natural and Social Environmental Sciences\n6\nM\nCM\n1\nResearch and Analytical Methods\n\n\nGeosphere and Hydrosphere\n6\nE\nAM\n1\nEarth and Environmental Systems\n\n\nSustainable Development\n6\nE\nAM\n1\nSocieties, Education, and Ethics\n\n\nEnvironmental Law\n6\nM\nAM\n1 and 2\nGovernance, Law, and Institutions\n\n\nEnergy and Climate Change\n6\nE\nAM\n1 or 2\nEconomy and Resource Management\n\n\nEnvironmental Medicine\n6\nE\nAM\n1\nSocieties, Education, and Ethics\n\n\nAnthropology\n6\nE\nAM\n1 and 2\nSocieties, Education, and Ethics\n\n\nMethods of Spatial and Statistical Data Analysis\n6\nE\nAM\n1 and 2\nResearch and Analytical Methods\n\n\nEnvironmental Humanities and Communication\n6\nE\nAM\n1\nSocieties, Education, and Ethics\n\n\nAdvanced Environmental Sciences\n6\nM\nAM\n2\nResearch and Analytical Methods\n\n\nEcosystems and Landscape Dynamics\n6\nM\nAM\n2\nEarth and Environmental Systems\n\n\nNatural Resources, Water and Renewable Energy Management (TH Köln)\n6\nE\nAM\n2 or 3\nEconomy and Resource Management\n\n\nEnvironmental Ethics and Management\n6\nE\nAM\n2\nSocieties, Education, and Ethics\n\n\nMeteorology\n6\nE\nAM\n2\nEarth and Environmental Systems\n\n\nEnvironmental Modelling and Data Science\n6\nE\nAM\n2 or 3\nResearch and Analytical Methods\n\n\nEnvironmental Pollution\n6\nE\nAM\n2\nEarth and Environmental Systems\n\n\nInternship\n12\nM\nSM\n3\nResearch and Analytical Methods\n\n\nAdvanced Atmospheric Processes\n6\nE\nAM\n3\nEarth and Environmental Systems\n\n\nHuman Environment Relations\n6\nE\nAM\n3\nSocieties, Education, and Ethics\n\n\nAdvanced Environmental Geography\n6\nE\nAM\n3\nEarth and Environmental Systems\n\n\nEnvironmental Spatial Methods\n6\nE\nAM\n3\nResearch and Analytical Methods\n\n\nIndividual Specialization Module\n6\nE\nSM\n3\nResearch and Analytical Methods\n\n\nIndividual Advanced Module\n6\nE\nAM\n3\nAny\n\n\nMaster Thesis and Colloquium\n30\nM\n\n4\nAny",
+    "crumbs": [
+      "DESCRIPTION OF THE PROGRAM",
+      "The International Master of Environmental Sciences (IMES)"
+    ]
+  },
+  {
+    "objectID": "am-geosphere-and-hydrosphere.html",
+    "href": "am-geosphere-and-hydrosphere.html",
+    "title": "Geosphere and Hydrosphere",
+    "section": "",
+    "text": "Module Description\nThis module consists of two lectures: Introduction to Environmental Geophysics and Physical Hydrology. It provides a comprehensive introduction to the principles and techniques of geophysics and hydrology, equipping students with the foundational knowledge to address environmental and water resource challenges. Students will explore geophysical methods such as electromagnetic and seismic techniques, emphasizing techniques essential for investigating the subsurface in environmental science. Additionally, the module covers essential hydrological concepts, including water fluxes, storage processes, and key methods for water resource management, enabling students to evaluate sustainable water use strategies effectively. Together, these two lectures introduce students to the study of the critical zone, the thin skin of the Earth’s surface.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Geosphere and Hydrosphere"
+    ]
+  },
+  {
+    "objectID": "am-geosphere-and-hydrosphere.html#module-objectives-and-outcomes",
+    "href": "am-geosphere-and-hydrosphere.html#module-objectives-and-outcomes",
+    "title": "Geosphere and Hydrosphere",
+    "section": "Module Objectives and Outcomes",
+    "text": "Module Objectives and Outcomes\n\na) Lecture: Introduction to Environmental Geophysics\nThe main objective of this lecture is to introduce students to fundamental concepts, methodologies, and basic interpretative techniques of geophysical methods applied in environmental studies. Building on this foundation, students will achieve the following learning outcomes:\n\nIdentify and describe basic geophysical methods commonly used in environmental science.\nUnderstand fundamental principles and physical concepts underlying geophysical exploration techniques, particularly electromagnetic and seismic methods.\nExplain how geophysical data can be used to analyze environmental conditions and assess basic environmental risks.\nRecognize the strengths and limitations of various geophysical techniques in environmental applications.\n\n\n\nb) Lecture: Physical Hydrology\nThe primary objective of this lecture is to introduce students to the foundational concepts of hydrology and basic methods used in water resource management, preparing them to assess the potential and limitations of different water uses. Upon completing this module, students will be able to:\n\nExplain the fundamental concepts of hydrology, including water fluxes and storage processes.\nIdentify key hydrological methods used in water resource management.\nAssess the potential and limitations of various water uses, considering the governing processes of water fluxes and storage.\nDiscuss basic hydrological processes and their implications for water resource management.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Geosphere and Hydrosphere"
+    ]
+  },
+  {
+    "objectID": "am-geosphere-and-hydrosphere.html#module-content",
+    "href": "am-geosphere-and-hydrosphere.html#module-content",
+    "title": "Geosphere and Hydrosphere",
+    "section": "Module Content",
+    "text": "Module Content\n\na) Lecture: Introduction to Environmental Geophysics\n\nOverview of primary geophysical exploration methods and their significance in environmental studies.\nFundamental physical principles underlying electromagnetic and seismic techniques.\nMethodologies and interpretative procedures used in geophysical data analysis.\nApplications of geophysical methods for environmental risk assessment and subsurface investigation.\n\n\n\nb) Lecture: Physical Hydrology\n\nComponents and processes of the water cycle across various spatial scales.\nWater fluxes and storage terms on land surfaces and their measurement.\nEnvironmental factors influencing water availability and distribution.\nFundamental methods and concepts to describe, measure and model water fluxes.\nBasic principles and challenges of water resource management in the context of environmental sustainability.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Geosphere and Hydrosphere"
+    ]
+  },
+  {
+    "objectID": "am-geosphere-and-hydrosphere.html#teaching-methods",
+    "href": "am-geosphere-and-hydrosphere.html#teaching-methods",
+    "title": "Geosphere and Hydrosphere",
+    "section": "Teaching Methods",
+    "text": "Teaching Methods\nLecture",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Geosphere and Hydrosphere"
+    ]
+  },
+  {
+    "objectID": "am-geosphere-and-hydrosphere.html#prerequisites",
+    "href": "am-geosphere-and-hydrosphere.html#prerequisites",
+    "title": "Geosphere and Hydrosphere",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nNone",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Geosphere and Hydrosphere"
+    ]
+  },
+  {
+    "objectID": "am-geosphere-and-hydrosphere.html#type-of-examination",
+    "href": "am-geosphere-and-hydrosphere.html#type-of-examination",
+    "title": "Geosphere and Hydrosphere",
+    "section": "Type of Examination",
+    "text": "Type of Examination\nWritten examination of 90–120 minutes. The subject of examination is the content of the lectures (a and b) of this module description.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Geosphere and Hydrosphere"
+    ]
+  },
+  {
+    "objectID": "am-geosphere-and-hydrosphere.html#credits-awarded",
+    "href": "am-geosphere-and-hydrosphere.html#credits-awarded",
+    "title": "Geosphere and Hydrosphere",
+    "section": "Credits Awarded",
+    "text": "Credits Awarded\nCredit points are awarded upon successful completion of the module’s examination, with a minimum passing grade of 4.0 (German grading system).",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Geosphere and Hydrosphere"
+    ]
+  },
+  {
+    "objectID": "am-geosphere-and-hydrosphere.html#compatibility-with-other-curricula",
+    "href": "am-geosphere-and-hydrosphere.html#compatibility-with-other-curricula",
+    "title": "Geosphere and Hydrosphere",
+    "section": "Compatibility with Other Curricula",
+    "text": "Compatibility with Other Curricula\nJIMES (JIMES-AM-GeoHyd)",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Geosphere and Hydrosphere"
+    ]
+  },
+  {
+    "objectID": "am-geosphere-and-hydrosphere.html#proportion-of-final-grade",
+    "href": "am-geosphere-and-hydrosphere.html#proportion-of-final-grade",
+    "title": "Geosphere and Hydrosphere",
+    "section": "Proportion of Final Grade",
+    "text": "Proportion of Final Grade\n5%",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Geosphere and Hydrosphere"
+    ]
+  },
+  {
+    "objectID": "am-geosphere-and-hydrosphere.html#module-coordinator",
+    "href": "am-geosphere-and-hydrosphere.html#module-coordinator",
+    "title": "Geosphere and Hydrosphere",
+    "section": "Module Coordinator",
+    "text": "Module Coordinator\nProf. Dr. Karl Schneider (Institute of Geography)",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Geosphere and Hydrosphere"
+    ]
+  },
+  {
+    "objectID": "am-geosphere-and-hydrosphere.html#further-information",
+    "href": "am-geosphere-and-hydrosphere.html#further-information",
+    "title": "Geosphere and Hydrosphere",
+    "section": "Further Information",
+    "text": "Further Information\nThere are no restrictions on the number of places available for IMES students.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Geosphere and Hydrosphere"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html",
+    "href": "am-sustainable-development.html",
+    "title": "Sustainable Development",
+    "section": "",
+    "text": "Module Description\nThis module consists of two courses: a literature-based seminar in Sustainable Development and Fieldwork. It provides an in-depth exploration of the principles, challenges, and frameworks of sustainability. Key topics include the Sustainable Development Goals (SDGs), climate change, planetary boundaries, loss of biodiversity and Education for Sustainable Action (ESA) as a tool for transformative action. The course addresses critical global issues such as inequality, urbanization, and environmental degradation, emphasizing their interconnections and linking them to actionable strategies for sustainable solutions.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html#module-objectives",
+    "href": "am-sustainable-development.html#module-objectives",
+    "title": "Sustainable Development",
+    "section": "Module Objectives",
+    "text": "Module Objectives\n\nExplore the foundational concepts of sustainable development, including its pillars, challenges, and global frameworks like Agenda 21 and the SDGs.\nAnalyse further important concepts like planetary boundaries, climate change and loss of biodiversity, based on scientific literature.\nExamine the role of Education for Sustainable Action (ESA) in promoting transformative learning, systems thinking, and sustainability action.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html#module-outcomes",
+    "href": "am-sustainable-development.html#module-outcomes",
+    "title": "Sustainable Development",
+    "section": "Module Outcomes",
+    "text": "Module Outcomes\n\nUnderstand the foundational principles of sustainable development, including its pillars, challenges, and key global frameworks such as Agenda 21 and the SDGs.\nAnalyze complex concepts like planetary boundaries, climate change, and biodiversity loss by critically engaging with scientific literature.\nEvaluate the challenges and opportunities in achieving sustainable development in the context of global and local issues.\nExamine the role of Education for Sustainable Development (ESD) in fostering transformative learning, systems thinking, and actionable strategies.\nDevelop practical skills in applying systems thinking to identify and address sustainability challenges during Field Work.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html#module-content",
+    "href": "am-sustainable-development.html#module-content",
+    "title": "Sustainable Development",
+    "section": "Module Content",
+    "text": "Module Content\n\na) Seminar: Sustainable Development\n\nBasic concepts of sustainable development:\n\nUnderstanding ‘sustainability’ and ‘development’\nCauses and effects of unsustainable development like consumerism, globalization, urbanization, ecosystem degradation, inequity\nPillars of sustainable development: economic, social, environmental, political (governance)\nTimeline of sustainable development; Agenda 21; Millennium development goals and sustainable development goals.\nESD as a tool for transformative learning and systems thinking\n\nKey sustainability concepts and challenges:\n\nClimate change: causes, impacts, and mitigation strategies\nPlanetary boundaries and their relevance to sustainability\nEcosystem services and their role in sustainable development\nRapid population growth and food security\nPoverty, income inequality, and gender disparity\nUrbanization and its challenges, including energy transformation\nEnvironmental degradation and loss of biodiversity\n\n\n\n\nb) Practical: Fieldwork\n\nVisit and analysis of sustainability projects.\nDeveloping a matrix for analysing sustainability projects along with indicators.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html#teaching-methods",
+    "href": "am-sustainable-development.html#teaching-methods",
+    "title": "Sustainable Development",
+    "section": "Teaching Methods",
+    "text": "Teaching Methods\nLiterature-based seminar and practical",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html#prerequisites",
+    "href": "am-sustainable-development.html#prerequisites",
+    "title": "Sustainable Development",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nNone",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html#type-of-examination",
+    "href": "am-sustainable-development.html#type-of-examination",
+    "title": "Sustainable Development",
+    "section": "Type of Examination",
+    "text": "Type of Examination\nPortfolio based on a) and b), 5 to 10 pages.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html#credits-awarded",
+    "href": "am-sustainable-development.html#credits-awarded",
+    "title": "Sustainable Development",
+    "section": "Credits Awarded",
+    "text": "Credits Awarded\nCredit points are awarded upon regular and active participation, as well as the successful completion of the module’s examination with a minimum passing grade of 4.0. (sufficient).",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html#compatibility-with-other-curricula",
+    "href": "am-sustainable-development.html#compatibility-with-other-curricula",
+    "title": "Sustainable Development",
+    "section": "Compatibility with Other Curricula",
+    "text": "Compatibility with Other Curricula\nJIMES (JIMES-AM-SDUoC), M.Sc. Module part (a) in Geography (AM1 and AM2), MA Geography (AM1 and AM2) and MEd Geography (AM1)",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html#proportion-of-final-grade",
+    "href": "am-sustainable-development.html#proportion-of-final-grade",
+    "title": "Sustainable Development",
+    "section": "Proportion of Final Grade",
+    "text": "Proportion of Final Grade\n5%",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html#module-coordinator",
+    "href": "am-sustainable-development.html#module-coordinator",
+    "title": "Sustainable Development",
+    "section": "Module Coordinator",
+    "text": "Module Coordinator\nDr. Veronika Selbach and Dr. Verena Dlugoß (Institute of Geography)",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-sustainable-development.html#further-information",
+    "href": "am-sustainable-development.html#further-information",
+    "title": "Sustainable Development",
+    "section": "Further Information",
+    "text": "Further Information\nRestrictions on the number of places available for IMES students might apply.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Sustainable Development"
+    ]
+  },
+  {
+    "objectID": "am-law.html",
+    "href": "am-law.html",
+    "title": "Environmental Law",
+    "section": "",
+    "text": "Module Description\nThe module consists of two lectures: Environmental Law: Comparative and Basic Studies and International Environmental Law. Environmental Law introduces students to the discipline of law, with a focus on domestic legal systems and the role of environmental law within these systems. It explores how environmental problems have been addressed through legal mechanisms, both historically and in contemporary contexts, including before and after the introduction of dedicated environmental legislation.\nThe lecture International Environmental Law advances students’ understanding of domestic law introduced in lecture a), focusing on international law and its application to global environmental challenges. Students will explore the unique sources, institutions, and subjects of international environmental law, and distinguish them from their domestic counterparts. The course emphasizes the role of treaties, litigation, and arbitration in shaping international environmental governance.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-law.html#module-objectives",
+    "href": "am-law.html#module-objectives",
+    "title": "Environmental Law",
+    "section": "Module Objectives",
+    "text": "Module Objectives\n\nIntroduce students to the principles, sources, institutions, and subjects of domestic and international environmental law.\nDevelop an understanding of how environmental challenges are addressed through domestic and international legal mechanisms.\nHighlight the role of treaties, litigation, and arbitration in shaping international environmental governance.\nExplore the interdisciplinary nature of environmental law and its connections with social and natural sciences.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-law.html#module-outcomes",
+    "href": "am-law.html#module-outcomes",
+    "title": "Environmental Law",
+    "section": "Module Outcomes",
+    "text": "Module Outcomes\n\nIdentify and evaluate key sources, principles, and institutions of domestic and international environmental law.\nCompare domestic and international approaches to addressing environmental problems, including their advantages and limitations.\nAnalyze the role of legal mechanisms in environmental governance and their interplay with social and natural sciences.\nApply knowledge of international environmental law to evaluate global environmental challenges and propose solutions.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-law.html#module-content",
+    "href": "am-law.html#module-content",
+    "title": "Environmental Law",
+    "section": "Module Content",
+    "text": "Module Content\n\na) Lecture: Environmental Law: Comparative and Basic Studies\n\nThe placement of environmental law within domestic legal systems.\nDomestic sources of law, key institutions, and subjects relevant to environmental governance.\nThe concept of sources of law, focusing on the fundamentals of identifying and locating applicable laws to address specific environmental challenges.\nHow legal principles and processes contribute to solving environmental problems at the domestic level.\nAn overview of the comparative method to understand differences in how environmental law is applied across jurisdictions.\nInterdisciplinary links between environmental law and other fields, including the social and natural sciences.\n\n\n\nb) Lecture: International Environmental Law\n\nThe distinction between international public environmental law and political processes.\nFundamental principles of international environmental legislation, including its interpretation and execution.\nInternational sources of law, key institutions, and subjects, with a focus on their unique roles and functions.\nComparative analysis of international and domestic environmental law, highlighting their differences and intersections.\nStudy of treaties categorized by natural science domains: atmosphere, hydrosphere, and geosphere.\nExamination of litigation and arbitration cases to identify international customs and principles.\nAnalysis of the interdisciplinary connections between international environmental law and the social and natural sciences.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-law.html#teaching-methods",
+    "href": "am-law.html#teaching-methods",
+    "title": "Environmental Law",
+    "section": "Teaching Methods",
+    "text": "Teaching Methods\nLecture",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-law.html#prerequisites",
+    "href": "am-law.html#prerequisites",
+    "title": "Environmental Law",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nNone\n\nWhile there is no formal requirement, International Environmental Law will be taught assuming the student has a basic understanding of sources of law, institutions of law and subjects of law, however that understanding was achieved.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-law.html#type-of-examination",
+    "href": "am-law.html#type-of-examination",
+    "title": "Environmental Law",
+    "section": "Type of Examination",
+    "text": "Type of Examination\nStudents are required to independently research and write a paper in English, comprising 20–24 pages, to be completed outside the lecture hours.\nPart I of the research paper will address an environmental problem in a country of their choice, presents that country’s official state policy on the problem, presents the sources and institutions of law on that problem in that country, and then assesses whether those laws and institutions solve the problem. The student will then do the same for a second country of choice. The paper will then build a matrix by which one can compare the performance of the first country’s environmental solutions with the second.\nPart II of the research paper will address an analysis of a case study of international environmental law.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-law.html#credits-awarded",
+    "href": "am-law.html#credits-awarded",
+    "title": "Environmental Law",
+    "section": "Credits Awarded",
+    "text": "Credits Awarded\nCredit points are awarded upon successful completion of the module’s examination, with a minimum passing grade of 4.0 (sufficient).",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-law.html#compatibility-with-other-curricula",
+    "href": "am-law.html#compatibility-with-other-curricula",
+    "title": "Environmental Law",
+    "section": "Compatibility with Other Curricula",
+    "text": "Compatibility with Other Curricula\nJIMES (JIMES-AM-Law)",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-law.html#proportion-of-final-grade",
+    "href": "am-law.html#proportion-of-final-grade",
+    "title": "Environmental Law",
+    "section": "Proportion of Final Grade",
+    "text": "Proportion of Final Grade\n5%",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-law.html#module-coordinator",
+    "href": "am-law.html#module-coordinator",
+    "title": "Environmental Law",
+    "section": "Module Coordinator",
+    "text": "Module Coordinator\nProf. Dr. Kirk Junker (US American Law)",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-law.html#further-information",
+    "href": "am-law.html#further-information",
+    "title": "Environmental Law",
+    "section": "Further Information",
+    "text": "Further Information\nThere are no restrictions on the number of places available for IMES students.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Environmental Law"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html",
+    "href": "am-ecosystems-and-landscape.html",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "",
+    "text": "Module Description\nThis module examines the interactions between ecosystems, landscapes, and human impacts, providing a foundation for understanding environmental processes and their role in sustainable development. The lecture Ecosystem Services and Functions Under Climate Change introduces key concepts from soil science, soil physics, and plant nutrition, focusing on their roles within ecosystem services and functions. It expands students’ understanding of the complex processes in ecosystems and the influence of land …\nThe lecture Landscape Formation focuses on the factors, dynamics, and outputs of landscape evolution, with special regard to the Quaternary period and the interaction between natural phenomena and human activities.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html#module-objectives",
+    "href": "am-ecosystems-and-landscape.html#module-objectives",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "Module Objectives",
+    "text": "Module Objectives\n\na) Lecture: Ecosystem Services and Functions Under Climate Change\n\nIntroduce the processes within ecosystems and their interactions with human land use and climate change.\nExplore the key concepts of ecosystem services and their role in sustainable development.\n\n\n\nb) Lecture: Landscape Formation\n\nExamine the key factors, processes, and dynamics involved in natural landscape formation and evolution.\nAnalyze the impacts of climate change and human activities on geomorphological processes and landscape changes.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html#module-outcomes",
+    "href": "am-ecosystems-and-landscape.html#module-outcomes",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "Module Outcomes",
+    "text": "Module Outcomes\n\na) Lecture: Ecosystem Services and Functions Under Climate Change\n\nDescribe the processes within ecosystems and how they are affected by human land use change and climate change.\nExplain key concepts in ecosystem services, including their role in sustainable development.\nAnalyze one selected topic related to ecosystem services in depth.\nApply the SQ4R (Survey, Question, Read, Reflect, Recite and Review) method to critically engage with scientific literature on ecosystem services and processes.\nApply AI-assisted tools for literature review and analysis.\n\n\n\nb) Lecture: Landscape Formation\n\nIdentify key factors and processes involved in natural landscape formation, including morphography, morphometry, morphodynamics, and morphochronology.\nDescribe the dynamics of landscape evolution, particularly during the Quaternary period, and recognize the role of relief forms.\nExplain the impact of climate change on geomorphological processes, highlighting how it influences events such as floods and landslides.\nDiscuss the effects of human activities on landscape formation, including the development of technical landforms.\nAnalyze specific geomorphological case studies to assess the interaction between natural processes and anthropogenic influences on landscape change.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html#module-content",
+    "href": "am-ecosystems-and-landscape.html#module-content",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "Module Content",
+    "text": "Module Content\n\na) Lecture: Ecosystem Services and Functions Under Climate Change\n\nIntroduction to soil science and soil hydrology\nEcosystem services and Sustainable Development Goals (SDGs)\nPlant-soil interactions and nutrient cycling\nSoil organic matter and carbon sequestration in soils\nSoil degradation, sustainable land management and food production\n\n\n\nb) Lecture: Landscape Formation\n\nKey aspects of relief forms, focusing on morphography, morphometry, morphodynamics, and morphochronology as fundamental controls in landscape structure.\nCore dynamics and processes involved in natural landscape formation over time.\nInfluence of human activities, such as the creation of technical landforms, on landscape modification.\nExamination of how climate change intensifies geomorphological events, including floods and landslides.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html#teaching-methods",
+    "href": "am-ecosystems-and-landscape.html#teaching-methods",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "Teaching Methods",
+    "text": "Teaching Methods\nLecture",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html#prerequisites",
+    "href": "am-ecosystems-and-landscape.html#prerequisites",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nNone",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html#type-of-examination",
+    "href": "am-ecosystems-and-landscape.html#type-of-examination",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "Type of Examination",
+    "text": "Type of Examination\nExamination in form of a portfolio (5–10 pages). The subject of examination is the content of the lecture a) of this module. During the lecture b) of this module, students are required to complete mandatory ungraded assignments (Studienleistungen).",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html#credits-awarded",
+    "href": "am-ecosystems-and-landscape.html#credits-awarded",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "Credits Awarded",
+    "text": "Credits Awarded\nCredit points are awarded when the portfolio has been graded with at least 4.0 (sufficient) and the mandatory assignments (Studienleistungen) have been successfully completed.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html#compatibility-with-other-curricula",
+    "href": "am-ecosystems-and-landscape.html#compatibility-with-other-curricula",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "Compatibility with Other Curricula",
+    "text": "Compatibility with Other Curricula\nJIMES (JIMES-AM-Ecosys)",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html#proportion-of-final-grade",
+    "href": "am-ecosystems-and-landscape.html#proportion-of-final-grade",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "Proportion of Final Grade",
+    "text": "Proportion of Final Grade\n5%",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html#module-coordinator",
+    "href": "am-ecosystems-and-landscape.html#module-coordinator",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "Module Coordinator",
+    "text": "Module Coordinator\nProf. Dr. Christina Bogner (Institute of Geography)",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "am-ecosystems-and-landscape.html#further-information",
+    "href": "am-ecosystems-and-landscape.html#further-information",
+    "title": "Ecosystems and Landscape Dynamics",
+    "section": "Further Information",
+    "text": "Further Information\nThere are no restrictions on the number of places available for IMES students and BVDU students.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Ecosystems and Landscape Dynamics"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html",
+    "href": "sm-internship.html",
+    "title": "Internship",
+    "section": "",
+    "text": "Module Description\nThe internship of two months duration is scheduled as part of the third semester. It is an opportunity for students to develop research skills and/or gain professional expertise as well as academic knowledge. Students are expected to begin planning their internship early in the semester to ensure a timely placement and registration. While the timing of the internship may vary depending on individual arrangements, it should be aligned with the study plan and registered with the IMES Office before commencement. Students are encouraged to find their own internship placements and make initial contact with prospective organizations, as this builds communication and organizational skills. The IMES Office can provide guidance in certain cases and share a database of former internship hosts but does not guarantee placement. The module includes a seminar in which students present and reflect on their internship experiences. This setting provides a structured opportunity for peer-to-peer learning, constructive feedback, and academic exchange. Students are expected not only to defend their own internship work but also to engage actively with the presentations of their peers by asking questions, giving feedback, and discussing diverse professional contexts relevant to environmental sciences.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html#module-objectives",
+    "href": "sm-internship.html#module-objectives",
+    "title": "Internship",
+    "section": "Module Objectives",
+    "text": "Module Objectives\n\nFacilitate the application of theoretical knowledge in real-world contexts through hands-on experience in professional settings.\nEnhance problem-solving, analytical, and decision-making skills by engaging in practical projects related to the core domains of the program.\nCultivate professional competencies, including teamwork, communication, and leadership, through structured mentorship and collaboration with industry or research organizations.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html#module-outcomes",
+    "href": "sm-internship.html#module-outcomes",
+    "title": "Internship",
+    "section": "Module Outcomes",
+    "text": "Module Outcomes\nAt the end of this module, students will be able to:\n\nDemonstrate the ability to apply theoretical knowledge to practical challenges in professional or research environments.\nDevelop and execute project-based tasks with minimal supervision, showcasing initiative and problem-solving skills.\nCommunicate effectively through written reports, presentations, and discussions, tailored to both academic and professional audiences.\nDemonstrate enhanced soft skills such as teamwork, adaptability, and professionalism in diverse settings.\nCritically reflect on their internship experience to identify strengths, areas for improvement, and future career directions.\nCreate meaningful contributions to their host organization, supported by innovative ideas or solutions derived during the internship.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html#module-content",
+    "href": "sm-internship.html#module-content",
+    "title": "Internship",
+    "section": "Module Content",
+    "text": "Module Content\nAn internship matching the thematic focus of Environmental Sciences as defined by the IMES program.\nRegistration and documentation requirements\nBefore starting the internship, students must register it with the IMES Office. Registration requires:\n\nA brief written outline (1 page) describing the host organization, the planned tasks and responsibilities, and how the internship aligns with the thematic focus of Environmental Sciences as defined by the IMES program.\nA confirmation from the host organization (in any reasonable format, such as an email or signed letter) indicating the planned duration and general scope of the internship. A formal contract is not mandatory, but may be required by the host organization.\n\nAfter completing the internship, students must submit a certificate of completion from the host organization. This document should briefly state the internship duration and confirm that the agreed-upon tasks were carried out.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html#teaching-methods",
+    "href": "sm-internship.html#teaching-methods",
+    "title": "Internship",
+    "section": "Teaching Methods",
+    "text": "Teaching Methods\n\nInternship\n\nSeminar at UoC: student presentations, peer feedback, group discussion",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html#prerequisites",
+    "href": "sm-internship.html#prerequisites",
+    "title": "Internship",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nThe student has acquired at least 30 ECTS from the first three semesters.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html#type-of-examination",
+    "href": "sm-internship.html#type-of-examination",
+    "title": "Internship",
+    "section": "Type of Examination",
+    "text": "Type of Examination\nThe supervisor will grade the internship based on an internship report of 20 pages, written in English, which introduces institutional/NGO setup, people encountered and worked alongside, including their tasks and positions; activities undertaken, including the content, aim, and timeframe of the work; policy areas touched upon; skills acquired; insight into institutional practice obtained. The students are required to present and defend their report during the seminar.\n1. Internship report (70%)\nThe internship report, written in English (20 pages), should contain the following:\n\nIntroduction to the institutional/NGO setup (10%): Describing the organization, objectives, and operations comprehensively.\nTasks and people encountered (10%): Detailed account of roles, responsibilities, and interactions with colleagues.\nActivities undertaken (10%): Explanation of content, objectives, timelines, the scope of the work and outputs.\nPolicy areas and skills acquired (10%): Identification of relevant policy domains and skills developed.\nInsights into institutional practices and self-reflection (30%): In-depth analysis of institutional processes, key learnings, challenges faced, and personal growth.\n\n2. Presentation and defence of the report (30%)\nThe student presents their report to a panel of IMES staff (20 minutes), assessed on:\n\nClarity, organization, and coherence of the presentation (15%).\nAbility to answer questions and demonstrate understanding of the internship’s context, activities, and outcomes (15%).",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html#credits-awarded",
+    "href": "sm-internship.html#credits-awarded",
+    "title": "Internship",
+    "section": "Credits Awarded",
+    "text": "Credits Awarded\nCredit points are awarded upon regular and active participation in the internship and the seminar, as well as successful completion of the module’s examinations with a minimum passing grade of 4.0 (sufficient). A certificate of completion from the host organization is normally required, but alternative proof may be accepted in justified cases.\nThe internship must be registered with the IMES Office before commencement. Registration requires a written outline of the planned tasks and a confirmation from the host organization.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html#compatibility-with-other-curricula",
+    "href": "sm-internship.html#compatibility-with-other-curricula",
+    "title": "Internship",
+    "section": "Compatibility with Other Curricula",
+    "text": "Compatibility with Other Curricula\nNone",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html#proportion-of-final-grade",
+    "href": "sm-internship.html#proportion-of-final-grade",
+    "title": "Internship",
+    "section": "Proportion of Final Grade",
+    "text": "Proportion of Final Grade\n0%. The internship is graded but does not contribute to the final grade.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html#module-coordinator",
+    "href": "sm-internship.html#module-coordinator",
+    "title": "Internship",
+    "section": "Module Coordinator",
+    "text": "Module Coordinator\nDr. Hannes Laermanns (Institute of Geography) – IMES Office",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "sm-internship.html#further-information",
+    "href": "sm-internship.html#further-information",
+    "title": "Internship",
+    "section": "Further Information",
+    "text": "Further Information\nNo restriction on number of places for IMES students.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Internship"
+    ]
+  },
+  {
+    "objectID": "master-thesis.html",
+    "href": "master-thesis.html",
+    "title": "Master Thesis and Colloquium",
+    "section": "",
+    "text": "Module Objectives and Outcomes",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Master Thesis and Colloquium"
+    ]
+  },
+  {
+    "objectID": "master-thesis.html#module-objectives-and-outcomes",
+    "href": "master-thesis.html#module-objectives-and-outcomes",
+    "title": "Master Thesis and Colloquium",
+    "section": "",
+    "text": "a) Master Thesis\nThe Master’s thesis is an independent academic examination designed to demonstrate the candidate’s ability to address a well-defined problem within the field of study using appropriate scientific methods within a specified timeframe. The thesis may be completed in any subject of the IMES program and must be written in English.\nThroughout the thesis phase, students receive individual academic supervision. Supervisors provide feedback on the exposé, guidance during the research and writing process, and support for the mid-term presentation. This structure is designed to help students manage their time effectively and produce work of high academic quality.\nAt the beginning of the thesis process, students are required to submit an exposé (approximately 2–4 pages), outlining the research question, objectives, theoretical background, methodology, and expected structure of the thesis. The exposé must demonstrate the feasibility and academic relevance of the project and serves as the basis for discussion and feedback with the supervisor.\nApproximately halfway through the working period, a mid-term presentation is mandatory. In this presentation, the student presents their progress and discusses preliminary results in a seminar with their supervisors and peers. Both the exposé and the mid-term presentation are ungraded coursework (“Studienleistungen”) and must be passed.\nThe maximum timeframe for completing the Master’s thesis is six months from the date the topic is assigned. The thesis should not exceed 100 A4 pages.\nFurther details on the Master’s thesis are provided in the examination regulations (§21).\n\n\nb) Colloquium (Oral defense of the master’s thesis)\nThe colloquium is conducted as an interdisciplinary individual examination. The candidate presents the contents of their Master’s thesis in a 10- to 15-minute presentation, followed by questions and discussion with the examiners. The colloquium lasts between 40 and 60 minutes. Students and staff of the IMES program are permitted to attend the colloquium unless the candidate objects. Participation of observers does not include the deliberation or announcement of results.\nFurther details on the Colloquium are given in the examination regulations (§21).",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Master Thesis and Colloquium"
+    ]
+  },
+  {
+    "objectID": "master-thesis.html#module-content",
+    "href": "master-thesis.html#module-content",
+    "title": "Master Thesis and Colloquium",
+    "section": "Module Content",
+    "text": "Module Content\nThe module consists of four parts:\n(1) submission of an exposé outlining the research question, methodology, and structure;\n(2) a mandatory mid-term presentation to report on progress;\n(3) completion of an independent written thesis;\n(4) a final oral colloquium to defend the thesis.\nThe thesis should not exceed 100 pages and must be completed within six months of topic assignment.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Master Thesis and Colloquium"
+    ]
+  },
+  {
+    "objectID": "master-thesis.html#teaching-methods",
+    "href": "master-thesis.html#teaching-methods",
+    "title": "Master Thesis and Colloquium",
+    "section": "Teaching Methods",
+    "text": "Teaching Methods\nIndividual supervision including support during the exposé phase, feedback after the mid-term presentation, and academic consultations throughout the research and writing process.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Master Thesis and Colloquium"
+    ]
+  },
+  {
+    "objectID": "master-thesis.html#prerequisites",
+    "href": "master-thesis.html#prerequisites",
+    "title": "Master Thesis and Colloquium",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nThe student has acquired at least 60 ECTS from the first three semesters and successfully completed all mandatory modules.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Master Thesis and Colloquium"
+    ]
+  },
+  {
+    "objectID": "master-thesis.html#type-of-examination",
+    "href": "master-thesis.html#type-of-examination",
+    "title": "Master Thesis and Colloquium",
+    "section": "Type of Examination",
+    "text": "Type of Examination\n\nWritten Master thesis (weight: 75%)\n\nOral defense (weight: 25%)\n\nExposé (ungraded course work “Studienleistung”)\n\nMid-term presentation (ungraded course work “Studienleistung”)",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Master Thesis and Colloquium"
+    ]
+  },
+  {
+    "objectID": "master-thesis.html#credits-awarded",
+    "href": "master-thesis.html#credits-awarded",
+    "title": "Master Thesis and Colloquium",
+    "section": "Credits Awarded",
+    "text": "Credits Awarded\nCredit points are awarded when the ungraded exposé and mid-term presentation were successfully passed and the examinations of the module parts have been successfully completed with the minimum grade 4.0 (sufficient).",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Master Thesis and Colloquium"
+    ]
+  },
+  {
+    "objectID": "master-thesis.html#compatibility-with-other-curricula",
+    "href": "master-thesis.html#compatibility-with-other-curricula",
+    "title": "Master Thesis and Colloquium",
+    "section": "Compatibility with Other Curricula",
+    "text": "Compatibility with Other Curricula\nNone",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Master Thesis and Colloquium"
+    ]
+  },
+  {
+    "objectID": "master-thesis.html#proportion-of-final-grade",
+    "href": "master-thesis.html#proportion-of-final-grade",
+    "title": "Master Thesis and Colloquium",
+    "section": "Proportion of Final Grade",
+    "text": "Proportion of Final Grade\n25%",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Master Thesis and Colloquium"
+    ]
+  },
+  {
+    "objectID": "master-thesis.html#module-coordinator",
+    "href": "master-thesis.html#module-coordinator",
+    "title": "Master Thesis and Colloquium",
+    "section": "Module Coordinator",
+    "text": "Module Coordinator\nHead of the IMES Examination Committee",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Master Thesis and Colloquium"
+    ]
+  },
+  {
+    "objectID": "master-thesis.html#further-information",
+    "href": "master-thesis.html#further-information",
+    "title": "Master Thesis and Colloquium",
+    "section": "Further Information",
+    "text": "Further Information\nNone",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Master Thesis and Colloquium"
+    ]
+  }
+]
