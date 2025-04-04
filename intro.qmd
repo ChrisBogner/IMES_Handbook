@@ -139,15 +139,7 @@ To ensure a broad and interdisciplinary foundation, IMES modules are grouped int
 
 The IMES program comprises modules that are typically worth either 6 or 12 ECTS. The Master Thesis and Colloquium form a comprehensive research module worth 30 ECTS. The curriculum includes six mandatory modules and a wide range of electives, allowing students to shape their individual academic trajectories.
 
-Modules in IMES are classified into three types:
-
-- **Core Modules (CM)**: These modules provide foundational knowledge in essential areas of environmental sciences. They introduce key concepts, methodologies, and frameworks and are typically completed early in the program.
-  
-- **Advanced Modules (AM)**: Building on the Core Modules, these modules allow students to deepen their knowledge, refine their skills, and engage with more complex environmental issues. They encourage independent application of methods and further development of analytical and research competencies.
-
-- **Specialisation Modules (SM)**: These modules enable students to focus on a specific area of interest within environmental sciences. Specialisation Modules support the development of an individual academic profile and typically correspond with the topic of the Master's thesis.
-
-Detailed descriptions of each module are provided in the second part of this module handbook.
+Modules in IMES are classified into Core Modules, Advanced Modules and Specialisation Modules (@sec-concepts). A detailed descriptions of each module are provided in the second part of this module handbook.
 
 
 

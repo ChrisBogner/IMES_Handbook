@@ -1,10 +1,8 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+This is a module handbook for the Master Program International Master of Environmental Sciences at the University of Cologne. The document is work in progress.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-# Contact {.unnamered}
+# Contact 
 
 **Chair of the Examination Committee**
 
@@ -19,21 +17,26 @@ Dr. Hannes Laermanns
 
 imes-info(at)uni-koeln.de
 
-# Legend {.unnumbered}
+# Some usefull concepts and abbreviations {#sec-concepts}
 
-| **Abbreviation** | **Explanation** |
-|------------------|------------------|
-| **AM** | Aufbaumodul / Advanced Modules |
-| **BM** | Basismodul / Basic Modules |
-| **K** | Kontaktzeit (= Präsenzzeit in LV) / Contact Time (Presence required in class) |
-| **LP** | Leistungspunkt / Credit Points |
-| **LV** | Lehrveranstaltung / Class |
-| **P** | Pflichtveranstaltung / Mandatory Class |
-| **W** | Wahlveranstaltung / Elective Class |
-| **S** | Semester |
-| **SoSe** | Sommersemester / Summer Semester |
-| **SWS** | Semesterwochenstunde / Semester Weekly Hours |
-| **Ü** | Übung / Practical Session |
-| **VN** | Selbststudium / Self-Study |
-| **WiSe** | Wintersemester / Winter Semester |
-: {.striped .hover .bordered .sm}
+**ECTS**: The European Credit Transfer and Accumulation System (ECTS) is a standardized system used across the European Higher Education Area (EHEA) to facilitate the recognition of academic achievements and support student mobility between institutions. ECTS credits represent the workload and defined learning outcomes of a given course or program. One ECTS credit at UoC corresponds to approximately 30 hours of work, including lectures, self study, and assessments. A full academic year typically equals 60 ECTS credits, approximately 30 per semester, making the system a key tool for ensuring the transparency, comparability, and quality assurance of higher education qualifications in Europe.
+
+**Module**: a thematic teaching unit, usually consisting of several courses.
+
+**Contact time**: time the student spends in class.
+
+**Self-study time**: time the students dedicate to any work done at home like assignments, studying to rework concepts learnt in class or prepare an exam.
+
+**Non-graded assessment (German Studienleistung)**: mandatory formative assessment at UoC, which must be completed satisfactorily for progression but does not contribute to the final grade of a course. Such coursework might involve participation, practical work, or assignments designed to demonstrate understanding or competence without being graded on a scale that affects overall degree outcomes.
+
+**Core Modules (CM)**: These modules provide foundational knowledge in essential areas of environmental sciences. They introduce key concepts, methodologies, and frameworks and are typically completed early in the program.
+  
+**Advanced Modules (AM)**: Building on the Core Modules, these modules allow students to deepen their knowledge, refine their skills, and engage with more complex environmental issues. They encourage independent application of methods and further development of analytical and research competencies.
+
+**Specialisation Modules (SM)**: These modules enable students to focus on a specific area of interest within environmental sciences. Specialisation Modules support the development of an individual academic profile and typically correspond with the topic of the Master's thesis.
+
+**SoSe**: Summer semester or summer term from 1 April to 30 September.
+
+**WiSe**: Winter semester or winter term from 1 October to 31 March.
+
+
