@@ -1,0 +1,92 @@
+# Geosphere and Hydrosphere {.unnumbered}
+
+| | |
+|----|---|
+| **Type of Module** | Advanced Module |
+| **Module Code** | IMES-AM-GeoHyd |
+| **Workload** | 180 h |
+| **ECTS** | 6 |
+| **Term** | Semester 1 |
+| **Offered Every** | WiSe |
+| **Start** | WiSe |
+| **Duration** | 1 semester |
+: {.striped .hover .bordered .sm}
+
+| Course Types | Contact Time | Self-study Time | 
+|--------------|--------------|-----------------|
+| a) Lecture: Introduction to Environmental Geophysics | 2 SWS / 30 h | 60 h |
+| b) Lecture: Physical Hydrology | 2 SWS / 30 h | 60 h |
+: {.info .bordered}
+
+## Module Description
+
+This module consists of two lectures: *Introduction to Environmental Geophysics* and *Physical Hydrology*. It provides a comprehensive introduction to the principles and techniques of geophysics and hydrology, equipping students with the foundational knowledge to address environmental and water resource challenges. Students will explore geophysical methods such as electromagnetic and seismic techniques, emphasizing techniques essential for investigating the subsurface in environmental science. Additionally, the module covers essential hydrological concepts, including water fluxes, storage processes, and key methods for water resource management, enabling students to evaluate sustainable water use strategies effectively. Together, these two lectures introduce students to the study of the critical zone, the thin skin of the Earth's surface.
+
+## Module Objectives and Outcomes
+
+### a) Lecture: Introduction to Environmental Geophysics
+
+The main objective of this lecture is to introduce students to fundamental concepts, methodologies, and basic interpretative techniques of geophysical methods applied in environmental studies. Building on this foundation, students will achieve the following learning outcomes:
+
+- Identify and describe basic geophysical methods commonly used in environmental science.
+- Understand fundamental principles and physical concepts underlying geophysical exploration techniques, particularly electromagnetic and seismic methods.
+- Explain how geophysical data can be used to analyze environmental conditions and assess basic environmental risks.
+- Recognize the strengths and limitations of various geophysical techniques in environmental applications.
+
+### b) Lecture: Physical Hydrology
+
+The primary objective of this lecture is to introduce students to the foundational concepts of hydrology and basic methods used in water resource management, preparing them to assess the potential and limitations of different water uses. Upon completing this module, students will be able to:
+
+- Explain the fundamental concepts of hydrology, including water fluxes and storage processes.
+- Identify key hydrological methods used in water resource management.
+- Assess the potential and limitations of various water uses, considering the governing processes of water fluxes and storage.
+- Discuss basic hydrological processes and their implications for water resource management.
+
+## Module Content
+
+### a) Lecture: Introduction to Environmental Geophysics
+
+- Overview of primary geophysical exploration methods and their significance in environmental studies.
+- Fundamental physical principles underlying electromagnetic and seismic techniques.
+- Methodologies and interpretative procedures used in geophysical data analysis.
+- Applications of geophysical methods for environmental risk assessment and subsurface investigation.
+
+### b) Lecture: Physical Hydrology
+
+- Components and processes of the water cycle across various spatial scales.
+- Water fluxes and storage terms on land surfaces and their measurement.
+- Environmental factors influencing water availability and distribution.
+- Fundamental methods and concepts to describe, measure and model water fluxes.
+- Basic principles and challenges of water resource management in the context of environmental sustainability.
+
+## Teaching Methods
+
+Lecture
+
+## Prerequisites
+
+None
+
+## Type of Examination
+
+Written examination of 90–120 minutes. The subject of examination is the content of the lectures (a and b) of this module description.
+
+## Credits Awarded
+
+Credit points are awarded upon successful completion of the module's examination, with a minimum passing grade of 4.0 (German grading system).
+
+## Compatibility with Other Curricula
+
+JIMES (JIMES-AM-GeoHyd)
+
+## Proportion of Final Grade
+
+5%
+
+## Module Coordinator
+
+Prof. Dr. Karl Schneider (Institute of Geography)
+
+## Further Information
+
+There are no restrictions on the number of places available for IMES students.

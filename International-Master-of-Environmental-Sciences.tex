@@ -1,0 +1,2670 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  letterpaper,
+  10pt,
+  openany]{book}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+% Begin ims-style.tex ----------------------------------------------------------
+
+% Output formats ---------------------------------------------------------------
+
+% PDF
+
+\usepackage[bookmarksnumbered, pdfborder = {0 0 0}, urlcolor = oiGB, colorlinks = true, linkcolor = oiGB, citecolor = oiGB, backref = true]{hyperref}
+
+% Packages ---------------------------------------------------------------------
+
+\usepackage[framemethod=tikz]{mdframed} 
+\usepackage[normalem]{ulem}
+%\usepackage{subfigure}
+\usepackage[explicit]{titlesec}
+\usepackage{
+  amsmath, calc,
+  %footnote, 
+  fancyhdr,
+  geometry, graphicx,
+  makeidx,
+  booktabs,
+  longtable,
+  array,
+  multirow,
+  wrapfig,
+  float,
+  colortbl,
+  pdflscape,
+  tabu,
+  threeparttable,
+  threeparttablex,
+  makecell,
+  xcolor,
+  caption,
+  subcaption
+}
+%\newcommand{\UnderscoreCommands}{%
+%  \do\citep \do\citeP
+%}
+\usepackage[bottom]{footmisc}
+\usepackage[strings]{underscore} % must be last
+
+% Colors  on screen ------------------------------------------------------------
+
+%\definecolor{oiB}{HTML}{569BBD}            % COL["blue","full"]
+%\definecolor{oiLB}{HTML}{e3eef4}           % lighter version of oiB
+%
+%\definecolor{oiY}{HTML}{f4dc00}            % COL["yellow","full"]
+%\definecolor{oiLY}{HTML}{fffacd}           % lighter version of oiY
+%
+%\definecolor{oiR}{HTML}{E97583}            % COL["red","full"]
+%\definecolor{oiLR}{HTML}{F3CED4}           % lighter version of oiR
+%
+%\definecolor{oiGray}{HTML}{808080}         % COL["gray","full"]
+%\definecolor{oiLGray}{HTML}{f8f8f8}        % lighter version of oiGray
+%
+%\definecolor{oiGB}{rgb}{0.5,0.5,.5}        % from OS4 - for footnotes
+
+% Colors - for print -----------------------------------------------------------
+
+\definecolor{oiB}{HTML}{000000}            % COL["blue","full"]
+\definecolor{oiLB}{HTML}{e0e0e0}           % lighter version of oiB
+
+\definecolor{oiY}{HTML}{000000}            % COL["yellow","full"]
+\definecolor{oiLY}{HTML}{e0e0e0}           % lighter version of oiY
+
+\definecolor{oiR}{HTML}{000000}            % COL["red","full"]
+\definecolor{oiLR}{HTML}{e0e0e0}           % lighter version of oiR
+
+\definecolor{oiGray}{HTML}{808080}         % COL["gray","full"]
+\definecolor{oiLGray}{HTML}{f8f8f8}        % lighter version of oiR
+
+\definecolor{oiGB}{rgb}{0.5,0.5,.5}        % from OS4 - for footnotes
+
+% Headers 
+
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footer fields
+\fancyhead[RO,RE]{\thepage} %RO=right odd, RE=right even
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\footruleskip}{5pt}}
+\raggedbottom
+
+% Make index
+
+\makeindex
+
+% add space between table rows 
+
+\setlength{\defaultaddspace}{10pt}
+
+% footnotes - try to stop them from running accross two pages
+
+\interfootnotelinepenalty=10000
+
+%-------------------------------------------------------------------------------
+% From OS4 style.tex
+%
+% 1 Page Parameters
+% 1.1
+\setlength\paperheight{11in}
+\setlength\paperwidth{8.5in}
+\newcommand{\officialtextheight}{9.7in}
+\newcommand{\officialtextwidth}{6.1in}
+%\setlength\paperheight{10in}
+%\setlength\paperwidth{8in}
+%\newcommand{\officialtextheight}{8.7in}
+%\newcommand{\officialtextwidth}{6in}
+\newcommand{\officialvoffset}{-0.6in}
+\setlength\textheight{\officialtextheight}
+\setlength\textwidth{\officialtextwidth}
+\setlength\voffset{\officialvoffset}
+\renewcommand{\baselinestretch}{1.0}
+
+% 1.2 Margin Size
+\setlength\hoffset{0.25in}
+% 1.2.1 Even
+\setlength\oddsidemargin{0in}
+\setlength\evensidemargin{0in}
+% 1.2.2 Slightly offset
+\setlength\oddsidemargin{0.08in}
+\setlength\evensidemargin{-0.08in}
+% 1.2.3 Significant offset
+% WARNING: The chapter pages will show partially hidden page numbers.
+%\setlength\oddsidemargin{0.2in}
+%\setlength\evensidemargin{-0.2in}
+% 1.3 PDF Parameters
+%\setlength\paperheight{11in}
+%\setlength\textheight{8.25in}
+%\setlength\paperwidth{8.5in}
+%\setlength\textwidth{5.45in}
+%\setlength\voffset{-10mm}
+%\setlength\oddsidemargin{0.75in}
+%\setlength\evensidemargin{0.75in}
+% 1.4 Margin Spacing
+\setlength{\marginparsep}{5mm}
+\setlength{\marginparwidth}{20mm}
+
+% 1.5 Page Header
+
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\fancyfoot[c]{}
+\fancyheadoffset[RO,LE]{0.9in}
+
+% 6.6 Hyperreferences
+\newcommand{\oiRedirect}[2]{\href{http://www.openintro.org/redirect.php?go=#1&referrer=\referrer}{#2}}
+
+% Fonts
+
+\usepackage[utf8]{inputenc}
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\Helvetica}{\sffamily}
+
+% Chapter and section titles
+
+\titleformat{\chapter}[display]
+{\color{oiB}\normalfont\Huge\bfseries\Helvetica}
+{\color{oiB}Chapter \thechapter}{1em}{#1}
+
+\titleformat{\section}
+{\color{oiB}\normalfont\Large\bfseries\Helvetica}
+{\color{oiB}\thesection}{1em}{#1}
+
+\titleformat{\subsection}
+{\color{oiB}\normalfont\large\bfseries\Helvetica}
+{\color{oiB}\thesubsection}{1em}{#1}
+
+\titleformat{\subsubsection}
+{\color{oiB}\normalfont\normalsize\bfseries\Helvetica}
+{\color{oiB}\thesubsubsection}{1em}{#1}
+
+% IMS specific style -----------------------------------------------------------
+
+% Helper environments
+
+% mdframedwithfootChapterintro: for chapterintro box
+% currently none of them increment footnote counter,
+% this seems to be the right approach?
+
+\newenvironment{mdframedwithfootChapterintro}
+{
+    \savenotes
+    \begin{mdframed}[%
+    topline=true, bottomline=true, linecolor=oiB, linewidth=1.4pt,
+    rightline=false, leftline=false,
+    backgroundcolor=oiLB]
+    %\stepcounter{footnote} % don't increment footnote counter
+    \renewcommand{\thempfootnote}{\arabic{footnote}}
+    }
+{
+    \end{mdframed}
+    \spewnotes
+}
+
+% mdframedwithfootGPWE: for guidedpractice and workedexample
+
+\newenvironment{mdframedwithfootGPWE}
+{
+    \savenotes
+    \begin{mdframed}[%
+    topline=true, bottomline=true, linecolor=oiB, linewidth=0.5pt,
+    rightline=false, leftline=false,
+    backgroundcolor=oiLGray]
+    %\stepcounter{footnote}
+    \renewcommand{\thempfootnote}{\arabic{footnote}}
+    }
+{
+    \end{mdframed}
+    \spewnotes
+}
+
+% mdframedwithfootImportant: for important
+
+\newenvironment{mdframedwithfootImportant}
+{
+    \savenotes
+    \begin{mdframed}[%
+    topline=true, bottomline=true, linecolor=oiR, linewidth=0.5pt,
+    rightline=false, leftline=false,
+    backgroundcolor=oiLGray]
+    %\stepcounter{footnote}
+    \renewcommand{\thempfootnote}{\arabic{footnote}}
+    }
+{
+    \end{mdframed}
+    \spewnotes
+}
+
+% mdframedwithfootTip: for tip, data, and pronunciation
+
+\newenvironment{mdframedwithfootTipDataPro}
+{
+    \savenotes
+    \begin{mdframed}[%
+    topline=true, bottomline=true, linecolor=oiGray, linewidth=0.5pt,
+    rightline=false, leftline=false,
+    backgroundcolor=oiLGray]
+    %\stepcounter{footnote}
+    \renewcommand{\thempfootnote}{\arabic{footnote}}
+    }
+{
+    \end{mdframed}
+    \spewnotes
+}
+
+% mdframedwithfootTutLab: for tutorials and labs
+
+\newenvironment{mdframedwithfootTutLab}
+{
+    \savenotes
+    \begin{mdframed}[%
+    topline=false, bottomline=false,
+    rightline=false, leftline=false]
+    \stepcounter{footnote}
+    \renewcommand{\thempfootnote}{\arabic{footnote}}
+    }
+{
+    \end{mdframed}
+    \spewnotes
+}
+
+
+% Custom environments/boxes -------------------------------------------------------
+% based on imsstyle.css
+
+% uses regular mdframedwithfoot variants, might have footnotes
+
+% chapterintro
+
+\newenvironment{chapterintro}{
+\vspace{4mm}
+\begin{mdframedwithfootChapterintro}
+\begin{minipage}[t]{0.10\textwidth}
+{$\:$ \\ \setkeys{Gin}{width=2.5em,keepaspectratio}\includegraphics{images/_icons/chapterintro.png}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.90\textwidth}
+\setlength{\parskip}{1em}
+\large
+}{\end{minipage}
+\end{mdframedwithfootChapterintro}
+\vspace{4mm}
+}
+
+% guidedpractice
+
+\newenvironment{guidedpractice}{
+\vspace{4mm}
+\begin{mdframedwithfootGPWE}
+\begin{minipage}[t]{0.10\textwidth}
+{$\:$ \\ \setkeys{Gin}{width=2.5em,keepaspectratio}\includegraphics{images/_icons/guided-practice.png}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.90\textwidth}
+%\vspace{-2mm}
+\setlength{\parskip}{1em}
+\noindent\textbf{\color{oiB}\small\Helvetica{\MakeUppercase{Guided Practice}}} $\:$ \\ 
+}{\end{minipage}
+\end{mdframedwithfootGPWE}
+\vspace{4mm}
+}
+
+% workedexample
+
+\newenvironment{workedexample}{
+    \let\oldrule\rule
+    \renewcommand{\rule}[2]{\vspace{-2mm}\oldrule{##1}{##2}\vspace{-2mm}}
+\vspace{4mm}
+\begin{mdframedwithfootGPWE}
+\begin{minipage}[t]{0.10\textwidth}
+{$\:$ \\ \setkeys{Gin}{width=2.5em,keepaspectratio}\includegraphics{images/_icons/worked-example.png}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.90\textwidth}
+%\vspace{-2mm}
+\setlength{\parskip}{1em}
+\noindent\textbf{\color{oiB}\small\Helvetica{\MakeUppercase{Example}}} $\:$ \\
+\small}{\end{minipage}
+\end{mdframedwithfootGPWE}
+\vspace{4mm}
+}
+
+% exercises
+
+\newenvironment{exercises}{
+    \let\oldtextbf\textbf
+    \renewcommand{\textbf}[1]{{\textcolor{oiB}{\oldtextbf{##1}}}}
+    \renewcommand{\labelenumi}{\thechapter.\arabic{enumi}.}
+}
+
+% important
+
+\newenvironment{important}{
+    \let\oldtextbf\textbf
+    \renewcommand{\textbf}[1]{{\textcolor{oiR}{\oldtextbf{##1}}}}
+\vspace{4mm}
+\begin{mdframedwithfootImportant}
+\begin{minipage}[t]{0.10\textwidth}
+{$\:$ \\ \setkeys{Gin}{width=2.5em,keepaspectratio}\includegraphics{images/_icons/important.png}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.90\textwidth}
+%\vspace{-2mm}
+\setlength{\parskip}{1em}
+}{\end{minipage}
+\end{mdframedwithfootImportant}
+\vspace{4mm}
+}
+
+% tip
+
+\newenvironment{tip}{
+\vspace{4mm}
+\begin{mdframedwithfootTipDataPro}
+\begin{minipage}[t]{0.10\textwidth}
+{$\:$ \\ \setkeys{Gin}{width=2em,keepaspectratio}\includegraphics{images/_icons/tip.png}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.90\textwidth}
+%\vspace{-2mm}
+\setlength{\parskip}{1em}
+}{\end{minipage}
+\end{mdframedwithfootTipDataPro}
+\vspace{2mm}
+}
+
+% data
+
+\newenvironment{data}{
+\vspace{4mm}
+\begin{mdframedwithfootTipDataPro}
+\begin{minipage}{0.10\textwidth}
+{\setkeys{Gin}{width=2em,keepaspectratio}\includegraphics{images/_icons/data.png}}
+\end{minipage}
+\hfill
+\begin{minipage}{0.90\textwidth}
+%\vspace{-2mm}
+\setlength{\parskip}{1em}
+}{\end{minipage}
+%\vspace{-2mm}
+\end{mdframedwithfootTipDataPro}
+\vspace{2mm}
+}
+
+% pronunciation
+
+\newenvironment{pronunciation}{
+\vspace{2mm}
+\begin{mdframedwithfootTipDataPro}
+\begin{minipage}{0.10\textwidth}
+{$\:$ \\ \setkeys{Gin}{width=2em,keepaspectratio}\includegraphics{images/_icons/pronunciation.png}}
+\end{minipage}
+\hfill
+\begin{minipage}{0.90\textwidth}
+%\vspace{-2mm}
+\setlength{\parskip}{1em}
+}{\end{minipage}
+\end{mdframedwithfootTipDataPro}
+\vspace{2mm}
+}
+
+
+% uses regular mdframed, won't have footnotes
+
+% singletutorial
+
+\newenvironment{singletutorial}{
+%\vspace{2mm}
+\begin{mdframed}[topline=false, bottomline=false, rightline=false, leftline=false]
+\begin{minipage}{0.05\textwidth}
+$\:$ \\
+\end{minipage}
+\begin{minipage}{0.10\textwidth}
+{$\:$ \\ \setkeys{Gin}{width=2em,keepaspectratio}\includegraphics{images/_icons/singletutorial.png}}
+\end{minipage}
+\hfill
+\begin{minipage}{0.85\textwidth}
+%\vspace{-2mm}
+\setlength{\parskip}{1em}
+}{\end{minipage}
+\end{mdframed}
+%\vspace{1mm}
+}
+
+% alltutorials
+
+\newenvironment{alltutorials}{
+\vspace{2mm}
+\begin{mdframed}[topline=false, bottomline=false, rightline=false, leftline=false]
+\begin{minipage}{0.10\textwidth}
+{$\:$ \\ \setkeys{Gin}{width=2em,keepaspectratio}\includegraphics{images/_icons/alltutorials.png}}
+\end{minipage}
+\hfill
+\begin{minipage}{0.90\textwidth}
+%\vspace{-2mm}
+\setlength{\parskip}{1em}
+}{\end{minipage}
+\end{mdframed}
+%\vspace{2mm}
+}
+
+% singlelab
+
+\newenvironment{singlelab}{
+\vspace{2mm}
+\begin{mdframed}[topline=false, bottomline=false, rightline=false, leftline=false]
+\begin{minipage}{0.10\textwidth}
+{$\:$ \\ \setkeys{Gin}{width=2em,keepaspectratio}\includegraphics{images/_icons/singlelab.png}}
+\end{minipage}
+\hfill
+\begin{minipage}{0.90\textwidth}
+%\vspace{-2mm}
+\setlength{\parskip}{1em}
+}{\end{minipage}
+\end{mdframed}
+\vspace{2mm}
+}
+
+% todo
+
+\newenvironment{todo}{
+\vspace{4mm}
+\begin{mdframed}[%
+    topline=true, bottomline=true, linecolor=oiY, linewidth=0.5pt,
+    rightline=false, leftline=false,
+    backgroundcolor=oiLY]
+\begin{minipage}[t]{0.10\textwidth}
+{$\:$ \\ \setkeys{Gin}{width=2em,keepaspectratio}\includegraphics{images/_icons/to-do.png}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.90\textwidth}
+\vspace{-2mm}
+\setlength{\parskip}{1em}
+\noindent\textbf{\color{oiGray}\small\Helvetica{{\MakeUppercase{TO DO}}}} $\:$ \\ \\
+}{\end{minipage}
+\end{mdframed}
+\vspace{4mm}
+}
+
+% underconstruction
+
+\newenvironment{underconstruction}{
+\vspace{4mm}
+\begin{mdframed}[%
+    topline=true, bottomline=true, linecolor=oiR, linewidth=0.5pt,
+    rightline=false, leftline=false,
+    backgroundcolor=oiLR]
+\begin{minipage}[t]{0.10\textwidth}
+{$\:$ \\ \setkeys{Gin}{width=2em,keepaspectratio}\includegraphics{images/_icons/under-construction.png}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.90\textwidth}
+\vspace{-2mm}
+\setlength{\parskip}{1em}
+\noindent\textbf{\color{oiR}\small\Helvetica{{\MakeUppercase{Under construction}}}} $\:$ \\ \\
+}{\end{minipage}
+\end{mdframed}
+\vspace{4mm}
+}
+
+% Cover image ------------------------------------------------------------------
+
+\newenvironment{authorinfo}[1]
+  {
+  \begin{minipage}[c]{0.30\textwidth}
+  {\setkeys{Gin}{width=12em,keepaspectratio}\includegraphics{#1}}
+  \end{minipage} 
+  \hfill
+  \begin{minipage}[c]{0.60\textwidth}
+  }
+  {
+  \end{minipage}
+  }
+
+% Part formatting --------------------------------------------------------------
+
+\titleformat{\part}[display]
+{\color{oiR}\titlerule[5pt]\vspace{3pt}\color{oiLR}\titlerule[2pt]\vspace{3pt}\color{oiB}\normalfont\Huge\bfseries\scshape\Helvetica}
+{\color{oiB}PART \thepart}{2em}{#1 \\ \noindent \vspace{3pt}\color{oiR}\titlerule[5pt]}
+
+% https://tex.stackexchange.com/questions/506428/background-color-for-section-title
+%\titleformat{\part}{\LARGE}{\rlap{\color{oiLB}\rule[-0.4cm]{\linewidth}{5cm}}\color{oiB}\normalfont\Huge\bfseries\scshape\Helvetica PART \thepart}{1em}{\color{oiB}\normalfont\Huge\bfseries\scshape\Helvetica #1}
+
+
+% Bibliography: Chapter should be called References ----------------------------
+
+%\usepackage{natbib}
+%\usepackage{bibentry}
+%\makeatletter\let\saved@bibitem\@bibitem\makeatother
+%\usepackage{hyperref}
+%\makeatletter\let\@bibitem\saved@bibitem\makeatother
+
+% Index
+
+\usepackage{makeidx}
+\makeindex
+
+% Smaller captions with bold labels
+
+\usepackage[font=small,labelfont=bf]{caption}
+
+% Reduce space between chapters in TOC
+
+\usepackage{tocbasic}
+\DeclareTOCStyleEntry[
+  beforeskip=.5em plus 1pt,% default is 1em plus 1pt
+  pagenumberformat=\textbf
+]{tocline}{chapter}
+
+% End ims-style.tex ------------------------------------------------------------
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={International Master of Environmental Sciences},
+  pdfauthor={IMES Examination Committee},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{International Master of Environmental Sciences}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Module Handbook}
+\author{IMES Examination Committee}
+\date{2025-03-31}
+
+\begin{document}
+\frontmatter
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\setcounter{tocdepth}{0}
+\tableofcontents
+}
+
+\mainmatter
+\bookmarksetup{startatroot}
+
+\chapter*{Preface}\label{preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+\markboth{Preface}{Preface}
+
+This is a Quarto book.
+
+To learn more about Quarto books visit
+\url{https://quarto.org/docs/books}.
+
+\bookmarksetup{startatroot}
+
+\chapter*{Contact}\label{contact}
+\addcontentsline{toc}{chapter}{Contact}
+
+\markboth{Contact}{Contact}
+
+\textbf{Chair, Examination Committee}
+
+Prof.~Dr.~Christina Bogner
+
+Ecosystem Research
+
+\textbf{Academic Manager}
+
+Dr.~Hannes Laermanns
+
+imes-info(at)uni-koeln.de
+
+\bookmarksetup{startatroot}
+
+\chapter*{Legend}\label{legend}
+\addcontentsline{toc}{chapter}{Legend}
+
+\markboth{Legend}{Legend}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Abbreviation}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Explanation}
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{AM} & Aufbaumodul / Advanced Modules \\
+\textbf{BM} & Basismodul / Basic Modules \\
+\textbf{K} & Kontaktzeit (= Präsenzzeit in LV) / Contact Time (Presence
+required in class) \\
+\textbf{LP} & Leistungspunkt / Credit Points \\
+\textbf{LV} & Lehrveranstaltung / Class \\
+\textbf{P} & Pflichtveranstaltung / Mandatory Class \\
+\textbf{W} & Wahlveranstaltung / Elective Class \\
+\textbf{S} & Semester \\
+\textbf{SoSe} & Sommersemester / Summer Semester \\
+\textbf{SWS} & Semesterwochenstunde / Semester Weekly Hours \\
+\textbf{Ü} & Übung / Practical Session \\
+\textbf{VN} & Selbststudium / Self-Study \\
+\textbf{WiSe} & Wintersemester / Winter Semester \\
+\end{longtable}
+
+\part{DESCRIPTION OF THE PROGRAM}
+
+\chapter*{The International Master of Environmental Sciences
+(IMES)}\label{the-international-master-of-environmental-sciences-imes}
+\addcontentsline{toc}{chapter}{The International Master of Environmental
+Sciences (IMES)}
+
+\markboth{The International Master of Environmental Sciences (IMES)}{The
+International Master of Environmental Sciences (IMES)}
+
+\section*{Purpose}\label{purpose}
+\addcontentsline{toc}{section}{Purpose}
+
+\markright{Purpose}
+
+Environmental challenges today are multifaceted, systemic, and global in
+scope. They cannot be addressed by isolated disciplines, isolated
+geographies or short-term solutions. The International Master of
+Environmental Sciences (IMES) program responds to this complexity by
+fostering a learning environment rooted in interdisciplinarity,
+internationality, scientific inquiry, and anticipatory thinking.
+
+Inspired by the Club of Rome's vision of
+\href{https://www.clubofrome.org/blog-post/bologna-qa-legacy-of-no-limits-to-learning/}{No
+Limits to Learning}, the program views education not merely as knowledge
+transmission, but as a transformative and continuous process. Students
+are encouraged to integrate perspectives from the natural sciences,
+social sciences, humanities, law, and economics to better understand and
+engage with human--environment systems. Through this process, they
+develop the capacity to learn across boundaries --- disciplinary,
+cultural, and institutional --- and to respond with creativity and
+responsibility to emerging environmental challenges.
+
+Aligned with the values articulated in
+\href{https://thefifthelement.earth/}{The Fifth Element}, the IMES
+program promotes a systems-based approach to education. It seeks to
+cultivate not only analytical and methodological competence, but also a
+sense of responsibility, relational thinking, and openness to
+regeneration --- both ecological and societal. The program cultivates
+environmental stewardship as a dynamic, reflective practice rooted in
+scientific insight, ethical awareness, and cross-cultural dialogue. In
+this way, IMES prepares students to co-create knowledge and solutions in
+a world that demands profound and continuous learning.
+
+\section*{Quick facts}\label{quick-facts}
+\addcontentsline{toc}{section}{Quick facts}
+
+\markright{Quick facts}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Degree} & Master of Science (M.Sc.) \\
+\textbf{Duration} & 4 semesters / 2 years \\
+\textbf{Credits} & 120 ECTS \\
+\textbf{Language} & English \\
+\textbf{Application Deadline} & May 15 (annually) \\
+\end{longtable}
+
+\section*{Study Objectives}\label{study-objectives}
+\addcontentsline{toc}{section}{Study Objectives}
+
+\markright{Study Objectives}
+
+The IMES program (Master of Science) prepares students to engage in
+independent, research-based inquiry into environmental challenges at the
+interface of natural and human systems. Students learn to critically
+evaluate scientific findings, apply appropriate methodologies, and
+analyze complex environmental problems from interdisciplinary and
+international perspectives.
+
+The program fosters the ability to integrate knowledge across
+environmental sciences, including ecological, legal, economic, and
+societal dimensions. Students strengthen their scientific writing,
+presentation, and project management skills while developing the social
+competencies required to work successfully in transdisciplinary
+contexts. Through a combination of theoretical depth and applied
+experience, the IMES program equips graduates for diverse career paths
+in environmental science and policy, and for academic advancement at the
+doctoral level.
+
+\section*{Content}\label{content}
+\addcontentsline{toc}{section}{Content}
+
+\markright{Content}
+
+IMES is a four-semester, interdisciplinary degree program that combines
+natural and social sciences to investigate pressing environmental
+challenges. Core modules introduce key scientific, legal, economic, and
+social dimensions of human--environment interactions. A set of
+integrative modules connects these domains, supporting a systems-level
+understanding of environmental issues.
+
+The program fosters an international learning environment through a
+diverse cohort of students from EU and non-EU countries, and through the
+participation of guest lecturers from partner institutions worldwide.
+Students shape their own academic profiles by selecting elective modules
+that match their interests and career goals, culminating in a Master's
+thesis within their chosen focus area.
+
+A mandatory internship provides practical experience and insight into
+professional fields related to environmental sciences. Throughout the
+program, students develop research and methodological skills, scientific
+communication abilities, and the flexibility to engage with new and
+complex problems. The program structure allows for a study abroad
+semester, typically in the third semester, further enriching the
+international and intercultural dimension of the degree.
+
+\section*{Admission Requirements}\label{admission-requirements}
+\addcontentsline{toc}{section}{Admission Requirements}
+
+\markright{Admission Requirements}
+
+The admissions requirements are described on the
+\href{https://imes.uni-koeln.de/prospective-students/apply-for-the-imes-masters-program}{IMES
+website} and can be found in the Admission Regulations.
+
+\chapter*{Qualification Profile}\label{qualification-profile}
+\addcontentsline{toc}{chapter}{Qualification Profile}
+
+\markboth{Qualification Profile}{Qualification Profile}
+
+\section*{The German Qualifications Framework for Higher Education
+(HQR)}\label{the-german-qualifications-framework-for-higher-education-hqr}
+\addcontentsline{toc}{section}{The German Qualifications Framework for
+Higher Education (HQR)}
+
+\markright{The German Qualifications Framework for Higher Education
+(HQR)}
+
+The \emph{German Qualifications Framework for Higher Education (HQR)}
+describes the key competencies that students are expected to develop
+during their studies at German universities. It serves as a national
+reference for ensuring high academic standards, transparent learning
+outcomes, and comparability across degree programs---both nationally and
+internationally.
+
+\subsection*{Why does the HQR matter?}\label{why-does-the-hqr-matter}
+\addcontentsline{toc}{subsection}{Why does the HQR matter?}
+
+The HQR plays an important role in:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Designing degree programs}: Universities use it to define what
+  students should know and be able to do at different academic levels
+  (Bachelor, Master, Doctorate).
+\item
+  \textbf{Developing modules and assessments}: It helps structure
+  learning outcomes, teaching methods, and examinations.
+\item
+  \textbf{Ensuring international comparability}: The HQR aligns with the
+  European Qualifications Framework (EQF) and the Qualifications
+  Framework for the European Higher Education Area (QF-EHEA).
+\item
+  \textbf{Supporting mobility and recognition}: It facilitates credit
+  transfer, student exchange, and mutual recognition of degrees across
+  countries.
+\end{itemize}
+
+\subsection*{What are the core competence
+dimensions?}\label{what-are-the-core-competence-dimensions}
+\addcontentsline{toc}{subsection}{What are the core competence
+dimensions?}
+
+The HQR defines four broad competence areas that every Master's graduate
+should develop:
+
+\begin{itemize}
+\item
+  \textbf{Knowledge and Understanding}\\
+  Deep and critical understanding of theories, methods, and debates in
+  the field of study.
+\item
+  \textbf{Use, Application, and Generation of Knowledge}\\
+  Ability to apply knowledge to new problems and to independently
+  conduct research.
+\item
+  \textbf{Communication and Cooperation}\\
+  Skills to communicate effectively, work in diverse teams, and engage
+  in academic or professional discourse.
+\item
+  \textbf{Academic Self-Understanding and Professionalism}\\
+  Capacity for ethical reflection, independent judgement, and
+  responsible professional behavior.
+\end{itemize}
+
+\subsection*{What does the HQR mean for the IMES
+program?}\label{what-does-the-hqr-mean-for-the-imes-program}
+\addcontentsline{toc}{subsection}{What does the HQR mean for the IMES
+program?}
+
+The integration of the German Qualifications Framework for Higher
+Education (HQR) into the IMES program contributes to the academic
+structure, international comparability, and competence orientation of
+the degree. Specifically, it ensures that:
+
+\begin{itemize}
+\tightlist
+\item
+  Program outcomes are competence-driven: Each module fosters academic
+  and professional skills across the four HQR dimensions.
+\item
+  Learning objectives are transparent and structured: Students gain
+  clarity about what they are expected to know and be able to do at each
+  stage of the program.
+\item
+  The degree is internationally comparable: Alignment with the HQR and
+  European frameworks supports recognition of qualifications beyond
+  Germany.
+\item
+  Graduates are well prepared: The program equips students for both
+  research careers and applied roles in environmental science, policy,
+  and practice.
+\item
+  Quality assurance is ensured: The framework supports consistent
+  standards in curriculum development, teaching, and assessment.
+\end{itemize}
+
+\section*{Qualification Profile of
+IMES}\label{qualification-profile-of-imes}
+\addcontentsline{toc}{section}{Qualification Profile of IMES}
+
+\markright{Qualification Profile of IMES}
+
+This qualification profile outlines the core competencies expected from
+graduates of the IMES program. It supports curriculum development,
+teaching strategies, assessment, and quality assurance. The profile is
+based on the four competence dimensions of the German Qualifications
+Framework for Higher Education (HQR) and adapted to the
+interdisciplinary and international nature of IMES.
+
+\subsection*{1. Knowledge and
+Understanding}\label{knowledge-and-understanding}
+\addcontentsline{toc}{subsection}{1. Knowledge and Understanding}
+
+Graduates of the IMES program possess:
+
+\begin{itemize}
+\item
+  Broad interdisciplinary knowledge of environmental systems,
+  interactions between natural and human systems, and global
+  environmental challenges.
+\item
+  Specialized understanding of theories, methods, and key debates in at
+  least two relevant disciplinary fields (e.g., environmental economics,
+  environmental law, geosciences, physical or human geography, ecology,
+  or political science).
+\item
+  A critical awareness of the limits of knowledge and current research
+  trends in environmental sciences, including their societal relevance.
+\end{itemize}
+
+\subsection*{2. Use, Application, and Generation of
+Knowledge}\label{use-application-and-generation-of-knowledge}
+\addcontentsline{toc}{subsection}{2. Use, Application, and Generation of
+Knowledge}
+
+Graduates are able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Apply advanced methods of data collection, analysis, and modeling to
+  environmental problems.
+\item
+  Integrate and synthesize scientific, legal, economic, and social
+  perspectives in problem-solving.
+\item
+  Design and conduct independent research projects, including framing of
+  research questions, selection of appropriate methods, and
+  interpretation of results.
+\item
+  Develop innovative and context-sensitive solutions to complex,
+  real-world environmental challenges.
+\end{itemize}
+
+\subsection*{3. Communication and
+Cooperation}\label{communication-and-cooperation}
+\addcontentsline{toc}{subsection}{3. Communication and Cooperation}
+
+Graduates are able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Effectively communicate scientific and policy-relevant insights to
+  diverse audiences, including stakeholders from science, policy, and
+  society.
+\item
+  Work in intercultural, interdisciplinary teams and contribute to
+  collaborative decision-making processes.
+\item
+  Navigate conflicts of interest and differing worldviews with empathy,
+  professionalism, and ethical sensitivity.
+\end{itemize}
+
+\subsection*{4. Academic Self-Understanding and
+Professionalism}\label{academic-self-understanding-and-professionalism}
+\addcontentsline{toc}{subsection}{4. Academic Self-Understanding and
+Professionalism}
+
+Graduates are able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Reflect on their academic and professional roles in society and the
+  ethical implications of their work.
+\item
+  Are prepared for careers in science, policy-making, consultancy, NGOs,
+  or further academic research (PhD).
+\item
+  Show commitment to life-long learning and critical self-reflection in
+  complex, changing environments.
+\end{itemize}
+
+\chapter*{Program Structure}\label{program-structure}
+\addcontentsline{toc}{chapter}{Program Structure}
+
+\markboth{Program Structure}{Program Structure}
+
+\section*{Thematic Categories of the IMES
+Curriculum}\label{thematic-categories-of-the-imes-curriculum}
+\addcontentsline{toc}{section}{Thematic Categories of the IMES
+Curriculum}
+
+\markright{Thematic Categories of the IMES Curriculum}
+
+The IMES program is organized into modules---self-contained units of
+study that integrate related topics into coherent blocks of learning.
+Each module carries a defined number of ECTS credits and includes
+clearly articulated learning outcomes and assessments. Most modules are
+designed to be completed within a single semester, though some may
+extend across two.
+
+To ensure a broad and interdisciplinary foundation, IMES modules are
+grouped into five thematic categories. Students are required to complete
+\textbf{at least 6 ECTS credits in each category} as part of the degree
+requirements:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0882}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2647}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.6471}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Code}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Category Name}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Topics include, but are not limited to}
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+A & Earth and Environmental Systems & Physical environment, natural
+sciences, climate, ecosystems \\
+B & Societies, Education, and Ethics & Human values, education for
+sustainability, ethics, cities, resilience \\
+C & Governance, Law, and Institutions & Environmental law, political
+systems, regulation, institutions \\
+D & Economy and Resource Management & Environmental economics, renewable
+energy, resource management \\
+E & Research and Analytical Methods & GIS, statistics, modeling,
+interdisciplinary methods, research methods \\
+\end{longtable}
+
+\section*{Overview of Module Types in
+IMES}\label{overview-of-module-types-in-imes}
+\addcontentsline{toc}{section}{Overview of Module Types in IMES}
+
+\markright{Overview of Module Types in IMES}
+
+The IMES program comprises modules that are typically worth either 6 or
+12 ECTS. The Master Thesis and Colloquium form a comprehensive research
+module worth 30 ECTS. The curriculum includes six mandatory modules and
+a wide range of electives, allowing students to shape their individual
+academic trajectories.
+
+Modules in IMES are classified into three types:
+
+\begin{itemize}
+\item
+  \textbf{Core Modules (CM)}: These modules provide foundational
+  knowledge in essential areas of environmental sciences. They introduce
+  key concepts, methodologies, and frameworks and are typically
+  completed early in the program.
+\item
+  \textbf{Advanced Modules (AM)}: Building on the Core Modules, these
+  modules allow students to deepen their knowledge, refine their skills,
+  and engage with more complex environmental issues. They encourage
+  independent application of methods and further development of
+  analytical and research competencies.
+\item
+  \textbf{Specialisation Modules (SM)}: These modules enable students to
+  focus on a specific area of interest within environmental sciences.
+  Specialisation Modules support the development of an individual
+  academic profile and typically correspond with the topic of the
+  Master's thesis.
+\end{itemize}
+
+Detailed descriptions of each module are provided in the second part of
+this module handbook.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2941}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.0980}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1569}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1569}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.0980}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1961}}@{}}
+\caption{List of modules in IMES. Module types are Core Modules (CM),
+Advanced Modules (AM) and Specialisation modules (SM)}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Module}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{ECTS}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Mandatory (M) or Elective (E)}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Module Type}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Semester}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Category}
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Module}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{ECTS}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Mandatory (M) or Elective (E)}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Module Type}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Semester}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Category}
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Introduction to Natural and Social Environmental Sciences & 6 & M & CM &
+1 & Research and Analytical Methods \\
+Geosphere and Hydrosphere & 6 & E & AM & 1 & Earth and Environmental
+Systems \\
+Sustainable Development & 6 & E & AM & 1 & Societies, Education, and
+Ethics \\
+Environmental Law & 6 & M & AM & 1 and 2 & Governance, Law, and
+Institutions \\
+Energy and Climate Change & 6 & E & AM & 1 or 2 & Economy and Resource
+Management \\
+Environmental Medicine & 6 & E & AM & 1 & Societies, Education, and
+Ethics \\
+Anthropology & 6 & E & AM & 1 and 2 & Societies, Education, and
+Ethics \\
+Methods of Spatial and Statistical Data Analysis & 6 & E & AM & 1 and 2
+& Research and Analytical Methods \\
+Environmental Humanities and Communication & 6 & E & AM & 1 & Societies,
+Education, and Ethics \\
+Advanced Environmental Sciences & 6 & M & AM & 2 & Research and
+Analytical Methods \\
+Ecosystems and Landscape Dynamics & 6 & M & AM & 2 & Earth and
+Environmental Systems \\
+Natural Resources, Water and Renewable Energy Management (TH Köln) & 6 &
+E & AM & 2 or 3 & Economy and Resource Management \\
+Environmental Ethics and Management & 6 & E & AM & 2 & Societies,
+Education, and Ethics \\
+Meteorology & 6 & E & AM & 2 & Earth and Environmental Systems \\
+Environmental Modelling and Data Science & 6 & E & AM & 2 or 3 &
+Research and Analytical Methods \\
+Environmental Pollution & 6 & E & AM & 2 & Earth and Environmental
+Systems \\
+Internship & 12 & M & SM & 3 & Research and Analytical Methods \\
+Advanced Atmospheric Processes & 6 & E & AM & 3 & Earth and
+Environmental Systems \\
+Human Environment Relations & 6 & E & AM & 3 & Societies, Education, and
+Ethics \\
+Advanced Environmental Geography & 6 & E & AM & 3 & Earth and
+Environmental Systems \\
+Environmental Spatial Methods & 6 & E & AM & 3 & Research and Analytical
+Methods \\
+Individual Specialization Module & 6 & E & SM & 3 & Research and
+Analytical Methods \\
+Individual Advanced Module & 6 & E & AM & 3 & Any \\
+Master Thesis and Colloquium & 30 & M & & 4 & Any \\
+\end{longtable}
+
+\part{MODULE DESCRIPTIONS}
+
+\chapter*{Geosphere and Hydrosphere}\label{geosphere-and-hydrosphere}
+\addcontentsline{toc}{chapter}{Geosphere and Hydrosphere}
+
+\markboth{Geosphere and Hydrosphere}{Geosphere and Hydrosphere}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Type of Module} & Advanced Module \\
+\textbf{Module Code} & IMES-AM-GeoHyd \\
+\textbf{Workload} & 180 h \\
+\textbf{ECTS} & 6 \\
+\textbf{Term} & Semester 1 \\
+\textbf{Offered Every} & WiSe \\
+\textbf{Start} & WiSe \\
+\textbf{Duration} & 1 semester \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3778}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Course Types
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Contact Time
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Self-study Time
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+a) Lecture: Introduction to Environmental Geophysics & 2 SWS / 30 h & 60
+h \\
+b) Lecture: Physical Hydrology & 2 SWS / 30 h & 60 h \\
+\end{longtable}
+
+\section*{Module Description}\label{module-description}
+\addcontentsline{toc}{section}{Module Description}
+
+\markright{Module Description}
+
+This module consists of two lectures: \emph{Introduction to
+Environmental Geophysics} and \emph{Physical Hydrology}. It provides a
+comprehensive introduction to the principles and techniques of
+geophysics and hydrology, equipping students with the foundational
+knowledge to address environmental and water resource challenges.
+Students will explore geophysical methods such as electromagnetic and
+seismic techniques, emphasizing techniques essential for investigating
+the subsurface in environmental science. Additionally, the module covers
+essential hydrological concepts, including water fluxes, storage
+processes, and key methods for water resource management, enabling
+students to evaluate sustainable water use strategies effectively.
+Together, these two lectures introduce students to the study of the
+critical zone, the thin skin of the Earth's surface.
+
+\section*{Module Objectives and
+Outcomes}\label{module-objectives-and-outcomes}
+\addcontentsline{toc}{section}{Module Objectives and Outcomes}
+
+\markright{Module Objectives and Outcomes}
+
+\subsection*{a) Lecture: Introduction to Environmental
+Geophysics}\label{a-lecture-introduction-to-environmental-geophysics}
+\addcontentsline{toc}{subsection}{a) Lecture: Introduction to
+Environmental Geophysics}
+
+The main objective of this lecture is to introduce students to
+fundamental concepts, methodologies, and basic interpretative techniques
+of geophysical methods applied in environmental studies. Building on
+this foundation, students will achieve the following learning outcomes:
+
+\begin{itemize}
+\tightlist
+\item
+  Identify and describe basic geophysical methods commonly used in
+  environmental science.
+\item
+  Understand fundamental principles and physical concepts underlying
+  geophysical exploration techniques, particularly electromagnetic and
+  seismic methods.
+\item
+  Explain how geophysical data can be used to analyze environmental
+  conditions and assess basic environmental risks.
+\item
+  Recognize the strengths and limitations of various geophysical
+  techniques in environmental applications.
+\end{itemize}
+
+\subsection*{b) Lecture: Physical
+Hydrology}\label{b-lecture-physical-hydrology}
+\addcontentsline{toc}{subsection}{b) Lecture: Physical Hydrology}
+
+The primary objective of this lecture is to introduce students to the
+foundational concepts of hydrology and basic methods used in water
+resource management, preparing them to assess the potential and
+limitations of different water uses. Upon completing this module,
+students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Explain the fundamental concepts of hydrology, including water fluxes
+  and storage processes.
+\item
+  Identify key hydrological methods used in water resource management.
+\item
+  Assess the potential and limitations of various water uses,
+  considering the governing processes of water fluxes and storage.
+\item
+  Discuss basic hydrological processes and their implications for water
+  resource management.
+\end{itemize}
+
+\section*{Module Content}\label{module-content}
+\addcontentsline{toc}{section}{Module Content}
+
+\markright{Module Content}
+
+\subsection*{a) Lecture: Introduction to Environmental
+Geophysics}\label{a-lecture-introduction-to-environmental-geophysics-1}
+\addcontentsline{toc}{subsection}{a) Lecture: Introduction to
+Environmental Geophysics}
+
+\begin{itemize}
+\tightlist
+\item
+  Overview of primary geophysical exploration methods and their
+  significance in environmental studies.
+\item
+  Fundamental physical principles underlying electromagnetic and seismic
+  techniques.
+\item
+  Methodologies and interpretative procedures used in geophysical data
+  analysis.
+\item
+  Applications of geophysical methods for environmental risk assessment
+  and subsurface investigation.
+\end{itemize}
+
+\subsection*{b) Lecture: Physical
+Hydrology}\label{b-lecture-physical-hydrology-1}
+\addcontentsline{toc}{subsection}{b) Lecture: Physical Hydrology}
+
+\begin{itemize}
+\tightlist
+\item
+  Components and processes of the water cycle across various spatial
+  scales.
+\item
+  Water fluxes and storage terms on land surfaces and their measurement.
+\item
+  Environmental factors influencing water availability and distribution.
+\item
+  Fundamental methods and concepts to describe, measure and model water
+  fluxes.
+\item
+  Basic principles and challenges of water resource management in the
+  context of environmental sustainability.
+\end{itemize}
+
+\section*{Teaching Methods}\label{teaching-methods}
+\addcontentsline{toc}{section}{Teaching Methods}
+
+\markright{Teaching Methods}
+
+Lecture
+
+\section*{Prerequisites}\label{prerequisites}
+\addcontentsline{toc}{section}{Prerequisites}
+
+\markright{Prerequisites}
+
+None
+
+\section*{Type of Examination}\label{type-of-examination}
+\addcontentsline{toc}{section}{Type of Examination}
+
+\markright{Type of Examination}
+
+Written examination of 90--120 minutes. The subject of examination is
+the content of the lectures (a and b) of this module description.
+
+\section*{Credits Awarded}\label{credits-awarded}
+\addcontentsline{toc}{section}{Credits Awarded}
+
+\markright{Credits Awarded}
+
+Credit points are awarded upon successful completion of the module's
+examination, with a minimum passing grade of 4.0 (German grading
+system).
+
+\section*{Compatibility with Other
+Curricula}\label{compatibility-with-other-curricula}
+\addcontentsline{toc}{section}{Compatibility with Other Curricula}
+
+\markright{Compatibility with Other Curricula}
+
+JIMES (JIMES-AM-GeoHyd)
+
+\section*{Proportion of Final Grade}\label{proportion-of-final-grade}
+\addcontentsline{toc}{section}{Proportion of Final Grade}
+
+\markright{Proportion of Final Grade}
+
+5\%
+
+\section*{Module Coordinator}\label{module-coordinator}
+\addcontentsline{toc}{section}{Module Coordinator}
+
+\markright{Module Coordinator}
+
+Prof.~Dr.~Karl Schneider (Institute of Geography)
+
+\section*{Further Information}\label{further-information}
+\addcontentsline{toc}{section}{Further Information}
+
+\markright{Further Information}
+
+There are no restrictions on the number of places available for IMES
+students.
+
+\chapter*{Sustainable Development}\label{sustainable-development}
+\addcontentsline{toc}{chapter}{Sustainable Development}
+
+\markboth{Sustainable Development}{Sustainable Development}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Type of Module} & Advanced Module \\
+\textbf{Module Code} & IMES-AM-SD \\
+\textbf{Workload} & 180 h \\
+\textbf{ECTS} & 6 \\
+\textbf{Term} & Semester \\
+\textbf{Offered Every} & WiSe \\
+\textbf{Start} & WiSe \\
+\textbf{Duration} & 1 semester \\
+\end{longtable}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Course Types & Contact Time & Self-study Time \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+a) Seminar: Sustainable Development & 2 SWS / 30 h & 60 h \\
+b) Practical: Fieldwork & 2 SWS / 30 h & 60 h \\
+\end{longtable}
+
+\section*{Module Description}\label{module-description-1}
+\addcontentsline{toc}{section}{Module Description}
+
+\markright{Module Description}
+
+This module consists of two courses: a literature-based seminar in
+Sustainable Development and Fieldwork. It provides an in-depth
+exploration of the principles, challenges, and frameworks of
+sustainability. Key topics include the Sustainable Development Goals
+(SDGs), climate change, planetary boundaries, loss of biodiversity and
+Education for Sustainable Action (ESA) as a tool for transformative
+action. The course addresses critical global issues such as inequality,
+urbanization, and environmental degradation, emphasizing their
+interconnections and linking them to actionable strategies for
+sustainable solutions.
+
+\section*{Module Objectives}\label{module-objectives}
+\addcontentsline{toc}{section}{Module Objectives}
+
+\markright{Module Objectives}
+
+\begin{itemize}
+\tightlist
+\item
+  Explore the foundational concepts of sustainable development,
+  including its pillars, challenges, and global frameworks like Agenda
+  21 and the SDGs.
+\item
+  Analyse further important concepts like planetary boundaries, climate
+  change and loss of biodiversity, based on scientific literature.
+\item
+  Examine the role of Education for Sustainable Action (ESA) in
+  promoting transformative learning, systems thinking, and
+  sustainability action.
+\end{itemize}
+
+\section*{Module Outcomes}\label{module-outcomes}
+\addcontentsline{toc}{section}{Module Outcomes}
+
+\markright{Module Outcomes}
+
+\begin{itemize}
+\tightlist
+\item
+  Understand the foundational principles of sustainable development,
+  including its pillars, challenges, and key global frameworks such as
+  Agenda 21 and the SDGs.
+\item
+  Analyze complex concepts like planetary boundaries, climate change,
+  and biodiversity loss by critically engaging with scientific
+  literature.
+\item
+  Evaluate the challenges and opportunities in achieving sustainable
+  development in the context of global and local issues.
+\item
+  Examine the role of Education for Sustainable Development (ESD) in
+  fostering transformative learning, systems thinking, and actionable
+  strategies.
+\item
+  Develop practical skills in applying systems thinking to identify and
+  address sustainability challenges during Field Work.
+\end{itemize}
+
+\section*{Module Content}\label{module-content-1}
+\addcontentsline{toc}{section}{Module Content}
+
+\markright{Module Content}
+
+\subsection*{a) Seminar: Sustainable
+Development}\label{a-seminar-sustainable-development}
+\addcontentsline{toc}{subsection}{a) Seminar: Sustainable Development}
+
+\begin{itemize}
+\tightlist
+\item
+  Basic concepts of sustainable development:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Understanding `sustainability' and `development'
+  \item
+    Causes and effects of unsustainable development like consumerism,
+    globalization, urbanization, ecosystem degradation, inequity
+  \item
+    Pillars of sustainable development: economic, social, environmental,
+    political (governance)
+  \item
+    Timeline of sustainable development; Agenda 21; Millennium
+    development goals and sustainable development goals.
+  \item
+    ESD as a tool for transformative learning and systems thinking
+  \end{itemize}
+\item
+  Key sustainability concepts and challenges:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Climate change: causes, impacts, and mitigation strategies
+  \item
+    Planetary boundaries and their relevance to sustainability
+  \item
+    Ecosystem services and their role in sustainable development
+  \item
+    Rapid population growth and food security
+  \item
+    Poverty, income inequality, and gender disparity
+  \item
+    Urbanization and its challenges, including energy transformation
+  \item
+    Environmental degradation and loss of biodiversity
+  \end{itemize}
+\end{itemize}
+
+\subsection*{b) Practical: Fieldwork}\label{b-practical-fieldwork}
+\addcontentsline{toc}{subsection}{b) Practical: Fieldwork}
+
+\begin{itemize}
+\tightlist
+\item
+  Visit and analysis of sustainability projects.
+\item
+  Developing a matrix for analysing sustainability projects along with
+  indicators.
+\end{itemize}
+
+\section*{Teaching Methods}\label{teaching-methods-1}
+\addcontentsline{toc}{section}{Teaching Methods}
+
+\markright{Teaching Methods}
+
+Literature-based seminar and practical
+
+\section*{Prerequisites}\label{prerequisites-1}
+\addcontentsline{toc}{section}{Prerequisites}
+
+\markright{Prerequisites}
+
+None
+
+\section*{Type of Examination}\label{type-of-examination-1}
+\addcontentsline{toc}{section}{Type of Examination}
+
+\markright{Type of Examination}
+
+Portfolio based on a) and b), 5 to 10 pages.
+
+\section*{Credits Awarded}\label{credits-awarded-1}
+\addcontentsline{toc}{section}{Credits Awarded}
+
+\markright{Credits Awarded}
+
+Credit points are awarded upon regular and active participation, as well
+as the successful completion of the module's examination with a minimum
+passing grade of 4.0. (sufficient).
+
+\section*{Compatibility with Other
+Curricula}\label{compatibility-with-other-curricula-1}
+\addcontentsline{toc}{section}{Compatibility with Other Curricula}
+
+\markright{Compatibility with Other Curricula}
+
+JIMES (JIMES-AM-SDUoC), M.Sc. Module part (a) in Geography (AM1 and
+AM2), MA Geography (AM1 and AM2) and MEd Geography (AM1)
+
+\section*{Proportion of Final Grade}\label{proportion-of-final-grade-1}
+\addcontentsline{toc}{section}{Proportion of Final Grade}
+
+\markright{Proportion of Final Grade}
+
+5\%
+
+\section*{Module Coordinator}\label{module-coordinator-1}
+\addcontentsline{toc}{section}{Module Coordinator}
+
+\markright{Module Coordinator}
+
+Dr.~Veronika Selbach and Dr.~Verena Dlugoß (Institute of Geography)
+
+\section*{Further Information}\label{further-information-1}
+\addcontentsline{toc}{section}{Further Information}
+
+\markright{Further Information}
+
+Restrictions on the number of places available for IMES students might
+apply.
+
+\chapter*{Environmental Law}\label{environmental-law}
+\addcontentsline{toc}{chapter}{Environmental Law}
+
+\markboth{Environmental Law}{Environmental Law}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Type of Module} & Advanced Module \\
+\textbf{Module Code} & IMES-AM-Law \\
+\textbf{Workload} & 180 h \\
+\textbf{ECTS} & 6 \\
+\textbf{Term} & Semester 1 and 2 \\
+\textbf{Offered Every} & WiSe / SuSe \\
+\textbf{Start} & WiSe \\
+\textbf{Duration} & 2 semesters \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Course Types
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Contact Time
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Self-study Time
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+a) Lecture: Environmental Law: Comparative and Basic Studies & 2 SWS 30
+h & 60 h \\
+b) Lecture: International Environmental Law & 2 SWS 30 h & 60 h \\
+\end{longtable}
+
+\section*{Module Description}\label{module-description-2}
+\addcontentsline{toc}{section}{Module Description}
+
+\markright{Module Description}
+
+The module consists of two lectures: \emph{Environmental Law:
+Comparative and Basic Studies} and \emph{International Environmental
+Law}. Environmental Law introduces students to the discipline of law,
+with a focus on domestic legal systems and the role of environmental law
+within these systems. It explores how environmental problems have been
+addressed through legal mechanisms, both historically and in
+contemporary contexts, including before and after the introduction of
+dedicated environmental legislation.
+
+The lecture \emph{International Environmental Law} advances students'
+understanding of domestic law introduced in lecture a), focusing on
+international law and its application to global environmental
+challenges. Students will explore the unique sources, institutions, and
+subjects of international environmental law, and distinguish them from
+their domestic counterparts. The course emphasizes the role of treaties,
+litigation, and arbitration in shaping international environmental
+governance.
+
+\section*{Module Objectives}\label{module-objectives-1}
+\addcontentsline{toc}{section}{Module Objectives}
+
+\markright{Module Objectives}
+
+\begin{itemize}
+\tightlist
+\item
+  Introduce students to the principles, sources, institutions, and
+  subjects of domestic and international environmental law.
+\item
+  Develop an understanding of how environmental challenges are addressed
+  through domestic and international legal mechanisms.
+\item
+  Highlight the role of treaties, litigation, and arbitration in shaping
+  international environmental governance.
+\item
+  Explore the interdisciplinary nature of environmental law and its
+  connections with social and natural sciences.
+\end{itemize}
+
+\section*{Module Outcomes}\label{module-outcomes-1}
+\addcontentsline{toc}{section}{Module Outcomes}
+
+\markright{Module Outcomes}
+
+\begin{itemize}
+\tightlist
+\item
+  Identify and evaluate key sources, principles, and institutions of
+  domestic and international environmental law.
+\item
+  Compare domestic and international approaches to addressing
+  environmental problems, including their advantages and limitations.
+\item
+  Analyze the role of legal mechanisms in environmental governance and
+  their interplay with social and natural sciences.
+\item
+  Apply knowledge of international environmental law to evaluate global
+  environmental challenges and propose solutions.
+\end{itemize}
+
+\section*{Module Content}\label{module-content-2}
+\addcontentsline{toc}{section}{Module Content}
+
+\markright{Module Content}
+
+\subsection*{a) Lecture: Environmental Law: Comparative and Basic
+Studies}\label{a-lecture-environmental-law-comparative-and-basic-studies}
+\addcontentsline{toc}{subsection}{a) Lecture: Environmental Law:
+Comparative and Basic Studies}
+
+\begin{itemize}
+\tightlist
+\item
+  The placement of environmental law within domestic legal systems.
+\item
+  Domestic sources of law, key institutions, and subjects relevant to
+  environmental governance.
+\item
+  The concept of sources of law, focusing on the fundamentals of
+  identifying and locating applicable laws to address specific
+  environmental challenges.
+\item
+  How legal principles and processes contribute to solving environmental
+  problems at the domestic level.
+\item
+  An overview of the comparative method to understand differences in how
+  environmental law is applied across jurisdictions.
+\item
+  Interdisciplinary links between environmental law and other fields,
+  including the social and natural sciences.
+\end{itemize}
+
+\subsection*{b) Lecture: International Environmental
+Law}\label{b-lecture-international-environmental-law}
+\addcontentsline{toc}{subsection}{b) Lecture: International
+Environmental Law}
+
+\begin{itemize}
+\tightlist
+\item
+  The distinction between international public environmental law and
+  political processes.
+\item
+  Fundamental principles of international environmental legislation,
+  including its interpretation and execution.
+\item
+  International sources of law, key institutions, and subjects, with a
+  focus on their unique roles and functions.
+\item
+  Comparative analysis of international and domestic environmental law,
+  highlighting their differences and intersections.
+\item
+  Study of treaties categorized by natural science domains: atmosphere,
+  hydrosphere, and geosphere.
+\item
+  Examination of litigation and arbitration cases to identify
+  international customs and principles.
+\item
+  Analysis of the interdisciplinary connections between international
+  environmental law and the social and natural sciences.
+\end{itemize}
+
+\section*{Teaching Methods}\label{teaching-methods-2}
+\addcontentsline{toc}{section}{Teaching Methods}
+
+\markright{Teaching Methods}
+
+Lecture
+
+\section*{Prerequisites}\label{prerequisites-2}
+\addcontentsline{toc}{section}{Prerequisites}
+
+\markright{Prerequisites}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  None\\
+\item
+  While there is no formal requirement, International Environmental Law
+  will be taught assuming the student has a basic understanding of
+  sources of law, institutions of law and subjects of law, however that
+  understanding was achieved.
+\end{enumerate}
+
+\section*{Type of Examination}\label{type-of-examination-2}
+\addcontentsline{toc}{section}{Type of Examination}
+
+\markright{Type of Examination}
+
+Students are required to independently research and write a paper in
+English, comprising 20--24 pages, to be completed outside the lecture
+hours.
+
+\textbf{Part I} of the research paper will address an environmental
+problem in a country of their choice, presents that country's official
+state policy on the problem, presents the sources and institutions of
+law on that problem in that country, and then assesses whether those
+laws and institutions solve the problem. The student will then do the
+same for a second country of choice. The paper will then build a matrix
+by which one can compare the performance of the first country's
+environmental solutions with the second.
+
+\textbf{Part II} of the research paper will address an analysis of a
+case study of international environmental law.
+
+\section*{Credits Awarded}\label{credits-awarded-2}
+\addcontentsline{toc}{section}{Credits Awarded}
+
+\markright{Credits Awarded}
+
+Credit points are awarded upon successful completion of the module's
+examination, with a minimum passing grade of 4.0 (sufficient).
+
+\section*{Compatibility with Other
+Curricula}\label{compatibility-with-other-curricula-2}
+\addcontentsline{toc}{section}{Compatibility with Other Curricula}
+
+\markright{Compatibility with Other Curricula}
+
+JIMES (JIMES-AM-Law)
+
+\section*{Proportion of Final Grade}\label{proportion-of-final-grade-2}
+\addcontentsline{toc}{section}{Proportion of Final Grade}
+
+\markright{Proportion of Final Grade}
+
+5\%
+
+\section*{Module Coordinator}\label{module-coordinator-2}
+\addcontentsline{toc}{section}{Module Coordinator}
+
+\markright{Module Coordinator}
+
+Prof.~Dr.~Kirk Junker (US American Law)
+
+\section*{Further Information}\label{further-information-2}
+\addcontentsline{toc}{section}{Further Information}
+
+\markright{Further Information}
+
+There are no restrictions on the number of places available for IMES
+students.
+
+\chapter*{Ecosystems and Landscape
+Dynamics}\label{ecosystems-and-landscape-dynamics}
+\addcontentsline{toc}{chapter}{Ecosystems and Landscape Dynamics}
+
+\markboth{Ecosystems and Landscape Dynamics}{Ecosystems and Landscape
+Dynamics}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Type of Module} & Advanced Module \\
+\textbf{Module Code} & IMES-AM-Ecosys \\
+\textbf{Workload} & 180 h \\
+\textbf{ECTS} & 6 \\
+\textbf{Term} & Semester 3 \\
+\textbf{Offered Every} & SuSe \\
+\textbf{Start} & SuSe \\
+\textbf{Duration} & 1 semester \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3778}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Course Types
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Contact Time
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Self-study Time
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+a) Lecture: Ecosystem Services and Functions Under Climate Change & 2
+SWS / 30 h & 60 h \\
+b) Lecture: Landscape Formation & 2 SWS / 30 h & 60 h \\
+\end{longtable}
+
+\section*{Module Description}\label{module-description-3}
+\addcontentsline{toc}{section}{Module Description}
+
+\markright{Module Description}
+
+This module examines the interactions between ecosystems, landscapes,
+and human impacts, providing a foundation for understanding
+environmental processes and their role in sustainable development. The
+lecture \emph{Ecosystem Services and Functions Under Climate Change}
+introduces key concepts from soil science, soil physics, and plant
+nutrition, focusing on their roles within ecosystem services and
+functions. It expands students' understanding of the complex processes
+in ecosystems and the influence of land \ldots{}
+
+The lecture \emph{Landscape Formation} focuses on the factors, dynamics,
+and outputs of landscape evolution, with special regard to the
+Quaternary period and the interaction between natural phenomena and
+human activities.
+
+\section*{Module Objectives}\label{module-objectives-2}
+\addcontentsline{toc}{section}{Module Objectives}
+
+\markright{Module Objectives}
+
+\subsection*{a) Lecture: Ecosystem Services and Functions Under Climate
+Change}\label{a-lecture-ecosystem-services-and-functions-under-climate-change}
+\addcontentsline{toc}{subsection}{a) Lecture: Ecosystem Services and
+Functions Under Climate Change}
+
+\begin{itemize}
+\tightlist
+\item
+  Introduce the processes within ecosystems and their interactions with
+  human land use and climate change.
+\item
+  Explore the key concepts of ecosystem services and their role in
+  sustainable development.
+\end{itemize}
+
+\subsection*{b) Lecture: Landscape
+Formation}\label{b-lecture-landscape-formation}
+\addcontentsline{toc}{subsection}{b) Lecture: Landscape Formation}
+
+\begin{itemize}
+\tightlist
+\item
+  Examine the key factors, processes, and dynamics involved in natural
+  landscape formation and evolution.
+\item
+  Analyze the impacts of climate change and human activities on
+  geomorphological processes and landscape changes.
+\end{itemize}
+
+\section*{Module Outcomes}\label{module-outcomes-2}
+\addcontentsline{toc}{section}{Module Outcomes}
+
+\markright{Module Outcomes}
+
+\subsection*{a) Lecture: Ecosystem Services and Functions Under Climate
+Change}\label{a-lecture-ecosystem-services-and-functions-under-climate-change-1}
+\addcontentsline{toc}{subsection}{a) Lecture: Ecosystem Services and
+Functions Under Climate Change}
+
+\begin{itemize}
+\tightlist
+\item
+  Describe the processes within ecosystems and how they are affected by
+  human land use change and climate change.
+\item
+  Explain key concepts in ecosystem services, including their role in
+  sustainable development.
+\item
+  Analyze one selected topic related to ecosystem services in depth.
+\item
+  Apply the SQ4R (Survey, Question, Read, Reflect, Recite and Review)
+  method to critically engage with scientific literature on ecosystem
+  services and processes.
+\item
+  Apply AI-assisted tools for literature review and analysis.
+\end{itemize}
+
+\subsection*{b) Lecture: Landscape
+Formation}\label{b-lecture-landscape-formation-1}
+\addcontentsline{toc}{subsection}{b) Lecture: Landscape Formation}
+
+\begin{itemize}
+\tightlist
+\item
+  Identify key factors and processes involved in natural landscape
+  formation, including morphography, morphometry, morphodynamics, and
+  morphochronology.
+\item
+  Describe the dynamics of landscape evolution, particularly during the
+  Quaternary period, and recognize the role of relief forms.
+\item
+  Explain the impact of climate change on geomorphological processes,
+  highlighting how it influences events such as floods and landslides.
+\item
+  Discuss the effects of human activities on landscape formation,
+  including the development of technical landforms.
+\item
+  Analyze specific geomorphological case studies to assess the
+  interaction between natural processes and anthropogenic influences on
+  landscape change.
+\end{itemize}
+
+\section*{Module Content}\label{module-content-3}
+\addcontentsline{toc}{section}{Module Content}
+
+\markright{Module Content}
+
+\subsection*{a) Lecture: Ecosystem Services and Functions Under Climate
+Change}\label{a-lecture-ecosystem-services-and-functions-under-climate-change-2}
+\addcontentsline{toc}{subsection}{a) Lecture: Ecosystem Services and
+Functions Under Climate Change}
+
+\begin{itemize}
+\tightlist
+\item
+  Introduction to soil science and soil hydrology
+\item
+  Ecosystem services and Sustainable Development Goals (SDGs)
+\item
+  Plant-soil interactions and nutrient cycling
+\item
+  Soil organic matter and carbon sequestration in soils
+\item
+  Soil degradation, sustainable land management and food production
+\end{itemize}
+
+\subsection*{b) Lecture: Landscape
+Formation}\label{b-lecture-landscape-formation-2}
+\addcontentsline{toc}{subsection}{b) Lecture: Landscape Formation}
+
+\begin{itemize}
+\tightlist
+\item
+  Key aspects of relief forms, focusing on morphography, morphometry,
+  morphodynamics, and morphochronology as fundamental controls in
+  landscape structure.
+\item
+  Core dynamics and processes involved in natural landscape formation
+  over time.
+\item
+  Influence of human activities, such as the creation of technical
+  landforms, on landscape modification.
+\item
+  Examination of how climate change intensifies geomorphological events,
+  including floods and landslides.
+\end{itemize}
+
+\section*{Teaching Methods}\label{teaching-methods-3}
+\addcontentsline{toc}{section}{Teaching Methods}
+
+\markright{Teaching Methods}
+
+Lecture
+
+\section*{Prerequisites}\label{prerequisites-3}
+\addcontentsline{toc}{section}{Prerequisites}
+
+\markright{Prerequisites}
+
+None
+
+\section*{Type of Examination}\label{type-of-examination-3}
+\addcontentsline{toc}{section}{Type of Examination}
+
+\markright{Type of Examination}
+
+Examination in form of a portfolio (5--10 pages). The subject of
+examination is the content of the lecture a) of this module. During the
+lecture b) of this module, students are required to complete mandatory
+ungraded assignments (Studienleistungen).
+
+\section*{Credits Awarded}\label{credits-awarded-3}
+\addcontentsline{toc}{section}{Credits Awarded}
+
+\markright{Credits Awarded}
+
+Credit points are awarded when the portfolio has been graded with at
+least 4.0 (sufficient) and the mandatory assignments (Studienleistungen)
+have been successfully completed.
+
+\section*{Compatibility with Other
+Curricula}\label{compatibility-with-other-curricula-3}
+\addcontentsline{toc}{section}{Compatibility with Other Curricula}
+
+\markright{Compatibility with Other Curricula}
+
+JIMES (JIMES-AM-Ecosys)
+
+\section*{Proportion of Final Grade}\label{proportion-of-final-grade-3}
+\addcontentsline{toc}{section}{Proportion of Final Grade}
+
+\markright{Proportion of Final Grade}
+
+5\%
+
+\section*{Module Coordinator}\label{module-coordinator-3}
+\addcontentsline{toc}{section}{Module Coordinator}
+
+\markright{Module Coordinator}
+
+Prof.~Dr.~Christina Bogner (Institute of Geography)
+
+\section*{Further Information}\label{further-information-3}
+\addcontentsline{toc}{section}{Further Information}
+
+\markright{Further Information}
+
+There are no restrictions on the number of places available for IMES
+students and BVDU students.
+
+\chapter*{Internship}\label{internship}
+\addcontentsline{toc}{chapter}{Internship}
+
+\markboth{Internship}{Internship}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Type of Module} & Specialisation Module \\
+\textbf{Module Code} & IMES-SM-Int \\
+\textbf{Workload} & 360 h \\
+\textbf{ECTS} & 12 \\
+\textbf{Term} & Semester 3 \\
+\textbf{Offered Every} & SuSe \\
+\textbf{Start} & SuSe \\
+\textbf{Duration} & Minimum 8 weeks \\
+\end{longtable}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Course Types & Contact Time & Self-study Time \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+a) Internship & 320 h & 7.5 h \\
+b) Seminar & 0.5 SWS & 32.5 h \\
+\end{longtable}
+
+\section*{Module Description}\label{module-description-4}
+\addcontentsline{toc}{section}{Module Description}
+
+\markright{Module Description}
+
+The internship of two months duration is scheduled as part of the third
+semester. It is an opportunity for students to develop research skills
+and/or gain professional expertise as well as academic knowledge.
+Students are expected to begin planning their internship early in the
+semester to ensure a timely placement and registration. While the timing
+of the internship may vary depending on individual arrangements, it
+should be aligned with the study plan and registered with the IMES
+Office before commencement. Students are encouraged to find their own
+internship placements and make initial contact with prospective
+organizations, as this builds communication and organizational skills.
+The IMES Office can provide guidance in certain cases and share a
+database of former internship hosts but does not guarantee placement.
+The module includes a seminar in which students present and reflect on
+their internship experiences. This setting provides a structured
+opportunity for peer-to-peer learning, constructive feedback, and
+academic exchange. Students are expected not only to defend their own
+internship work but also to engage actively with the presentations of
+their peers by asking questions, giving feedback, and discussing diverse
+professional contexts relevant to environmental sciences.
+
+\section*{Module Objectives}\label{module-objectives-3}
+\addcontentsline{toc}{section}{Module Objectives}
+
+\markright{Module Objectives}
+
+\begin{itemize}
+\tightlist
+\item
+  Facilitate the application of theoretical knowledge in real-world
+  contexts through hands-on experience in professional settings.
+\item
+  Enhance problem-solving, analytical, and decision-making skills by
+  engaging in practical projects related to the core domains of the
+  program.
+\item
+  Cultivate professional competencies, including teamwork,
+  communication, and leadership, through structured mentorship and
+  collaboration with industry or research organizations.
+\end{itemize}
+
+\section*{Module Outcomes}\label{module-outcomes-3}
+\addcontentsline{toc}{section}{Module Outcomes}
+
+\markright{Module Outcomes}
+
+At the end of this module, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Demonstrate the ability to apply theoretical knowledge to practical
+  challenges in professional or research environments.
+\item
+  Develop and execute project-based tasks with minimal supervision,
+  showcasing initiative and problem-solving skills.
+\item
+  Communicate effectively through written reports, presentations, and
+  discussions, tailored to both academic and professional audiences.
+\item
+  Demonstrate enhanced soft skills such as teamwork, adaptability, and
+  professionalism in diverse settings.
+\item
+  Critically reflect on their internship experience to identify
+  strengths, areas for improvement, and future career directions.
+\item
+  Create meaningful contributions to their host organization, supported
+  by innovative ideas or solutions derived during the internship.
+\end{itemize}
+
+\section*{Module Content}\label{module-content-4}
+\addcontentsline{toc}{section}{Module Content}
+
+\markright{Module Content}
+
+An internship matching the thematic focus of Environmental Sciences as
+defined by the IMES program.
+
+\textbf{Registration and documentation requirements}
+
+Before starting the internship, students must register it with the IMES
+Office. Registration requires:
+
+\begin{itemize}
+\tightlist
+\item
+  A brief written outline (1 page) describing the host organization, the
+  planned tasks and responsibilities, and how the internship aligns with
+  the thematic focus of Environmental Sciences as defined by the IMES
+  program.
+\item
+  A confirmation from the host organization (in any reasonable format,
+  such as an email or signed letter) indicating the planned duration and
+  general scope of the internship. A formal contract is not mandatory,
+  but may be required by the host organization.
+\end{itemize}
+
+After completing the internship, students must submit a certificate of
+completion from the host organization. This document should briefly
+state the internship duration and confirm that the agreed-upon tasks
+were carried out.
+
+\section*{Teaching Methods}\label{teaching-methods-4}
+\addcontentsline{toc}{section}{Teaching Methods}
+
+\markright{Teaching Methods}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  Internship\\
+\item
+  Seminar at UoC: student presentations, peer feedback, group discussion
+\end{enumerate}
+
+\section*{Prerequisites}\label{prerequisites-4}
+\addcontentsline{toc}{section}{Prerequisites}
+
+\markright{Prerequisites}
+
+The student has acquired at least 30 ECTS from the first three
+semesters.
+
+\section*{Type of Examination}\label{type-of-examination-4}
+\addcontentsline{toc}{section}{Type of Examination}
+
+\markright{Type of Examination}
+
+The supervisor will grade the internship based on an internship report
+of 20 pages, written in English, which introduces institutional/NGO
+setup, people encountered and worked alongside, including their tasks
+and positions; activities undertaken, including the content, aim, and
+timeframe of the work; policy areas touched upon; skills acquired;
+insight into institutional practice obtained. The students are required
+to present and defend their report during the seminar.
+
+\textbf{1. Internship report (70\%)}
+
+The internship report, written in English (20 pages), should contain the
+following:
+
+\begin{itemize}
+\tightlist
+\item
+  Introduction to the institutional/NGO setup (10\%): Describing the
+  organization, objectives, and operations comprehensively.
+\item
+  Tasks and people encountered (10\%): Detailed account of roles,
+  responsibilities, and interactions with colleagues.
+\item
+  Activities undertaken (10\%): Explanation of content, objectives,
+  timelines, the scope of the work and outputs.
+\item
+  Policy areas and skills acquired (10\%): Identification of relevant
+  policy domains and skills developed.
+\item
+  Insights into institutional practices and self-reflection (30\%):
+  In-depth analysis of institutional processes, key learnings,
+  challenges faced, and personal growth.
+\end{itemize}
+
+\textbf{2. Presentation and defence of the report (30\%)}
+
+The student presents their report to a panel of IMES staff (20 minutes),
+assessed on:
+
+\begin{itemize}
+\tightlist
+\item
+  Clarity, organization, and coherence of the presentation (15\%).
+\item
+  Ability to answer questions and demonstrate understanding of the
+  internship's context, activities, and outcomes (15\%).
+\end{itemize}
+
+\section*{Credits Awarded}\label{credits-awarded-4}
+\addcontentsline{toc}{section}{Credits Awarded}
+
+\markright{Credits Awarded}
+
+Credit points are awarded upon regular and active participation in the
+internship and the seminar, as well as successful completion of the
+module's examinations with a minimum passing grade of 4.0 (sufficient).
+A certificate of completion from the host organization is normally
+required, but alternative proof may be accepted in justified cases.
+
+The internship must be registered with the IMES Office before
+commencement. Registration requires a written outline of the planned
+tasks and a confirmation from the host organization.
+
+\section*{Compatibility with Other
+Curricula}\label{compatibility-with-other-curricula-4}
+\addcontentsline{toc}{section}{Compatibility with Other Curricula}
+
+\markright{Compatibility with Other Curricula}
+
+None
+
+\section*{Proportion of Final Grade}\label{proportion-of-final-grade-4}
+\addcontentsline{toc}{section}{Proportion of Final Grade}
+
+\markright{Proportion of Final Grade}
+
+0\%. The internship is graded but does not contribute to the final
+grade.
+
+\section*{Module Coordinator}\label{module-coordinator-4}
+\addcontentsline{toc}{section}{Module Coordinator}
+
+\markright{Module Coordinator}
+
+Dr.~Hannes Laermanns (Institute of Geography) -- IMES Office
+
+\section*{Further Information}\label{further-information-4}
+\addcontentsline{toc}{section}{Further Information}
+
+\markright{Further Information}
+
+No restriction on number of places for IMES students.
+
+\chapter*{Master Thesis and
+Colloquium}\label{master-thesis-and-colloquium}
+\addcontentsline{toc}{chapter}{Master Thesis and Colloquium}
+
+\markboth{Master Thesis and Colloquium}{Master Thesis and Colloquium}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Type of Module} & Master thesis \\
+\textbf{Module Code} & IMES-MasterThesis \\
+\textbf{Workload} & 900 h \\
+\textbf{ECTS} & 30 \\
+\textbf{Term} & Semester 4 \\
+\textbf{Offered Every} & WiSe / SuSe \\
+\textbf{Start} & WiSe / SuSe \\
+\textbf{Duration} & 1 semester \\
+\end{longtable}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Course Types & Contact Time & Self-study Time \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+a) Master Thesis & 875 h & 20 h \\
+b) Colloquium & 4 h & 1 h \\
+\end{longtable}
+
+\section*{Module Objectives and
+Outcomes}\label{module-objectives-and-outcomes-1}
+\addcontentsline{toc}{section}{Module Objectives and Outcomes}
+
+\markright{Module Objectives and Outcomes}
+
+\subsection*{a) Master Thesis}\label{a-master-thesis}
+\addcontentsline{toc}{subsection}{a) Master Thesis}
+
+The Master's thesis is an independent academic examination designed to
+demonstrate the candidate's ability to address a well-defined problem
+within the field of study using appropriate scientific methods within a
+specified timeframe. The thesis may be completed in any subject of the
+IMES program and must be written in English.
+
+Throughout the thesis phase, students receive individual academic
+supervision. Supervisors provide feedback on the exposé, guidance during
+the research and writing process, and support for the mid-term
+presentation. This structure is designed to help students manage their
+time effectively and produce work of high academic quality.
+
+At the beginning of the thesis process, students are required to submit
+an exposé (approximately 2--4 pages), outlining the research question,
+objectives, theoretical background, methodology, and expected structure
+of the thesis. The exposé must demonstrate the feasibility and academic
+relevance of the project and serves as the basis for discussion and
+feedback with the supervisor.
+
+Approximately halfway through the working period, a mid-term
+presentation is mandatory. In this presentation, the student presents
+their progress and discusses preliminary results in a seminar with their
+supervisors and peers. Both the exposé and the mid-term presentation are
+ungraded coursework (``Studienleistungen'') and must be passed.
+
+The maximum timeframe for completing the Master's thesis is six months
+from the date the topic is assigned. The thesis should not exceed 100 A4
+pages.
+
+Further details on the Master's thesis are provided in the examination
+regulations (§21).
+
+\subsection*{b) Colloquium (Oral defense of the master's
+thesis)}\label{b-colloquium-oral-defense-of-the-masters-thesis}
+\addcontentsline{toc}{subsection}{b) Colloquium (Oral defense of the
+master's thesis)}
+
+The colloquium is conducted as an interdisciplinary individual
+examination. The candidate presents the contents of their Master's
+thesis in a 10- to 15-minute presentation, followed by questions and
+discussion with the examiners. The colloquium lasts between 40 and 60
+minutes. Students and staff of the IMES program are permitted to attend
+the colloquium unless the candidate objects. Participation of observers
+does not include the deliberation or announcement of results.
+
+Further details on the Colloquium are given in the examination
+regulations (§21).
+
+\section*{Module Content}\label{module-content-5}
+\addcontentsline{toc}{section}{Module Content}
+
+\markright{Module Content}
+
+The module consists of four parts:\\
+(1) submission of an exposé outlining the research question,
+methodology, and structure;\\
+(2) a mandatory mid-term presentation to report on progress;\\
+(3) completion of an independent written thesis;\\
+(4) a final oral colloquium to defend the thesis.\\
+The thesis should not exceed 100 pages and must be completed within six
+months of topic assignment.
+
+\section*{Teaching Methods}\label{teaching-methods-5}
+\addcontentsline{toc}{section}{Teaching Methods}
+
+\markright{Teaching Methods}
+
+Individual supervision including support during the exposé phase,
+feedback after the mid-term presentation, and academic consultations
+throughout the research and writing process.
+
+\section*{Prerequisites}\label{prerequisites-5}
+\addcontentsline{toc}{section}{Prerequisites}
+
+\markright{Prerequisites}
+
+The student has acquired at least 60 ECTS from the first three semesters
+and successfully completed all mandatory modules.
+
+\section*{Type of Examination}\label{type-of-examination-5}
+\addcontentsline{toc}{section}{Type of Examination}
+
+\markright{Type of Examination}
+
+\begin{itemize}
+\tightlist
+\item
+  Written Master thesis (weight: 75\%)\\
+\item
+  Oral defense (weight: 25\%)\\
+\item
+  Exposé (ungraded course work ``Studienleistung'')\\
+\item
+  Mid-term presentation (ungraded course work ``Studienleistung'')
+\end{itemize}
+
+\section*{Credits Awarded}\label{credits-awarded-5}
+\addcontentsline{toc}{section}{Credits Awarded}
+
+\markright{Credits Awarded}
+
+Credit points are awarded when the ungraded exposé and mid-term
+presentation were successfully passed and the examinations of the module
+parts have been successfully completed with the minimum grade 4.0
+(sufficient).
+
+\section*{Compatibility with Other
+Curricula}\label{compatibility-with-other-curricula-5}
+\addcontentsline{toc}{section}{Compatibility with Other Curricula}
+
+\markright{Compatibility with Other Curricula}
+
+None
+
+\section*{Proportion of Final Grade}\label{proportion-of-final-grade-5}
+\addcontentsline{toc}{section}{Proportion of Final Grade}
+
+\markright{Proportion of Final Grade}
+
+25\%
+
+\section*{Module Coordinator}\label{module-coordinator-5}
+\addcontentsline{toc}{section}{Module Coordinator}
+
+\markright{Module Coordinator}
+
+Head of the IMES Examination Committee
+
+\section*{Further Information}\label{further-information-5}
+\addcontentsline{toc}{section}{Further Information}
+
+\markright{Further Information}
+
+None
+
+\part{EXAMPLE SCHEDULES}
+
+\chapter*{Schedules}\label{schedules}
+\addcontentsline{toc}{chapter}{Schedules}
+
+\markboth{Schedules}{Schedules}
+
+
+\backmatter
+
+
+\end{document}

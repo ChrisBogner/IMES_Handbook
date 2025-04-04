@@ -1,0 +1,104 @@
+# Ecosystems and Landscape Dynamics {.unnumbered}
+
+| | |
+|----|---|
+| **Type of Module** | Advanced Module |
+| **Module Code** | IMES-AM-Ecosys |
+| **Workload** | 180 h |
+| **ECTS** | 6 |
+| **Term** | Semester 3 |
+| **Offered Every** | SuSe |
+| **Start** | SuSe |
+| **Duration** | 1 semester |
+: {.striped .hover .bordered .sm}
+
+| Course Types | Contact Time | Self-study Time | 
+|--------------|--------------|-----------------|
+| a) Lecture: Ecosystem Services and Functions Under Climate Change | 2 SWS / 30 h | 60 h |
+| b) Lecture: Landscape Formation | 2 SWS / 30 h | 60 h |
+: {.info .bordered}
+
+## Module Description
+
+This module examines the interactions between ecosystems, landscapes, and human impacts, providing a foundation for understanding environmental processes and their role in sustainable development. The lecture *Ecosystem Services and Functions Under Climate Change* introduces key concepts from soil science, soil physics, and plant nutrition, focusing on their roles within ecosystem services and functions. It expands students' understanding of the complex processes in ecosystems and the influence of land ...
+
+The lecture *Landscape Formation* focuses on the factors, dynamics, and outputs of landscape evolution, with special regard to the Quaternary period and the interaction between natural phenomena and human activities.
+
+## Module Objectives
+
+### a) Lecture: Ecosystem Services and Functions Under Climate Change
+
+- Introduce the processes within ecosystems and their interactions with human land use and climate change.
+- Explore the key concepts of ecosystem services and their role in sustainable development.
+
+### b) Lecture: Landscape Formation
+
+- Examine the key factors, processes, and dynamics involved in natural landscape formation and evolution.
+- Analyze the impacts of climate change and human activities on geomorphological processes and landscape changes.
+
+## Module Outcomes
+
+### a) Lecture: Ecosystem Services and Functions Under Climate Change
+
+- Describe the processes within ecosystems and how they are affected by human land use change and climate change.
+- Explain key concepts in ecosystem services, including their role in sustainable development.
+- Analyze one selected topic related to ecosystem services in depth.
+- Apply the SQ4R (Survey, Question, Read, Reflect, Recite and Review) method to critically engage with scientific literature on ecosystem services and processes.
+- Apply AI-assisted tools for literature review and analysis.
+
+### b) Lecture: Landscape Formation
+
+- Identify key factors and processes involved in natural landscape formation, including morphography, morphometry, morphodynamics, and morphochronology.
+- Describe the dynamics of landscape evolution, particularly during the Quaternary period, and recognize the role of relief forms.
+- Explain the impact of climate change on geomorphological processes, highlighting how it influences events such as floods and landslides.
+- Discuss the effects of human activities on landscape formation, including the development of technical landforms.
+- Analyze specific geomorphological case studies to assess the interaction between natural processes and anthropogenic influences on landscape change.
+
+## Module Content
+
+### a) Lecture: Ecosystem Services and Functions Under Climate Change
+
+- Introduction to soil science and soil hydrology
+- Ecosystem services and Sustainable Development Goals (SDGs)
+- Plant-soil interactions and nutrient cycling
+- Soil organic matter and carbon sequestration in soils
+- Soil degradation, sustainable land management and food production
+
+### b) Lecture: Landscape Formation
+
+- Key aspects of relief forms, focusing on morphography, morphometry, morphodynamics, and morphochronology as fundamental controls in landscape structure.
+- Core dynamics and processes involved in natural landscape formation over time.
+- Influence of human activities, such as the creation of technical landforms, on landscape modification.
+- Examination of how climate change intensifies geomorphological events, including floods and landslides.
+
+## Teaching Methods
+
+Lecture
+
+## Prerequisites
+
+None
+
+## Type of Examination
+
+Examination in form of a portfolio (5–10 pages). The subject of examination is the content of the lecture a) of this module. During the lecture b) of this module, students are required to complete mandatory ungraded assignments (Studienleistungen).
+
+## Credits Awarded
+
+Credit points are awarded when the portfolio has been graded with at least 4.0 (sufficient) and the mandatory assignments (Studienleistungen) have been successfully completed.
+
+## Compatibility with Other Curricula
+
+JIMES (JIMES-AM-Ecosys)
+
+## Proportion of Final Grade
+
+5%
+
+## Module Coordinator
+
+Prof. Dr. Christina Bogner (Institute of Geography)
+
+## Further Information
+
+There are no restrictions on the number of places available for IMES students and BVDU students.

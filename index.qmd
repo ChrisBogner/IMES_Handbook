@@ -1,0 +1,39 @@
+# Preface {.unnumbered}
+
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+# Contact {.unnamered}
+
+**Chair, Examination Committee**
+
+Prof. Dr. Christina Bogner
+
+Ecosystem Research
+
+
+**Academic Manager**
+
+Dr. Hannes Laermanns
+
+imes-info(at)uni-koeln.de
+
+# Legend {.unnumbered}
+
+| **Abbreviation** | **Explanation** |
+|------------------|------------------|
+| **AM** | Aufbaumodul / Advanced Modules |
+| **BM** | Basismodul / Basic Modules |
+| **K** | Kontaktzeit (= Präsenzzeit in LV) / Contact Time (Presence required in class) |
+| **LP** | Leistungspunkt / Credit Points |
+| **LV** | Lehrveranstaltung / Class |
+| **P** | Pflichtveranstaltung / Mandatory Class |
+| **W** | Wahlveranstaltung / Elective Class |
+| **S** | Semester |
+| **SoSe** | Sommersemester / Summer Semester |
+| **SWS** | Semesterwochenstunde / Semester Weekly Hours |
+| **Ü** | Übung / Practical Session |
+| **VN** | Selbststudium / Self-Study |
+| **WiSe** | Wintersemester / Winter Semester |
+: {.striped .hover .bordered .sm}

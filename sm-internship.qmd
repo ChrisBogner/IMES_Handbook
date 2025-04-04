@@ -1,0 +1,112 @@
+# Internship {.unnumbered}
+
+
+| | |
+|----|---|
+| **Type of Module** | Specialisation Module |
+| **Module Code** | IMES-SM-Int |
+| **Workload** | 360 h |
+| **ECTS** | 12 |
+| **Term** | Semester 3 |
+| **Offered Every** | SuSe |
+| **Start** | SuSe |
+| **Duration** | Minimum 8 weeks |
+: {.striped .hover .bordered .sm}
+
+| Course Types | Contact Time | Self-study Time | 
+|----|---|---|
+a) Internship | 320 h | 7.5 h
+b) Seminar | 0.5 SWS | 32.5 h |
+: {.info .bordered}
+
+
+
+
+
+
+## Module Description
+
+The internship of two months duration is scheduled as part of the third semester. It is an opportunity for students to develop research skills and/or gain professional expertise as well as academic knowledge. Students are expected to begin planning their internship early in the semester to ensure a timely placement and registration. While the timing of the internship may vary depending on individual arrangements, it should be aligned with the study plan and registered with the IMES Office before commencement. Students are encouraged to find their own internship placements and make initial contact with prospective organizations, as this builds communication and organizational skills. The IMES Office can provide guidance in certain cases and share a database of former internship hosts but does not guarantee placement. The module includes a seminar in which students present and reflect on their internship experiences. This setting provides a structured opportunity for peer-to-peer learning, constructive feedback, and academic exchange. Students are expected not only to defend their own internship work but also to engage actively with the presentations of their peers by asking questions, giving feedback, and discussing diverse professional contexts relevant to environmental sciences.
+
+## Module Objectives
+
+- Facilitate the application of theoretical knowledge in real-world contexts through hands-on experience in professional settings.
+- Enhance problem-solving, analytical, and decision-making skills by engaging in practical projects related to the core domains of the program.
+- Cultivate professional competencies, including teamwork, communication, and leadership, through structured mentorship and collaboration with industry or research organizations.
+
+## Module Outcomes
+
+At the end of this module, students will be able to:
+
+- Demonstrate the ability to apply theoretical knowledge to practical challenges in professional or research environments.
+- Develop and execute project-based tasks with minimal supervision, showcasing initiative and problem-solving skills.
+- Communicate effectively through written reports, presentations, and discussions, tailored to both academic and professional audiences.
+- Demonstrate enhanced soft skills such as teamwork, adaptability, and professionalism in diverse settings.
+- Critically reflect on their internship experience to identify strengths, areas for improvement, and future career directions.
+- Create meaningful contributions to their host organization, supported by innovative ideas or solutions derived during the internship.
+
+## Module Content
+
+An internship matching the thematic focus of Environmental Sciences as defined by the IMES program.
+
+**Registration and documentation requirements**
+
+Before starting the internship, students must register it with the IMES Office. Registration requires:
+
+- A brief written outline (1 page) describing the host organization, the planned tasks and responsibilities, and how the internship aligns with the thematic focus of Environmental Sciences as defined by the IMES program.
+- A confirmation from the host organization (in any reasonable format, such as an email or signed letter) indicating the planned duration and general scope of the internship. A formal contract is not mandatory, but may be required by the host organization.
+
+After completing the internship, students must submit a certificate of completion from the host organization. This document should briefly state the internship duration and confirm that the agreed-upon tasks were carried out.
+
+
+## Teaching Methods
+
+a) Internship  
+b) Seminar at UoC: student presentations, peer feedback, group discussion
+
+## Prerequisites
+
+The student has acquired at least 30 ECTS from the first three semesters.
+
+## Type of Examination
+
+The supervisor will grade the internship based on an internship report of 20 pages, written in English, which introduces institutional/NGO setup, people encountered and worked alongside, including their tasks and positions; activities undertaken, including the content, aim, and timeframe of the work; policy areas touched upon; skills acquired; insight into institutional practice obtained. The students are required to present and defend their report during the seminar.
+
+**1. Internship report (70%)**
+
+The internship report, written in English (20 pages), should contain the following:
+
+- Introduction to the institutional/NGO setup (10%): Describing the organization, objectives, and operations comprehensively.
+- Tasks and people encountered (10%): Detailed account of roles, responsibilities, and interactions with colleagues.
+- Activities undertaken (10%): Explanation of content, objectives, timelines, the scope of the work and outputs.
+- Policy areas and skills acquired (10%): Identification of relevant policy domains and skills developed.
+- Insights into institutional practices and self-reflection (30%): In-depth analysis of institutional processes, key learnings, challenges faced, and personal growth.
+
+**2. Presentation and defence of the report (30%)**
+
+The student presents their report to a panel of IMES staff (20 minutes), assessed on:
+
+- Clarity, organization, and coherence of the presentation (15%).
+- Ability to answer questions and demonstrate understanding of the internship’s context, activities, and outcomes (15%).
+
+## Credits Awarded
+
+Credit points are awarded upon regular and active participation in the internship and the seminar, as well as successful completion of the module's examinations with a minimum passing grade of 4.0 (sufficient). A certificate of completion from the host organization is normally required, but alternative proof may be accepted in justified cases.
+
+The internship must be registered with the IMES Office before commencement. Registration requires a written outline of the planned tasks and a confirmation from the host organization.
+
+## Compatibility with Other Curricula
+
+None
+
+## Proportion of Final Grade
+
+0%. The internship is graded but does not contribute to the final grade.
+
+## Module Coordinator
+
+Dr. Hannes Laermanns (Institute of Geography) – IMES Office
+
+## Further Information
+
+No restriction on number of places for IMES students.

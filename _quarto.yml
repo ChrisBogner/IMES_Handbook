@@ -1,0 +1,69 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "International Master of Environmental Sciences"
+  subtitle: "Module Handbook"
+  author: "IMES Examination Committee"
+  date: "2025-03-31"
+  reader-mode: true
+  downloads: pdf
+  chapters:
+    - index.qmd
+    - part: "DESCRIPTION OF THE PROGRAM"
+      chapters:
+        - intro.qmd
+    - part: "MODULE DESCRIPTIONS"
+      chapters: 
+        - am-geosphere-and-hydrosphere.qmd
+        - am-sustainable-development.qmd
+        - am-law.qmd
+        - am-ecosystems-and-landscape.qmd
+        - sm-internship.qmd
+        - master-thesis.qmd
+    - part: "EXAMPLE SCHEDULES"
+      chapters: 
+        - schedules.qmd
+page-footer:
+  right: |
+      This module handbook was built with <a href="https://quarto.org/">Quarto</a>.
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: [cosmo, scss/ims-style.scss]
+    code-link: true
+    mainfont: Atkinson Hyperlegible
+    monofont: Source Code Pro
+    author-meta: "Mine Çetinkaya-Rundel and Johanna Hardin"
+    lightbox: 
+      match: auto
+      loop: false
+    fig-dpi: 300
+    fig-show: hold
+    fig-align: center
+  pdf:
+    include-in-header: latex/ims-style.tex
+    #include-after-body: latex/after-body.tex
+    documentclass: book
+    classoption:
+        - 10pt
+        - openany
+    pdf-engine: pdflatex
+    biblio-style: apalike
+    keep-tex: true
+    block-headings: false
+    top-level-division: chapter
+    fig-dpi: 300
+    fig-show: hold
+    fig-pos: H
+    tbl-pos: H
+    fig-align: center
+    toc: true
+    toc-depth: 1
+
+
+

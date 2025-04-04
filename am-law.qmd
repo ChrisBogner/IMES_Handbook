@@ -1,0 +1,98 @@
+# Environmental Law {.unnumbered}
+
+| | |
+|----|---|
+| **Type of Module** | Advanced Module |
+| **Module Code** | IMES-AM-Law |
+| **Workload** | 180 h |
+| **ECTS** | 6 |
+| **Term** | Semester 1 and 2 |
+| **Offered Every** | WiSe / SuSe |
+| **Start** | WiSe |
+| **Duration** | 2 semesters |
+: {.striped .hover .bordered .sm}
+
+
+| Course Types | Contact Time | Self-study Time | 
+|----|---|---|
+a) Lecture: Environmental Law: Comparative and Basic Studies | 2 SWS 30 h | 60 h |
+b) Lecture: International Environmental Law | 2 SWS 30 h | 60 h |
+: {.info .bordered}
+
+## Module Description
+
+The module consists of two lectures: *Environmental Law: Comparative and Basic Studies* and *International Environmental Law*. Environmental Law introduces students to the discipline of law, with a focus on domestic legal systems and the role of environmental law within these systems. It explores how environmental problems have been addressed through legal mechanisms, both historically and in contemporary contexts, including before and after the introduction of dedicated environmental legislation.
+
+The lecture *International Environmental Law* advances students’ understanding of domestic law introduced in lecture a), focusing on international law and its application to global environmental challenges. Students will explore the unique sources, institutions, and subjects of international environmental law, and distinguish them from their domestic counterparts. The course emphasizes the role of treaties, litigation, and arbitration in shaping international environmental governance.
+
+## Module Objectives
+
+- Introduce students to the principles, sources, institutions, and subjects of domestic and international environmental law.
+- Develop an understanding of how environmental challenges are addressed through domestic and international legal mechanisms.
+- Highlight the role of treaties, litigation, and arbitration in shaping international environmental governance.
+- Explore the interdisciplinary nature of environmental law and its connections with social and natural sciences.
+
+## Module Outcomes
+
+- Identify and evaluate key sources, principles, and institutions of domestic and international environmental law.
+- Compare domestic and international approaches to addressing environmental problems, including their advantages and limitations.
+- Analyze the role of legal mechanisms in environmental governance and their interplay with social and natural sciences.
+- Apply knowledge of international environmental law to evaluate global environmental challenges and propose solutions.
+
+## Module Content
+
+### a) Lecture: Environmental Law: Comparative and Basic Studies
+
+- The placement of environmental law within domestic legal systems.
+- Domestic sources of law, key institutions, and subjects relevant to environmental governance.
+- The concept of sources of law, focusing on the fundamentals of identifying and locating applicable laws to address specific environmental challenges.
+- How legal principles and processes contribute to solving environmental problems at the domestic level.
+- An overview of the comparative method to understand differences in how environmental law is applied across jurisdictions.
+- Interdisciplinary links between environmental law and other fields, including the social and natural sciences.
+
+### b) Lecture: International Environmental Law
+
+- The distinction between international public environmental law and political processes.
+- Fundamental principles of international environmental legislation, including its interpretation and execution.
+- International sources of law, key institutions, and subjects, with a focus on their unique roles and functions.
+- Comparative analysis of international and domestic environmental law, highlighting their differences and intersections.
+- Study of treaties categorized by natural science domains: atmosphere, hydrosphere, and geosphere.
+- Examination of litigation and arbitration cases to identify international customs and principles.
+- Analysis of the interdisciplinary connections between international environmental law and the social and natural sciences.
+
+## Teaching Methods
+
+Lecture
+
+## Prerequisites
+
+a) None  
+b) While there is no formal requirement, International Environmental Law will be taught assuming the student has a basic understanding of sources of law, institutions of law and subjects of law, however that understanding was achieved.
+
+## Type of Examination
+
+Students are required to independently research and write a paper in English, comprising 20–24 pages, to be completed outside the lecture hours.
+
+**Part I** of the research paper will address an environmental problem in a country of their choice, presents that country’s official state policy on the problem, presents the sources and institutions of law on that problem in that country, and then assesses whether those laws and institutions solve the problem. The student will then do the same for a second country of choice. The paper will then build a matrix by which one can compare the performance of the first country’s environmental solutions with the second.
+
+**Part II** of the research paper will address an analysis of a case study of international environmental law.
+
+## Credits Awarded
+
+Credit points are awarded upon successful completion of the module's examination, with a minimum passing grade of 4.0 (sufficient).
+
+## Compatibility with Other Curricula
+
+JIMES (JIMES-AM-Law)
+
+## Proportion of Final Grade
+
+5%
+
+## Module Coordinator
+
+Prof. Dr. Kirk Junker (US American Law)
+
+## Further Information
+
+There are no restrictions on the number of places available for IMES students.

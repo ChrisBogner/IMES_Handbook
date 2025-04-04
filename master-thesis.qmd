@@ -1,0 +1,90 @@
+# Master Thesis and Colloquium {.unnumbered}
+
+| | |
+|----|---|
+| **Type of Module** | Master thesis |
+| **Module Code** | IMES-MasterThesis |
+| **Workload** | 900 h |
+| **ECTS** | 30 |
+| **Term** | Semester 4 |
+| **Offered Every** | WiSe / SuSe |
+| **Start** | WiSe / SuSe |
+| **Duration** | 1 semester |
+: {.striped .hover .bordered .sm}
+
+
+| Course Types | Contact Time | Self-study Time | 
+|----|---|---|
+a) Master Thesis | 875 h | 20 h |
+b) Colloquium | 4 h | 1 h |
+: {.info .bordered}
+
+
+
+## Module Objectives and Outcomes
+
+
+### a) Master Thesis
+
+
+The Master's thesis is an independent academic examination designed to demonstrate the candidate's ability to address a well-defined problem within the field of study using appropriate scientific methods within a specified timeframe. The thesis may be completed in any subject of the IMES program and must be written in English.
+
+Throughout the thesis phase, students receive individual academic supervision. Supervisors provide feedback on the exposé, guidance during the research and writing process, and support for the mid-term presentation. This structure is designed to help students manage their time effectively and produce work of high academic quality.
+
+At the beginning of the thesis process, students are required to submit an exposé (approximately 2–4 pages), outlining the research question, objectives, theoretical background, methodology, and expected structure of the thesis. The exposé must demonstrate the feasibility and academic relevance of the project and serves as the basis for discussion and feedback with the supervisor.
+
+Approximately halfway through the working period, a mid-term presentation is mandatory. In this presentation, the student presents their progress and discusses preliminary results in a seminar with their supervisors and peers. Both the exposé and the mid-term presentation are ungraded coursework (“Studienleistungen”) and must be passed.
+
+The maximum timeframe for completing the Master's thesis is six months from the date the topic is assigned. The thesis should not exceed 100 A4 pages.
+
+Further details on the Master's thesis are provided in the examination regulations (§21).
+
+### b) Colloquium (Oral defense of the master’s thesis)
+
+The colloquium is conducted as an interdisciplinary individual examination. The candidate presents the contents of their Master's thesis in a 10- to 15-minute presentation, followed by questions and discussion with the examiners. The colloquium lasts between 40 and 60 minutes. Students and staff of the IMES program are permitted to attend the colloquium unless the candidate objects. Participation of observers does not include the deliberation or announcement of results.
+
+Further details on the Colloquium are given in the examination regulations (§21).
+
+## Module Content
+
+The module consists of four parts:  
+(1) submission of an exposé outlining the research question, methodology, and structure;  
+(2) a mandatory mid-term presentation to report on progress;  
+(3) completion of an independent written thesis;  
+(4) a final oral colloquium to defend the thesis.  
+The thesis should not exceed 100 pages and must be completed within six months of topic assignment.
+
+## Teaching Methods
+
+Individual supervision including support during the exposé phase, feedback after the mid-term presentation, and academic consultations throughout the research and writing process.
+
+## Prerequisites
+
+The student has acquired at least 60 ECTS from the first three semesters and successfully completed all mandatory modules.
+
+## Type of Examination
+
+- Written Master thesis (weight: 75%)  
+- Oral defense (weight: 25%)  
+- Exposé (ungraded course work “Studienleistung”)  
+- Mid-term presentation (ungraded course work “Studienleistung”)
+
+## Credits Awarded
+
+Credit points are awarded when the ungraded exposé and mid-term presentation were successfully passed and the examinations of the module parts have been successfully completed with the minimum grade 4.0 (sufficient).
+
+## Compatibility with Other Curricula
+
+None
+
+## Proportion of Final Grade
+
+25%
+
+## Module Coordinator
+
+Head of the IMES Examination Committee
+
+## Further Information
+
+None
