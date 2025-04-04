@@ -28,7 +28,7 @@ book:
   page-footer:
     right: |
       This module handbook was built with <a href="https://quarto.org/">Quarto</a>.
-  navbar: 
+  sidebar: 
     logo: "images/Universitaet zu Koeln Logo ENG.png"
 
 bibliography: references.bib
