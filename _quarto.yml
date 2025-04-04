@@ -6,7 +6,7 @@ book:
   title: "International Master of Environmental Sciences"
   subtitle: "Module Handbook"
   author: "IMES Examination Committee"
-  date: "2025-03-31"
+  date: today
   reader-mode: true
   downloads: pdf
   chapters:
@@ -25,9 +25,11 @@ book:
     - part: "EXAMPLE SCHEDULES"
       chapters: 
         - schedules.qmd
-page-footer:
-  right: |
+  page-footer:
+    right: |
       This module handbook was built with <a href="https://quarto.org/">Quarto</a>.
+  navbar: 
+    logo: "images/Universitaet zu Koeln Logo ENG.png"
 
 bibliography: references.bib
 
@@ -38,7 +40,7 @@ format:
     code-link: true
     mainfont: Atkinson Hyperlegible
     monofont: Source Code Pro
-    author-meta: "Mine Çetinkaya-Rundel and Johanna Hardin"
+    author-meta: "IMES Examination Committee"
     lightbox: 
       match: auto
       loop: false
