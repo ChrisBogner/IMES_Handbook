@@ -14,8 +14,8 @@
 
 | Course Types | Contact Time | Self-study Time | 
 |--------------|--------------|-----------------|
-| a) Lecture: Introduction to Environmental Geophysics | 2 SWS / 30 h | 60 h |
-| b) Lecture: Physical Hydrology | 2 SWS / 30 h | 60 h |
+| a) Lecture: Introduction to Environmental Geophysics | 2 CHW / 30 h | 60 h |
+| b) Lecture: Physical Hydrology | 2 CHW / 30 h | 60 h |
 : {.info .bordered}
 
 ## Module Description

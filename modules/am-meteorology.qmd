@@ -1,0 +1,73 @@
+# Meteorology {.unnumbered}
+
+| | |
+|----|---|
+| **Type of Module** | Advanced Module |
+| **Module Code** | IMES-AM-Meteo |
+| **Workload** | 180 h |
+| **ECTS** | 6 |
+| **Term** | Semester 2 |
+| **Offered Every** | SuSe |
+| **Start** | SuSe |
+| **Duration** | 1 semester |
+: {.striped .hover .bordered .sm}
+
+| Course Types | Contact Time | Self-study Time | 
+|--------------|--------------|-----------------|
+| a) Lecture with seminar: General Aspects of Meteorology | 2 CHW / 30 h | 60 h |
+| b) Lecture with seminar: Introduction to Synoptic Meteorology | 2 CHW / 30 h | 60 h |
+: {.info .bordered}
+
+## Module Description
+
+This module introduces students to the fundamental physical principles underlying atmospheric sciences. It covers key topics such as atmospheric thermodynamics, dynamics, global circulation, weather prediction techniques, remote sensing, and atmospheric chemistry, including air pollution. Students will develop a foundational understanding of the processes driving Earth's atmosphere.
+
+## Module Objectives
+
+- Introduce the fundamental physical principles of atmospheric sciences, including thermodynamics, dynamics, and global circulation.
+- Provide students with a foundational understanding of atmospheric phenomena and the tools used to describe and interpret them, such as measurement devices and remote sensing techniques.
+- Familiarize students with synoptic weather systems, numerical weather predictions, and the basics of atmospheric chemistry and air pollution.
+
+## Module Outcomes
+
+Upon successful completion of this module, students will be able to:
+
+- Describe the basic physical principles and laws governing the atmosphere, including thermodynamics and atmospheric dynamics.
+- Explain the functioning of measurement devices and techniques used in atmospheric sciences, such as remote sensing.
+- Analyze atmospheric phenomena, including synoptic weather systems and global circulation, and interpret their significance in the context of weather prediction.
+
+## Module Content
+
+In the lectures, fundamental physical principles upon which atmospheric sciences are based will be introduced. The goal is to provide an elementary description and interpretation of a wide range of atmospheric phenomena. The main topics are a survey of the atmosphere including measurement devices, basic laws describing the atmosphere, a fundamental understanding of synoptic weather systems including numerical weather predictions and aspects of remote sensing.
+
+## Teaching Methods
+
+Lecture with seminar
+
+## Prerequisites
+
+None
+
+## Type of Examination
+
+Written examination of 90–120 minutes. The subject of examination is the content of the lectures (a and b) of this module description.
+
+## Credits Awarded
+
+Credit points are awarded when the written examination has been graded with at least 4.0 (sufficient).
+
+## Compatibility with Other Curricula
+
+JIMES (JIMES-AM-Meteo)
+
+## Proportion of Final Grade
+
+5%
+
+## Module Coordinator
+
+Dr. Frank Steffany (Institute of Geophysics)
+
+## Further Information
+
+There are no restrictions on the number of places available for IMES students.

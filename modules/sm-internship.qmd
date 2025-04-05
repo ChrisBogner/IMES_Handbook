@@ -16,7 +16,7 @@
 | Course Types | Contact Time | Self-study Time | 
 |----|---|---|
 a) Internship | 320 h | 7.5 h
-b) Seminar | 0.5 SWS | 32.5 h |
+b) Seminar | 0.5 CHW | 32.5 h |
 : {.info .bordered}
 
 

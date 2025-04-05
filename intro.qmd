@@ -162,7 +162,7 @@ To ensure a broad and interdisciplinary foundation, IMES modules are grouped int
 : {.striped .hover .bordered .sm}
 
 
-## Overview of Module Types in IMES
+## Overview of Modules in IMES
 
 The IMES program comprises modules that are typically worth either 6 or 12 ECTS. The Master Thesis and Colloquium form a comprehensive research module worth 30 ECTS. The curriculum includes six mandatory modules and a wide range of electives, allowing students to shape their individual academic trajectories.
 

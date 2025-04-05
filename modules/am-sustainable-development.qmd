@@ -14,8 +14,8 @@
 
 | Course Types | Contact Time | Self-study Time | 
 |--------------|--------------|-----------------|
-| a) Seminar: Sustainable Development | 2 SWS / 30 h | 60 h |
-| b) Practical: Fieldwork | 2 SWS / 30 h | 60 h |
+| a) Seminar: Sustainable Development | 2 CHW / 30 h | 60 h |
+| b) Practical: Fieldwork | 2 CHW / 30 h | 60 h |
 : {.info .bordered}
 
 ## Module Description

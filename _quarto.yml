@@ -16,12 +16,13 @@ book:
         - intro.qmd
     - part: "MODULE DESCRIPTIONS"
       chapters: 
-        - am-geosphere-and-hydrosphere.qmd
-        - am-sustainable-development.qmd
-        - am-law.qmd
-        - am-ecosystems-and-landscape.qmd
-        - sm-internship.qmd
-        - master-thesis.qmd
+        - modules/am-geosphere-and-hydrosphere.qmd
+        - modules/am-sustainable-development.qmd
+        - modules/am-law.qmd
+        - modules/am-ecosystems-and-landscape.qmd
+        - modules/am-meteorology.qmd
+        - modules/sm-internship.qmd
+        - modules/master-thesis.qmd
     - part: "EXAMPLE SCHEDULES"
       chapters: 
         - schedules.qmd

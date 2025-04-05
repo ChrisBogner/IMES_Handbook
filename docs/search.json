@@ -877,5 +877,148 @@
       "MODULE DESCRIPTIONS",
       "Master Thesis and Colloquium"
     ]
+  },
+  {
+    "objectID": "intro.html#overview-of-modules-in-imes",
+    "href": "intro.html#overview-of-modules-in-imes",
+    "title": "The International Master of Environmental Sciences (IMES)",
+    "section": "Overview of Modules in IMES",
+    "text": "Overview of Modules in IMES\nThe IMES program comprises modules that are typically worth either 6 or 12 ECTS. The Master Thesis and Colloquium form a comprehensive research module worth 30 ECTS. The curriculum includes six mandatory modules and a wide range of electives, allowing students to shape their individual academic trajectories.\nModules in IMES are classified into Core Modules, Advanced Modules and Specialisation Modules (Key Academic Terms and Abbreviations). A detailed descriptions of each module are provided in the second part of this module handbook.\n\nList of modules in IMES. Module types are Core Modules (CM), Advanced Modules (AM) and Specialisation modules (SM)\n\n\n\n\n\n\n\n\n\n\nModule\nECTS\nMandatory (M) or Elective (E)\nModule Type\nSemester\nCategory\n\n\n\n\nIntroduction to Natural and Social Environmental Sciences\n6\nM\nCM\n1\nResearch and Analytical Methods\n\n\nGeosphere and Hydrosphere\n6\nE\nAM\n1\nEarth and Environmental Systems\n\n\nSustainable Development\n6\nE\nAM\n1\nSocieties, Education, and Ethics\n\n\nEnvironmental Law\n6\nM\nAM\n1 and 2\nGovernance, Law, and Institutions\n\n\nEnergy and Climate Change\n6\nE\nAM\n1 or 2\nEconomy and Resource Management\n\n\nEnvironmental Medicine\n6\nE\nAM\n1\nSocieties, Education, and Ethics\n\n\nAnthropology\n6\nE\nAM\n1 and 2\nSocieties, Education, and Ethics\n\n\nMethods of Spatial and Statistical Data Analysis\n6\nE\nAM\n1 and 2\nResearch and Analytical Methods\n\n\nEnvironmental Humanities and Communication\n6\nE\nAM\n1\nSocieties, Education, and Ethics\n\n\nAdvanced Environmental Sciences\n6\nM\nAM\n2\nResearch and Analytical Methods\n\n\nEcosystems and Landscape Dynamics\n6\nM\nAM\n2\nEarth and Environmental Systems\n\n\nNatural Resources, Water and Renewable Energy Management (TH Köln)\n6\nE\nAM\n2 or 3\nEconomy and Resource Management\n\n\nEnvironmental Ethics and Management\n6\nE\nAM\n2\nSocieties, Education, and Ethics\n\n\nMeteorology\n6\nE\nAM\n2\nEarth and Environmental Systems\n\n\nEnvironmental Modelling and Data Science\n6\nE\nAM\n2 or 3\nResearch and Analytical Methods\n\n\nEnvironmental Pollution\n6\nE\nAM\n2\nEarth and Environmental Systems\n\n\nInternship\n12\nM\nSM\n3\nResearch and Analytical Methods\n\n\nAdvanced Atmospheric Processes\n6\nE\nAM\n3\nEarth and Environmental Systems\n\n\nHuman Environment Relations\n6\nE\nAM\n3\nSocieties, Education, and Ethics\n\n\nAdvanced Environmental Geography\n6\nE\nAM\n3\nEarth and Environmental Systems\n\n\nEnvironmental Spatial Methods\n6\nE\nAM\n3\nResearch and Analytical Methods\n\n\nIndividual Specialization Module\n6\nE\nSM\n3\nResearch and Analytical Methods\n\n\nIndividual Advanced Module\n6\nE\nAM\n3\nAny\n\n\nMaster Thesis and Colloquium\n30\nM\n\n4\nAny",
+    "crumbs": [
+      "DESCRIPTION OF THE PROGRAM",
+      "The International Master of Environmental Sciences (IMES)"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html",
+    "href": "modules/am-meteorology.html",
+    "title": "Meteorology",
+    "section": "",
+    "text": "Module Description\nThis module introduces students to the fundamental physical principles underlying atmospheric sciences. It covers key topics such as atmospheric thermodynamics, dynamics, global circulation, weather prediction techniques, remote sensing, and atmospheric chemistry, including air pollution. Students will develop a foundational understanding of the processes driving Earth’s atmosphere.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html#module-objectives",
+    "href": "modules/am-meteorology.html#module-objectives",
+    "title": "Meteorology",
+    "section": "Module Objectives",
+    "text": "Module Objectives\n\nIntroduce the fundamental physical principles of atmospheric sciences, including thermodynamics, dynamics, and global circulation.\nProvide students with a foundational understanding of atmospheric phenomena and the tools used to describe and interpret them, such as measurement devices and remote sensing techniques.\nFamiliarize students with synoptic weather systems, numerical weather predictions, and the basics of atmospheric chemistry and air pollution.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html#module-outcomes",
+    "href": "modules/am-meteorology.html#module-outcomes",
+    "title": "Meteorology",
+    "section": "Module Outcomes",
+    "text": "Module Outcomes\nUpon successful completion of this module, students will be able to:\n\nDescribe the basic physical principles and laws governing the atmosphere, including thermodynamics and atmospheric dynamics.\nExplain the functioning of measurement devices and techniques used in atmospheric sciences, such as remote sensing.\nAnalyze atmospheric phenomena, including synoptic weather systems and global circulation, and interpret their significance in the context of weather prediction.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html#module-content",
+    "href": "modules/am-meteorology.html#module-content",
+    "title": "Meteorology",
+    "section": "Module Content",
+    "text": "Module Content\nIn the lectures, fundamental physical principles upon which atmospheric sciences are based will be introduced. The goal is to provide an elementary description and interpretation of a wide range of atmospheric phenomena. The main topics are a survey of the atmosphere including measurement devices, basic laws describing the atmosphere, a fundamental understanding of synoptic weather systems including numerical weather predictions and aspects of remote sensing.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html#teaching-methods",
+    "href": "modules/am-meteorology.html#teaching-methods",
+    "title": "Meteorology",
+    "section": "Teaching Methods",
+    "text": "Teaching Methods\nLecture with seminar",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html#prerequisites",
+    "href": "modules/am-meteorology.html#prerequisites",
+    "title": "Meteorology",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nNone",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html#type-of-examination",
+    "href": "modules/am-meteorology.html#type-of-examination",
+    "title": "Meteorology",
+    "section": "Type of Examination",
+    "text": "Type of Examination\nWritten examination of 90–120 minutes. The subject of examination is the content of the lectures (a and b) of this module description.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html#credits-awarded",
+    "href": "modules/am-meteorology.html#credits-awarded",
+    "title": "Meteorology",
+    "section": "Credits Awarded",
+    "text": "Credits Awarded\nCredit points are awarded when the written examination has been graded with at least 4.0 (sufficient).",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html#compatibility-with-other-curricula",
+    "href": "modules/am-meteorology.html#compatibility-with-other-curricula",
+    "title": "Meteorology",
+    "section": "Compatibility with Other Curricula",
+    "text": "Compatibility with Other Curricula\nJIMES (JIMES-AM-Meteo)",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html#proportion-of-final-grade",
+    "href": "modules/am-meteorology.html#proportion-of-final-grade",
+    "title": "Meteorology",
+    "section": "Proportion of Final Grade",
+    "text": "Proportion of Final Grade\n5%",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html#module-coordinator",
+    "href": "modules/am-meteorology.html#module-coordinator",
+    "title": "Meteorology",
+    "section": "Module Coordinator",
+    "text": "Module Coordinator\nDr. Frank Steffany (Institute of Geophysics)",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
+  },
+  {
+    "objectID": "modules/am-meteorology.html#further-information",
+    "href": "modules/am-meteorology.html#further-information",
+    "title": "Meteorology",
+    "section": "Further Information",
+    "text": "Further Information\nThere are no restrictions on the number of places available for IMES students.",
+    "crumbs": [
+      "MODULE DESCRIPTIONS",
+      "Meteorology"
+    ]
   }
 ]

@@ -14,8 +14,8 @@
 
 | Course Types | Contact Time | Self-study Time | 
 |--------------|--------------|-----------------|
-| a) Lecture: Ecosystem Services and Functions Under Climate Change | 2 SWS / 30 h | 60 h |
-| b) Lecture: Landscape Formation | 2 SWS / 30 h | 60 h |
+| a) Lecture: Ecosystem Services and Functions Under Climate Change | 2 CHW / 30 h | 60 h |
+| b) Lecture: Landscape Formation | 2 CHW / 30 h | 60 h |
 : {.info .bordered}
 
 ## Module Description
