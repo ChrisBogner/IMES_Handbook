@@ -1,42 +1,82 @@
 # Preface {.unnumbered}
 
-This is a module handbook for the Master Program International Master of Environmental Sciences at the University of Cologne. The document is work in progress.
+This module handbook describes the International Master of Environmental Sciences (IMES) program at the University of Cologne. It reflects the updated structure and module descriptions valid from the winter semester 2025/2026 onward.
+
+The module handbook serves as a key reference for students throughout their studies. It provides detailed information about the structure of the program, the types of modules offered, and the intended learning outcomes for each module. It also outlines how modules are grouped thematically and how they contribute to the overall academic and professional goals of the IMES program.
+
+Students are encouraged to use this handbook to:
+
+- Plan their individual study paths,
+- Understand the expectations and assessment formats of each module,
+- Explore elective options and specialisation areas,
+- Prepare for academic advising and course registration.
+
+Together with the examination regulations (*Prüfungsordnung*) and guidance provided by the IMES Office, this handbook is an essential tool for navigating the curriculum and making informed decisions throughout the program.
 
 # Contact 
 
-**Chair of the Examination Committee**
-
-Prof. Dr. Christina Bogner
-
-Ecosystem Research
+**Chair of the Examination Committee**\
+Prof. Dr. Christina Bogner\
+Ecosystem Research, Institute of Geography\
 
 
-**IMES Academic Manager**
-
+**IMES Academic Manager**\
 Dr. Hannes Laermanns
 
+
+**IMES Office**\
+Address:\
+International Master of Environmental Sciences\
+University of Cologne\
+Institute of Geography\
+Zülpicher Str. 45\
+50674 Cologne\
+Germany\
 imes-info(at)uni-koeln.de
 
-# Some usefull concepts and abbreviations {#sec-concepts}
+# Key Academic Terms and Abbreviations {#sec-concepts}
 
-**ECTS**: The European Credit Transfer and Accumulation System (ECTS) is a standardized system used across the European Higher Education Area (EHEA) to facilitate the recognition of academic achievements and support student mobility between institutions. ECTS credits represent the workload and defined learning outcomes of a given course or program. One ECTS credit at UoC corresponds to approximately 30 hours of work, including lectures, self study, and assessments. A full academic year typically equals 60 ECTS credits, approximately 30 per semester, making the system a key tool for ensuring the transparency, comparability, and quality assurance of higher education qualifications in Europe.
+### Study Structure and Curriculum
 
-**Module**: a thematic teaching unit, usually consisting of several courses.
+**Module**  
+A module is a self-contained unit of study that brings together related topics into a coherent teaching and learning block. It typically includes lectures, seminars, and assessments, and carries a specific number of ECTS credits.
 
-**Contact time**: time the student spends in class.
+**Core Modules (CM)**  
+Core Modules provide foundational knowledge in essential areas of environmental sciences. They are typically completed at the beginning of the program.
 
-**Self-study time**: time the students dedicate to any work done at home like assignments, studying to rework concepts learnt in class or prepare an exam.
+**Advanced Modules (AM)**  
+Advanced Modules build on Core Modules, enabling students to deepen their knowledge and apply methods more independently.
 
-**Non-graded assessment (German Studienleistung)**: mandatory formative assessment at UoC, which must be completed satisfactorily for progression but does not contribute to the final grade of a course. Such coursework might involve participation, practical work, or assignments designed to demonstrate understanding or competence without being graded on a scale that affects overall degree outcomes.
+**Specialisation Modules (SM)**  
+Specialisation Modules support academic profiling and allow students to focus on specific areas of interest. They usually align with the topic of the Master’s thesis.
 
-**Core Modules (CM)**: These modules provide foundational knowledge in essential areas of environmental sciences. They introduce key concepts, methodologies, and frameworks and are typically completed early in the program.
-  
-**Advanced Modules (AM)**: Building on the Core Modules, these modules allow students to deepen their knowledge, refine their skills, and engage with more complex environmental issues. They encourage independent application of methods and further development of analytical and research competencies.
+### Time and Workload
 
-**Specialisation Modules (SM)**: These modules enable students to focus on a specific area of interest within environmental sciences. Specialisation Modules support the development of an individual academic profile and typically correspond with the topic of the Master's thesis.
+**ECTS**  
+The European Credit Transfer and Accumulation System (ECTS) is used across the European Higher Education Area (EHEA) to ensure comparability and recognition of academic qualifications. ECTS credits reflect the total workload and defined learning outcomes of a course or program. One ECTS credit at the University of Cologne corresponds to approximately 30 hours of work, including contact time, self-study, and assessment. A full academic year equals 60 ECTS credits (approximately 30 per semester).
 
-**SoSe**: Summer semester or summer term from 1 April to 30 September.
+**Contact time**  
+Contact time refers to scheduled hours during which students participate in instructor-led sessions such as lectures, seminars, or laboratory work.
 
-**WiSe**: Winter semester or winter term from 1 October to 31 March.
+**Self-study time**  
+Self-study time refers to hours dedicated to independent learning activities, including assignments, readings, and exam preparation.
+
+**CHW (Contact hours per week)**  
+CHW refers to the number of instructor-led hours scheduled per week for a given course. This corresponds to the German abbreviation **SWS** (*Semesterwochenstunden*).
+
+### Assessment and Progress
+
+**Non-graded assessment (German: Studienleistung)**  
+A non-graded assessment is a mandatory, formative component of coursework at the University of Cologne. It must be completed satisfactorily for academic progress but does not affect the final course grade. It may include participation, short assignments, or practical tasks.
+
+### Semester Information
+
+**SoSe**  
+SoSe stands for *Sommersemester* (summer semester), which runs from 1 April to 30 September.
+
+**WiSe**  
+WiSe stands for *Wintersemester* (winter semester), which runs from 1 October to 31 March.
+
+
 
 

@@ -37,6 +37,33 @@ A mandatory internship provides practical experience and insight into profession
 ## Admission Requirements
 The admissions requirements are described on the [IMES website](https://imes.uni-koeln.de/prospective-students/apply-for-the-imes-masters-program) and can be found in the Admission Regulations.
 
+
+# Scientific Integrity
+
+The University of Cologne is committed to upholding the principles of good scientific practice (*gute wissenschaftliche Praxis*). These principles apply to all members of the academic community — including students — and are essential for maintaining trust, transparency, and fairness in research and learning.
+
+As a student in the IMES program, you are expected to follow these principles in all academic work. Good scientific practice includes:
+
+- **Respect for intellectual property**: Always acknowledge the ideas, texts, and data of others through proper citation. Plagiarism—including paraphrasing without credit or disguising sources—is strictly prohibited.
+- **Originality**: All submitted work must be your own. Reusing your own previous work without disclosure (*self-plagiarism*) is not permitted.
+- **Transparency**: Methods and sources must be clearly documented and traceable.
+- **Accountability**: You must be able to justify your findings and decisions and maintain records of your work.
+
+Violations of these principles are defined as **acts of deception** in §24 of the IMES examination regulations. This includes cheating, plagiarism, and the use of unauthorized aids. Sanctions may include:
+
+- Invalidation of the affected examination,
+- Temporary or permanent exclusion from further assessments,
+- Use of plagiarism detection software in suspected cases,
+- Revocation of the Master’s degree in cases of serious misconduct discovered after graduation.
+
+If you are uncertain about citation rules, proper collaboration, or how to work with sources, please consult your instructors or the IMES coordination team.
+
+For further information, see:
+
+- [Guidelines for Good Scientific Practice (University of Cologne)](https://portal.uni-koeln.de/en/research/scientific-principles/safeguarding-good-scientific-practice)  
+- Examination Regulations (§24): *Deception and Misconduct*
+
+
 # Qualification Profile
 
 ## The German Qualifications Framework for Higher Education (HQR)

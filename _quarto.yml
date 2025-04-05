@@ -84,6 +84,6 @@ website:
     icon: cone-striped
     dissmissalbe: true
     content: |
-      "You are reading the work-in-progress of the module handbook for the IMES program. The mmodules and their discriptions are subject to changes."
+      "You are reading the work-in-progress of the module handbook for the IMES program. The modules and their discriptions are subject to changes."
     type: primary
     position: below-navbar
