@@ -40,16 +40,6 @@ format:
   html:
     theme:
       light: [cosmo, scss/ims-style.scss]
-    # include-in-header:
-    #   text: |
-    #     <script>
-    #       document.addEventListener("DOMContentLoaded", function() {
-    #         var sidebar = document.getElementById('quarto-sidebar');
-    #         var logo = sidebar.getElementsByTagName('img')[0].cloneNode();
-    #         
-    #         sidebar.appendChild(logo);
-    #       });
-    #     </script>
     code-link: true
     mainfont: Atkinson Hyperlegible
     monofont: Source Code Pro
@@ -80,7 +70,6 @@ format:
     toc: true
     toc-depth: 1
 
-
 website: 
   announcement: 
     icon: cone-striped
@@ -89,3 +78,5 @@ website:
       "You are reading the work-in-progress of the module handbook for the IMES program. The modules and their discriptions are subject to changes."
     type: primary
     position: below-navbar
+
+engine: knitr

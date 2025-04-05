@@ -6,25 +6,23 @@ The module handbook serves as a key reference for students throughout their stud
 
 Students are encouraged to use this handbook to:
 
-- Plan their individual study paths,
-- Understand the expectations and assessment formats of each module,
-- Explore elective options and specialisation areas,
-- Prepare for academic advising and course registration.
+-   Plan their individual study paths,
+-   Understand the expectations and assessment formats of each module,
+-   Explore elective options and specialisation areas,
+-   Prepare for academic advising and course registration.
 
 Together with the examination regulations (*Prüfungsordnung*) and guidance provided by the IMES Office, this handbook is an essential tool for navigating the curriculum and making informed decisions throughout the program.
 
 We welcome constructive feedback from students to help us further improve the module handbook. Please write to us at imes-info(at)uni-koeln.de.
 
-# Contact 
+# Contact
 
 **Chair of the Examination Committee**\
 Prof. Dr. Christina Bogner\
 Ecosystem Research, Institute of Geography\
 
-
 **IMES Academic Manager**\
 Dr. Hannes Laermanns
-
 
 **IMES Office**\
 Address:\
@@ -40,45 +38,50 @@ imes-info(at)uni-koeln.de
 
 ### Study Structure and Curriculum
 
-**Module**  
+**Module**\
 A module is a self-contained unit of study that brings together related topics into a coherent teaching and learning block. It typically includes lectures, seminars, and assessments, and carries a specific number of ECTS credits.
 
-**Core Modules (CM)**  
+**Core Modules (CM)**\
 Core Modules provide foundational knowledge in essential areas of environmental sciences. They are typically completed at the beginning of the program.
 
-**Advanced Modules (AM)**  
+**Advanced Modules (AM)**\
 Advanced Modules build on Core Modules, enabling students to deepen their knowledge and apply methods more independently.
 
-**Specialisation Modules (SM)**  
+**Specialisation Modules (SM)**\
 Specialisation Modules support academic profiling and allow students to focus on specific areas of interest. They usually align with the topic of the Master’s thesis.
 
 ### Time and Workload
 
-**ECTS**  
+**ECTS**\
 The European Credit Transfer and Accumulation System (ECTS) is used across the European Higher Education Area (EHEA) to ensure comparability and recognition of academic qualifications. ECTS credits reflect the total workload and defined learning outcomes of a course or program. One ECTS credit at the University of Cologne corresponds to approximately 30 hours of work, including contact time, self-study, and assessment. A full academic year equals 60 ECTS credits (approximately 30 per semester).
 
-**Contact time**  
+**Contact time**\
 Contact time refers to scheduled hours during which students participate in instructor-led sessions such as lectures, seminars, or laboratory work.
 
-**Self-study time**  
+**Self-study time**\
 Self-study time refers to hours dedicated to independent learning activities, including assignments, readings, and exam preparation.
 
-**CHW (Contact hours per week)**  
+**CHW (Contact hours per week)**\
 CHW refers to the number of instructor-led hours scheduled per week for a given course. This corresponds to the German abbreviation **SWS** (*Semesterwochenstunden*).
 
 ### Assessment and Progress
 
-**Non-graded assessment (German: Studienleistung)**  
+**Non-graded assessment (German: Studienleistung)**\
 A non-graded assessment is a mandatory, formative component of coursework at the University of Cologne. It must be completed satisfactorily for academic progress but does not affect the final course grade. It may include participation, short assignments, or practical tasks.
 
 ### Semester Information
 
-**SoSe**  
+**SoSe**\
 SoSe stands for *Sommersemester* (summer semester), which runs from 1 April to 30 September.
 
-**WiSe**  
+**WiSe**\
 WiSe stands for *Wintersemester* (winter semester), which runs from 1 October to 31 March.
 
+## Acknowledgements
+```{r}
+#| include: false
+fontawesome::fa("r-project", fill = "steelblue")
+```
 
-
+This module handbook was built with <a href="https://quarto.org/">Quarto</a>. The design was borrowed from the wonderful book <a href="https://openintro-ims.netlify.app/">Introduction to Modern Statistics (2e)</a> by Mine Çetinkaya-Rundel and Johanna Hardin. Thank you so much for your contribution to the `r fontawesome::fa("r-project", fill = "steelblue")` community `r fontawesome::fa("fas fa-heart", fill = "red", fill_opacity = 1)`! 
 
