@@ -1,0 +1,77 @@
+# Environmental Pollution {.unnumbered}
+
+| | |
+|----|---|
+| **Type of Module** | Advanced Module |
+| **Module Code** | IMES-AM-EnvPol |
+| **Workload** | 180 h |
+| **ECTS** | 6 |
+| **Term** | Semester 3 |
+| **Offered Every** | SuSe |
+| **Start** | SuSe |
+| **Duration** | 1 semester |
+: {.striped .hover .bordered .sm}
+
+| Course Types | Contact Time | Self-study Time | 
+|--------------|--------------|-----------------|
+| Seminar with practical: From Macro- to Microplastics | 4 CHW / 60 h | 120 h |
+: {.info .bordered}
+
+## Module Description
+
+This module explores the environmental challenges posed by plastics, focusing on their transition from macroplastics to microplastics. Through a combination of seminar discussions and practical sessions, students will gain a foundational understanding of plastic types, degradation mechanisms, and their ecological and health impacts. They will learn and apply analytical techniques for sampling and identifying microplastics in various environments, and critically evaluate potential mitigation strategies. The module emphasizes both theoretical knowledge and hands-on experience, equipping students to address the growing issue of plastic pollution effectively.
+
+## Module Objectives
+
+- Introduce students to the history, types, manufacturing processes, and environmental impacts of plastics, with a focus on the transition from macroplastics to microplastics.
+- Provide insights into the mechanisms of plastic degradation, including physical, chemical, and biological processes, and their influencing factors.
+- Familiarize students with analytical and sampling techniques for identifying and assessing microplastics in various environments.
+- Familiarize students with methods to promote public awareness and drive behavior change initiatives related to plastic pollution.
+
+## Module Outcomes
+
+- Explain the history, types, and environmental impacts of plastics, including their transition from macroplastics to microplastics.
+- Analyze the mechanisms of plastic degradation and evaluate the factors influencing these processes.
+- Assess the environmental and human health impacts of microplastics, including their pathways, accumulation, and long-term effects.
+- Demonstrate proficiency in sampling and identifying microplastics using appropriate analytical techniques.
+- Develop and propose innovative solutions and strategies to mitigate microplastic pollution and its impacts on ecosystems and society.
+
+## Module Content
+
+- **Introduction to Plastics and Polymers**: Overview of the history, types, and applications of plastics; basic chemistry of polymers; manufacturing processes; and environmental impacts of macroplastics.
+- **Degradation and Environmental Impacts**: Mechanisms of macroplastic degradation, environmental pathways, and their effects on ecosystems and human health.
+- **Microplastics in Ecosystems**: Sources, pathways, and impacts of microplastics in marine, freshwater, and terrestrial environments, with strategies for monitoring and mitigation.
+- **Mitigation and Management**: Policies, innovations, and initiatives to reduce plastic and microplastic pollution, including public awareness and behavior change efforts.
+- **Research and Practical Applications**: Current research, future directions, and student-led projects on microplastic pollution, with a focus on collaborative solutions and stakeholder engagement.
+
+## Teaching Methods
+
+Seminar with practical
+
+## Prerequisites
+
+None
+
+## Type of Examination
+
+Written project report of 10–20 pages.
+
+## Credits Awarded
+
+Credit points are awarded upon regular and active participation, as well as the successful completion of the module's examination with a minimum passing grade of 4.0. (sufficient).
+
+## Compatibility with Other Curricula
+
+JIMES (JIMES-AM-EnvPol)
+
+## Proportion of Final Grade
+
+5%
+
+## Module Coordinator
+
+Dr. Hannes Laermanns (Institute of Geography)
+
+## Further Information
+
+Restrictions on the number of places available for IMES students might apply.

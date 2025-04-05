@@ -21,6 +21,7 @@ book:
         - modules/am-law.qmd
         - modules/am-ecosystems-and-landscape.qmd
         - modules/am-meteorology.qmd
+        - modules/am-pollution.qmd
         - modules/sm-internship.qmd
         - modules/master-thesis.qmd
     - part: "EXAMPLE SCHEDULES"
