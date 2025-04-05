@@ -67,7 +67,7 @@ CHW refers to the number of instructor-led hours scheduled per week for a given 
 ### Assessment and Progress
 
 **Non-graded assessment (German: Studienleistung)**\
-A non-graded assessment is a mandatory, formative component of coursework at the University of Cologne. It must be completed satisfactorily for academic progress but does not affect the final course grade. It may include participation, short assignments, or practical tasks.
+A non-graded assessment is a mandatory, formative component of coursework at the University of Cologne. It must be completed satisfactorily for academic progress but does not affect the final course grade. It may include short assignments, or practical tasks.
 
 ### Semester Information
 
@@ -85,3 +85,4 @@ fontawesome::fa("r-project", fill = "steelblue")
 
 This module handbook was built with <a href="https://quarto.org/">Quarto</a>. The design was borrowed from the wonderful book <a href="https://openintro-ims.netlify.app/">Introduction to Modern Statistics (2e)</a> by Mine Çetinkaya-Rundel and Johanna Hardin. Thank you so much for your contribution to the `r fontawesome::fa("r-project", fill = "steelblue")` community `r fontawesome::fa("fas fa-heart", fill = "red", fill_opacity = 1)`! 
 
+ChatGPT was used to support the writing of this module handbook in the sense of computation offloading. All content originates from the program coordinator; ChatGPT was used to help formulate, structure, and refine the text.

@@ -14,7 +14,7 @@
     "href": "index.html#acknowledgements",
     "title": "International Master of Environmental Sciences",
     "section": "Acknowledgements",
-    "text": "Acknowledgements\nThis module handbook was built with Quarto. The design was borrowed from the wonderful book Introduction to Modern Statistics (2e) by Mine Çetinkaya-Rundel and Johanna Hardin. Thank you so much for your contribution to the  community !",
+    "text": "Acknowledgements\nThis module handbook was built with Quarto. The design was borrowed from the wonderful book Introduction to Modern Statistics (2e) by Mine Çetinkaya-Rundel and Johanna Hardin. Thank you so much for your contribution to the  community !\nChatGPT was used to support the writing of this module handbook in the sense of computation offloading. All content originates from the program coordinator; ChatGPT was used to help formulate, structure, and refine the text.",
     "crumbs": [
       "Preface"
     ]
