@@ -20,7 +20,11 @@
 
 ## Module Description
 
-This module consists of two courses: a literature-based seminar in Sustainability and Fieldwork. It provides an in-depth exploration of the principles, challenges, and frameworks of sustainability. Key topics include the GreenComp: the European sustainability competence framework, the Sustainable Development Goals (SDGs), climate change, planetary boundaries, loss of biodiversity and Education for Sustainable Action (ESA) as a tool for transformative action. The course addresses critical global issues such as inequality, urbanization, and environmental degradation, emphasizing their interconnections and linking them to actionable strategies for sustainable solutions.
+This module introduces students to key concepts, historical developments, and contested perspectives surrounding sustainability and sustainable development. It examines the relationship between sustainability as a normative goal and development as a process, highlighting how environmental, social, economic, and political dimensions intersect in both academic debates and global policy agendas.
+
+Students engage with core sustainability challenges such as climate change, environmental degradation, urbanization, inequality, and biodiversity loss. They critically explore frameworks like planetary boundaries, ecosystem services, and the Sustainable Development Goals (SDGs), and consider tools such as Education for Sustainable Development (ESD) and systems thinking to support transformative change.
+
+The module also draws on the European Sustainability Competence Framework (GreenComp), which provides a structured reference for developing values-based, systems-aware, and action-oriented competences. These foundations prepare students to assess sustainability issues across scales and disciplines, and to engage thoughtfully with current and future sustainability transitions.
 
 ## Module Objectives
 
@@ -30,35 +34,45 @@ This module consists of two courses: a literature-based seminar in Sustainabilit
 
 ## Module Outcomes
 
-- Understand the foundational principles of sustainable development, including its pillars, challenges, and key global frameworks such as Agenda 21 and the SDGs.
+- Understand the foundational principles of sustainability and sustainable development, including its pillars, challenges, and key global frameworks such as Agenda 21 and the SDGs.
 - Analyze complex concepts like planetary boundaries, climate change, and biodiversity loss by critically engaging with scientific literature.
-- Evaluate the challenges and opportunities in achieving sustainable development in the context of global and local issues.
-- Examine the role of Education for Sustainable Development (ESD) in fostering transformative learning, systems thinking, and actionable strategies.
+- Evaluate the challenges and opportunities associated with sustainability transitions at global (literature) and local levels (during fieldwork).
+- Examine the role of Education for Sustainable Action (ESA) in fostering transformative learning, systems thinking, and actionable strategies.
 - Develop practical skills in applying systems thinking to identify and address sustainability challenges during Field Work.
 
 ## Module Content
 
-### a) Seminar: Sustainable Development
+### a) Seminar: Sustainability
 
-- Basic concepts of sustainable development:
-  - Understanding ‘sustainability’ and ‘development’
-  - Causes and effects of unsustainable development like consumerism, globalization, urbanization, ecosystem degradation, inequity
-  - Pillars of sustainable development: economic, social, environmental, political (governance)
-  - Timeline of sustainable development; Agenda 21; Millennium development goals and sustainable development goals.
-  - ESD as a tool for transformative learning and systems thinking
-- Key sustainability concepts and challenges:
-  - Climate change: causes, impacts, and mitigation strategies
-  - Planetary boundaries and their relevance to sustainability
-  - Ecosystem services and their role in sustainable development
-  - Rapid population growth and food security
-  - Poverty, income inequality, and gender disparity
-  - Urbanization and its challenges, including energy transformation
-  - Environmental degradation and loss of biodiversity
+#### 1. Foundations and Frameworks  
+- Basic concepts of sustainability and its relation to sustainable development  
+- Pillars of sustainable development: economic, social, environmental, political (governance)  
+- Timeline of sustainability thinking: Agenda 21, Millennium Development Goals (MDGs), Sustainable Development Goals (SDGs)  
+- Education for Sustainable Action (ESA) as a tool for transformative learning and systems thinking  
+
+#### 2. Conceptual Tools  
+- Planetary boundaries and their relevance to sustainability  
+- Ecosystem services and their role in sustainable development  
+- Systems thinking as an approach to complexity  
+
+#### 3. Global and Local Sustainability Challenges  
+- Climate change: causes, impacts, and mitigation strategies  
+- Rapid population growth and food security  
+- Poverty, income inequality, and gender disparity  
+- Urbanization and its challenges, including energy transformation  
+- Environmental degradation and loss of biodiversity  
+- Consumerism, globalization, and their ecological consequences  
+
+> *The seminar reflects key dimensions of the GreenComp framework, supporting the development of competences in systems thinking, critical reflection, and values-based sustainability action.*
+
 
 ### b) Practical: Fieldwork
 
-- Visit and analysis of sustainability projects.
-- Developing a matrix for analysing sustainability projects along with indicators.
+- Visit and critical observation of selected sustainability or transformation projects in a local or regional context (e.g. renewable energy, urban agriculture or post-mining landscapes)  
+- Connection of theoretical knowledge with real-world examples of sustainability action  
+- Development of a matrix for analysing sustainability projects using qualitative and quantitative indicators  
+- Reflection on visited projects using the developed matrix as a guiding tool  
+
 
 ## Teaching Methods
 
