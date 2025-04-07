@@ -17,7 +17,7 @@ book:
     - part: "MODULE DESCRIPTIONS"
       chapters: 
         - modules/am-geosphere-and-hydrosphere.qmd
-        - modules/am-sustainable-development.qmd
+        - modules/am-sustainability.qmd
         - modules/am-law.qmd
         - modules/am-ecosystems-and-landscape.qmd
         - modules/am-meteorology.qmd

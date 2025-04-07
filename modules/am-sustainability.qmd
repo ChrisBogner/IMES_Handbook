@@ -1,4 +1,4 @@
-# Sustainable Development {.unnumbered}
+# Sustainability {.unnumbered}
 
 | | |
 |----|---|
@@ -14,17 +14,17 @@
 
 | Course Types | Contact Time | Self-study Time | 
 |--------------|--------------|-----------------|
-| a) Seminar: Sustainable Development | 2 CHW / 30 h | 60 h |
+| a) Seminar: Sustainability | 2 CHW / 30 h | 60 h |
 | b) Practical: Fieldwork | 2 CHW / 30 h | 60 h |
 : {.info .bordered}
 
 ## Module Description
 
-This module consists of two courses: a literature-based seminar in Sustainable Development and Fieldwork. It provides an in-depth exploration of the principles, challenges, and frameworks of sustainability. Key topics include the Sustainable Development Goals (SDGs), climate change, planetary boundaries, loss of biodiversity and Education for Sustainable Action (ESA) as a tool for transformative action. The course addresses critical global issues such as inequality, urbanization, and environmental degradation, emphasizing their interconnections and linking them to actionable strategies for sustainable solutions.
+This module consists of two courses: a literature-based seminar in Sustainability and Fieldwork. It provides an in-depth exploration of the principles, challenges, and frameworks of sustainability. Key topics include the GreenComp: the European sustainability competence framework, the Sustainable Development Goals (SDGs), climate change, planetary boundaries, loss of biodiversity and Education for Sustainable Action (ESA) as a tool for transformative action. The course addresses critical global issues such as inequality, urbanization, and environmental degradation, emphasizing their interconnections and linking them to actionable strategies for sustainable solutions.
 
 ## Module Objectives
 
-- Explore the foundational concepts of sustainable development, including its pillars, challenges, and global frameworks like Agenda 21 and the SDGs.
+- Explore the foundational concepts of sustainability, sustainable development, including its pillars, challenges, and global frameworks like Agenda 21 and the SDGs.
 - Analyse further important concepts like planetary boundaries, climate change and loss of biodiversity, based on scientific literature.
 - Examine the role of Education for Sustainable Action (ESA) in promoting transformative learning, systems thinking, and sustainability action.
 

@@ -166,7 +166,7 @@ To ensure a broad and interdisciplinary foundation, IMES modules are grouped int
 
 The IMES program comprises modules that are typically worth either 6 or 12 ECTS. The Master Thesis and Colloquium form a comprehensive research module worth 30 ECTS. The curriculum includes six mandatory modules and a wide range of electives, allowing students to shape their individual academic trajectories.
 
-Modules in IMES are classified into Core Modules, Advanced Modules and Specialisation Modules (@sec-concepts). A detailed descriptions of each module are provided in the second part of this module handbook.
+Modules in IMES are classified into Core Modules, Advanced Modules and Specialisation Modules (see @sec-concepts). A detailed descriptions of each module are provided in the second part of this module handbook.
 
 
 
@@ -174,7 +174,7 @@ Modules in IMES are classified into Core Modules, Advanced Modules and Specialis
 |---------------|-----|--------|--------|-----|----------|
 | Introduction to Natural and Social Environmental Sciences | 6  | M | CM | 1 | Research and Analytical Methods |
 | Geosphere and Hydrosphere | 6  | E | AM | 1 | Earth and Environmental Systems |
-| Sustainable Development | 6  | E | AM | 1 | Societies, Education, and Ethics |
+| Sustainability | 6  | E | AM | 1 | Societies, Education, and Ethics |
 | Environmental Law | 6  | M | AM | 1 and 2 | Governance, Law, and Institutions |
 | Energy and Climate Change | 6  | E | AM | 1 or 2 | Economy and Resource Management |
 | Environmental Medicine | 6  | E | AM | 1 | Societies, Education, and Ethics |
